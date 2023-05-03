@@ -1,0 +1,141 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+
+entity HazardController is
+  port(
+        i_ReadRegRSID          : in std_logic_vector(4 downto 0);     -- Next RS read dstination
+	i_ReadRegRTID          : in std_logic_vector(4 downto 0);     -- Next RT read dstination
+	i_ReadRegDSTID          : in std_logic_vector(4 downto 0);     -- Next RT read dstination
+	i_dstRegEX 	:in std_logic_vector(4 downto 0);     -- Destination for Execution Stage
+	i_dstRegMEM 	:in std_logic_vector(4 downto 0);     -- Destination for Mem stage
+	i_dstRegWB 	:in std_logic_vector(4 downto 0);     -- Destination for write Back stage
+	i_branching	: in std_logic;
+	i_Jumping       : in std_logic;
+	i_immEX		: in std_logic;
+	i_immMEM	: in std_logic;
+	i_immWB		: in std_logic;
+	o_stall		: out std_logic_vector(4 downto 0);
+        o_flush          : out std_logic_vector(4 downto 0));   
+
+end HazardController;
+
+
+
+architecture mixed of HazardController is 
+
+signal s1 : std_logic_vector(3 downto 0);
+
+	begin 
+
+Process(i_ReadRegRSID, i_ReadRegRTID, i_ReadRegDSTID, i_dstRegEX, i_dstRegMEM , i_dstRegWB, i_branching, i_Jumping, i_immEX, i_immMEM, i_immWB)
+
+	begin
+	--if  ((i_ReadRegDSTID = i_dstRegEX) and not(i_dstRegEX = "00000") and not (i_dstRegMEM = "00000") and not (i_dstRegWB = "00000")) then
+		--if (i_dstRegMEM = i_dstRegWB) then
+		--	o_stall <= "00100";
+		--	o_flush <= "00010";
+		--	s1 <= x"0";
+		--elsif (i_dstRegEX = i_dstRegMEM) then
+		--	o_stall <= "00001";
+		--	o_flush <= "00100";
+		--	s1 <= x"1";
+		--else
+		--	o_stall <= "00011";
+		--	o_flush <= "00000";
+		--	s1 <= x"2";
+		--end if;
+	if (i_jumping = '1' or i_branching = '1') then
+		if (i_dstRegMEM = i_dstRegWB) then
+			  o_stall <= "00000";
+			  o_flush <= "01110";
+			  s1 <= x"3";
+		elsif (i_dstRegMEM = i_dstRegEX) then
+			  o_stall <= "00001";
+			  o_flush <= "00000";
+			  s1 <= x"4";
+		else 
+			 o_stall <= "10011";
+			  o_flush <= "00000";
+			  s1 <= x"2";
+		end if;
+	elsif (i_immex = '1' or i_immMEM = '1' or i_immWB = '1') then
+		--if ((i_ReadRegRSID = i_dstRegEX) and (not (i_dstRegEX = "00000")) and not (i_dstRegMEM = "00000") and not (i_dstRegWB = "00000")) then 
+		 -- o_stall <= "00011";
+		  --o_flush <= "00000";
+		 -- s1 <= x"5";
+		if ((i_ReadRegRSID = i_dstRegEX) and not (i_dstRegEX = "00000") and not (i_dstRegMEM = "00000") and not (i_dstRegWB = "00000")) then 
+			--if (i_dstRegMEM = i_dstRegEX and i_dstRegMEM = i_dstRegWB) then
+			-- o_stall <= "00000";
+			-- o_flush <= "00100";
+			-- s1 <= x"7";
+			if (not (i_dstRegMEM = i_dstRegWB)) then
+			 o_stall <= "00011";
+			 o_flush <= "00000";
+			 s1 <= x"b";
+			elsif (not (i_dstRegMEM = i_dstRegEX)) then
+			 o_stall <= "00001";
+			 o_flush <= "00000";
+			 s1 <= x"c";
+			else
+			 o_stall <= "00000";
+			 o_flush <= "00010";
+			 s1 <= x"d";
+			end if;
+		elsif ((i_ReadRegRSID = i_dstRegWB) and not (i_dstRegEX = "00000") and not (i_dstRegMEM = "00000") and not (i_dstRegWB = "00000")) then 
+			if (not (i_dstRegWB = i_dstRegMEM)) then 
+			  o_stall <= "00011";
+			  o_flush <= "00000";
+			  s1 <= x"e";
+			else
+			  o_stall <= "00000";
+			  o_flush <= "00010";
+			  s1 <= x"f";
+			end if;
+		else
+		  o_stall <= "11111";
+		  o_flush <= "00000";
+		  s1 <= x"0";
+		end if;
+	else 
+		if (((i_ReadRegRSID = i_dstRegEX) or (i_ReadRegRTID = i_dstRegEX)) and (not (i_dstRegEX = "00000")) and not (i_dstRegMEM = "00000") and not (i_dstRegWB = "00000")) then 
+		if (i_dstRegMEM = i_dstRegEX and i_dstRegMEM = i_dstRegWB) then
+		  o_stall <= "00000";
+		  o_flush <= "00110";
+		  s1 <= x"1";
+		else
+		  o_stall <= "00011";
+		  o_flush <= "00000";
+		  s1 <= x"5";
+		end if;
+		elsif (((i_ReadRegRSID = i_dstRegMEM) or (i_ReadRegRTID = i_dstRegMEM)) and not (i_dstRegEX = "00000") and not (i_dstRegMEM = "00000") and not (i_dstRegWB = "00000")) then 
+			if (not (i_dstRegMEM = i_dstRegEX)) then
+			 o_stall <= "00011";
+			 o_flush <= "00000";
+			 s1 <= x"6";
+			else
+			 o_stall <= "00001";
+			 o_flush <= "00100";
+			 s1 <= x"7";
+			end if;
+		elsif (((i_ReadRegRSID = i_dstRegWB) or (i_ReadRegRTID = i_dstRegWB)) and not (i_dstRegEX = "00000") and not (i_dstRegMEM = "00000") and not (i_dstRegWB = "00000")) then 
+			if (not (i_dstRegWB = i_dstRegMEM)) then 
+			  o_stall <= "00011";
+			  o_flush <= "00000";
+			  s1 <= x"8";
+			else
+			  o_stall <= "00000";
+			  o_flush <= "00010";
+			  s1 <= x"9";
+			end if;
+		else
+		  o_stall <= "11111";
+		  o_flush <= "00000";
+		  s1 <= x"a";
+		end if;
+	end if;
+
+End Process;
+
+end dataflow;
