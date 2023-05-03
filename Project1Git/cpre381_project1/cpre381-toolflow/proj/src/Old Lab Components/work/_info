@@ -1,0 +1,2395 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+!s11e vcom 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components
+T_opt
+!s110 1667605242
+VYfTg;VM:d^VY?:OW4c6[f0
+Z2 04 7 5 work tb_dp_1 mixed 1
+=1-0050569bd3f3-6365a2f9-e823a-12fa
+R0
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2022.2;75
+R1
+T_opt1
+!s110 1667607236
+V>5X[R8hR:O^14_32E18?S0
+R2
+=1-0050569bd3f3-6365aac3-bc264-1fb8
+R0
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+Eadder
+Z6 w1667587059
+Z7 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z8 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 83
+R1
+Z9 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/Adder.vhd
+Z10 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/Adder.vhd
+l0
+Z11 L21 1
+VIkVn8MC7_Bk_8;]H@gc`o0
+!s100 DnG>^ILWz42998;MdYimU0
+Z12 OL;C;2022.2;75
+32
+Z13 !s110 1667605227
+!i10b 1
+Z14 !s108 1667605227.000000
+Z15 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/Adder.vhd|
+Z16 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/Adder.vhd|
+!i113 0
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructural
+R7
+R8
+DEx4 work 5 adder 0 22 IkVn8MC7_Bk_8;]H@gc`o0
+!i122 83
+l62
+L31 81
+V4RDPKRV@a3ZUE;H3dh:o?1
+!s100 >ka<iZ0dUXKBzF]=?ION>2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Eaddiins
+R6
+R7
+R8
+!i122 84
+R1
+Z19 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addiIns.vhd
+Z20 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addiIns.vhd
+l0
+L4 1
+VnW8;oSR56C6zhbzD8Q6^e3
+!s100 bzl`g[^h;;lGQ3XdDF`7L0
+R12
+32
+R13
+!i10b 1
+R14
+Z21 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addiIns.vhd|
+Z22 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addiIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 7 addiins 0 22 nW8;oSR56C6zhbzD8Q6^e3
+!i122 84
+l29
+L14 36
+V9nd@TAdE`HYZ==PJGV?FW0
+!s100 >e?XMMnfS^^Cf7mjVn[WG2
+R12
+32
+R13
+!i10b 1
+R14
+R21
+R22
+!i113 0
+R17
+R18
+Eaddins
+R6
+R7
+R8
+!i122 85
+R1
+Z23 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addIns.vhd
+Z24 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addIns.vhd
+l0
+L4 1
+VI3NNUb<CPPEk05OQL<C[c1
+!s100 fSimN7C;:VK4YHCE_M[`H2
+R12
+32
+R13
+!i10b 1
+R14
+Z25 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addIns.vhd|
+Z26 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 6 addins 0 22 I3NNUb<CPPEk05OQL<C[c1
+!i122 85
+l31
+L14 41
+V<6KfPUYf4[c4PKICUem3V1
+!s100 g[[1VB3=oO:E4WP^DMAzW1
+R12
+32
+R13
+!i10b 1
+R14
+R25
+R26
+!i113 0
+R17
+R18
+Eaddiuins
+R6
+R7
+R8
+!i122 86
+R1
+Z27 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addiuIns.vhd
+Z28 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addiuIns.vhd
+l0
+L4 1
+VSY4`TBgSG6WG?Rz=FGKcS1
+!s100 C:L78=b`N:zh6OQR@6L_60
+R12
+32
+R13
+!i10b 1
+R14
+Z29 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addiuIns.vhd|
+Z30 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/addiuIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 8 addiuins 0 22 SY4`TBgSG6WG?Rz=FGKcS1
+!i122 86
+l31
+L14 38
+VXdoHI^HY_VJEfVa8j^VOK3
+!s100 XiYH2@dkCNeJnazlM_zke2
+R12
+32
+R13
+!i10b 1
+R14
+R29
+R30
+!i113 0
+R17
+R18
+Eadduins
+R6
+Z31 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+R7
+R8
+!i122 87
+R1
+Z32 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/adduIns.vhd
+Z33 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/adduIns.vhd
+l0
+L5 1
+ViE`FJ>PB@DlGm>a7OYD]K3
+!s100 8hjh8RD=K>M2eZVHL=boJ0
+R12
+32
+R13
+!i10b 1
+R14
+Z34 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/adduIns.vhd|
+Z35 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/adduIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R31
+R7
+R8
+DEx4 work 7 adduins 0 22 iE`FJ>PB@DlGm>a7OYD]K3
+!i122 87
+l28
+L15 31
+VMRl]FR=Ik^0ChoS:QF`R<0
+!s100 h[J0f=BE_aCFRgULLE_3<1
+R12
+32
+R13
+!i10b 1
+R14
+R34
+R35
+!i113 0
+R17
+R18
+Ealu
+R6
+Z36 DPx4 work 15 twodarrayforalu 0 22 ?VSaT@beV2?NfdNLgiZn=1
+R7
+R8
+!i122 88
+R1
+Z37 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/ALU.vhd
+Z38 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/ALU.vhd
+l0
+L5 1
+VPYZRRKOEj0[8C1WY;8O3<3
+!s100 oRnX=K_JG>Ra[^kUWL?Kz2
+R12
+32
+R13
+!i10b 1
+R14
+Z39 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/ALU.vhd|
+Z40 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/ALU.vhd|
+!i113 0
+R17
+R18
+Astructural
+R36
+R7
+R8
+DEx4 work 3 alu 0 22 PYZRRKOEj0[8C1WY;8O3<3
+!i122 88
+l281
+L19 442
+Vf>Ze`YUUjb3Q:P@idnXOh0
+!s100 bZHN:9:GNJi]d75=81OTL1
+R12
+32
+R13
+!i10b 1
+R14
+R39
+R40
+!i113 0
+R17
+R18
+Ealufinaldesign
+Z41 w1667604123
+R7
+R8
+!i122 68
+R1
+Z42 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/ALUFinalDesign.vhd
+Z43 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/ALUFinalDesign.vhd
+l0
+L5 1
+Vcz0m9DE=0eQSdTJK^Z:F50
+!s100 4f]:RXLcIf5HQ`K]BzU=:2
+R12
+32
+Z44 !s110 1667605194
+!i10b 1
+Z45 !s108 1667605194.000000
+Z46 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/ALUFinalDesign.vhd|
+Z47 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/ALUFinalDesign.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 14 alufinaldesign 0 22 cz0m9DE=0eQSdTJK^Z:F50
+!i122 68
+l72
+L26 84
+V_<^;_:Q5mfe8l<4ce@i;32
+!s100 f;2XNzY:kn3N_KWIE`9Kn3
+R12
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 0
+R17
+R18
+Ealumux
+R6
+R36
+R7
+R8
+!i122 89
+R1
+Z48 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/ALUMux.vhd
+Z49 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/ALUMux.vhd
+l0
+L5 1
+Vhk1LoGoTRaB<aFXd:]>Um1
+!s100 cnR?LUmoJ2fSB6ngaC_Ma2
+R12
+32
+R13
+!i10b 1
+R14
+Z50 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/ALUMux.vhd|
+Z51 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/ALUMux.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R36
+R7
+R8
+DEx4 work 6 alumux 0 22 hk1LoGoTRaB<aFXd:]>Um1
+!i122 89
+l14
+Z52 L12 38
+VUk3YadTEJY===jB@MmTV32
+!s100 m6K95Q?TBC15zC7f^5K?j3
+R12
+32
+R13
+!i10b 1
+R14
+R50
+R51
+!i113 0
+R17
+R18
+Eandg2
+R6
+R7
+R8
+!i122 90
+R1
+Z53 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andg2.vhd
+Z54 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andg2.vhd
+l0
+Z55 L23 1
+VQf>?20ho>9XHGTg4:jo373
+!s100 0e<Rg^QbB^Y@JP[zKSc0[3
+R12
+32
+R13
+!i10b 1
+R14
+Z56 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andg2.vhd|
+Z57 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andg2.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 5 andg2 0 22 Qf>?20ho>9XHGTg4:jo373
+!i122 90
+l32
+Z58 L31 6
+VHdBJDB9no8cjMZ2eVYWH;1
+!s100 CbBW?3Q;N[15?`QCEQ<@f2
+R12
+32
+R13
+!i10b 1
+R14
+R56
+R57
+!i113 0
+R17
+R18
+Eandimmins
+R6
+R7
+R8
+!i122 91
+R1
+Z59 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andImmIns.vhd
+Z60 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andImmIns.vhd
+l0
+L4 1
+VI:E4B`algMO_V_Bfi[egb1
+!s100 ;BLgSiGGd=jeRGBE1=0l@0
+R12
+32
+R13
+!i10b 1
+R14
+Z61 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andImmIns.vhd|
+Z62 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andImmIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 9 andimmins 0 22 I:E4B`algMO_V_Bfi[egb1
+!i122 91
+l14
+Z63 L12 11
+VD?nVkB>4ASY:M6YNUHiMY3
+!s100 e33dN2:V^Q1a[L`bb7Ld;3
+R12
+32
+R13
+!i10b 1
+R14
+R61
+R62
+!i113 0
+R17
+R18
+Eandins
+R6
+R7
+R8
+!i122 92
+R1
+Z64 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andIns.vhd
+Z65 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andIns.vhd
+l0
+L4 1
+VOSOaKD66?Hn5E9?0M2WCV0
+!s100 6Ae6d22]ICi3eOz<L]hN_1
+R12
+32
+R13
+!i10b 1
+R14
+Z66 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andIns.vhd|
+Z67 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/andIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 andins 0 22 OSOaKD66?Hn5E9?0M2WCV0
+!i122 92
+l14
+R63
+VToEPKF5>M7^jXH>e`kQ;O2
+!s100 8_cWEADXi14PklBCPCaF[1
+R12
+32
+R13
+!i10b 1
+R14
+R66
+R67
+!i113 0
+R17
+R18
+Ebeq
+R6
+R7
+R8
+!i122 93
+R1
+Z68 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/beq.vhd
+Z69 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/beq.vhd
+l0
+L4 1
+VOQd=JHT?f`g1iWEZ<UQ_n0
+!s100 n`?2Ea=G05cUkzoX@koic3
+R12
+32
+Z70 !s110 1667605228
+!i10b 1
+R14
+Z71 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/beq.vhd|
+Z72 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/beq.vhd|
+!i113 0
+R17
+R18
+Amixed
+R7
+R8
+DEx4 work 3 beq 0 22 OQd=JHT?f`g1iWEZ<UQ_n0
+!i122 93
+l25
+Z73 L13 27
+VL<STM[?C1WJjWleFZkHX23
+!s100 EG`cUYeCHjdU<j0WiEI7F0
+R12
+32
+R70
+!i10b 1
+R14
+R71
+R72
+!i113 0
+R17
+R18
+Ebit29_1mux
+R6
+R7
+R8
+!i122 94
+R1
+Z74 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/bit29_1Mux.vhd
+Z75 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/bit29_1Mux.vhd
+l0
+L5 1
+VXT>F9gLiMKgDR7N0cNV?42
+!s100 K0VS1];5;Df1SCJ9R4O3R2
+R12
+32
+R70
+!i10b 1
+Z76 !s108 1667605228.000000
+Z77 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/bit29_1Mux.vhd|
+Z78 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/bit29_1Mux.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 10 bit29_1mux 0 22 XT>F9gLiMKgDR7N0cNV?42
+!i122 94
+l14
+R52
+VidXFP=G]mQj:98WZJFKDE1
+!s100 GTE[d2NfUN^I7hQd:mZ]B1
+R12
+32
+R70
+!i10b 1
+R76
+R77
+R78
+!i113 0
+R17
+R18
+Ebit5_32decoder
+Z79 w1667596252
+R7
+R8
+!i122 70
+R1
+Z80 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/bit5t32Decoder.vhd
+Z81 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/bit5t32Decoder.vhd
+l0
+L5 1
+V7kBfD>`a8WLR4R<[mMO^`0
+!s100 Co5]M2kdPU6l?:liDZZJ]0
+R12
+32
+R44
+!i10b 1
+R45
+Z82 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/bit5t32Decoder.vhd|
+Z83 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/bit5t32Decoder.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 14 bit5_32decoder 0 22 7kBfD>`a8WLR4R<[mMO^`0
+!i122 70
+l16
+L14 42
+V19Wo_7MY@Dh`5Fml^YJ<a3
+!s100 ?kg1kokdfOFDiS0;j37]D2
+R12
+32
+R44
+!i10b 1
+R45
+R82
+R83
+!i113 0
+R17
+R18
+Ebitextender
+R79
+R7
+R8
+!i122 71
+R1
+Z84 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/bitExtender.vhd
+Z85 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/bitExtender.vhd
+l0
+L5 1
+V`UZclamjj;bl?P=JNBHBH3
+!s100 WRNW5Nm^hie3UPTlV^0P]2
+R12
+32
+R44
+!i10b 1
+R45
+Z86 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/bitExtender.vhd|
+Z87 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/bitExtender.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 11 bitextender 0 22 `UZclamjj;bl?P=JNBHBH3
+!i122 71
+l20
+L15 19
+Vhl;KBiKRa?gE?W[:Z8Wam0
+!s100 2WCmKC2QO7_7O:g1[m@P90
+R12
+32
+R44
+!i10b 1
+R45
+R86
+R87
+!i113 0
+R17
+R18
+Ebne
+R6
+R7
+R8
+!i122 95
+R1
+Z88 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/bne.vhd
+Z89 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/bne.vhd
+l0
+L4 1
+VA>GiB5?V1aZlaAAF`6eO41
+!s100 oCP51V3zAULZ^`Izo^XV12
+R12
+32
+R70
+!i10b 1
+R76
+Z90 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/bne.vhd|
+Z91 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/bne.vhd|
+!i113 0
+R17
+R18
+Amixed
+R7
+R8
+DEx4 work 3 bne 0 22 A>GiB5?V1aZlaAAF`6eO41
+!i122 95
+l25
+R73
+V_F[6]E>oEEZgO3F?0ERdm0
+!s100 9C^nK[Rdh:L23W19=a2j;0
+R12
+32
+R70
+!i10b 1
+R76
+R90
+R91
+!i113 0
+R17
+R18
+Edffg
+R79
+R7
+R8
+!i122 72
+R1
+Z92 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/dffg.vhd
+Z93 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/dffg.vhd
+l0
+R55
+VaBn<3_7oIgIleFniVim733
+!s100 FJQDe;FGDG0KnNV;j4DaY2
+R12
+32
+R44
+!i10b 1
+R45
+Z94 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/dffg.vhd|
+Z95 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/dffg.vhd|
+!i113 0
+R17
+R18
+Amixed
+R7
+R8
+DEx4 work 4 dffg 0 22 aBn<3_7oIgIleFniVim733
+!i122 72
+l37
+L33 29
+VS_P?KDWPHzz@YT_fABo?Z0
+!s100 GR5ff]ZD1Yiz`>ZFVE>Hg1
+R12
+32
+R44
+!i10b 1
+R45
+R94
+R95
+!i113 0
+R17
+R18
+Efulladder
+R6
+R7
+R8
+!i122 96
+R1
+Z96 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/FullAdder.vhd
+Z97 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/FullAdder.vhd
+l0
+R11
+VIM1<`m>CEJ^P[m2>>5_W91
+!s100 ehYY:gX_hDWm;dGl9_<4m1
+R12
+32
+R70
+!i10b 1
+R76
+Z98 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/FullAdder.vhd|
+Z99 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/FullAdder.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 9 fulladder 0 22 IM1<`m>CEJ^P[m2>>5_W91
+!i122 96
+l60
+L30 67
+V:dkl5VWD9cgKB4jXe0gD52
+!s100 W2DjJ1U0SQ^EM9^:TlAzU0
+R12
+32
+R70
+!i10b 1
+R76
+R98
+R99
+!i113 0
+R17
+R18
+Einvg
+R6
+R7
+R8
+!i122 97
+R1
+Z100 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/invg.vhd
+Z101 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/invg.vhd
+l0
+R55
+V]eXOe]3lZ=l7S8@9?:L9T1
+!s100 5^0jfQ^dVk:bl_Za_KajG0
+R12
+32
+R70
+!i10b 1
+R76
+Z102 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/invg.vhd|
+Z103 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/invg.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 4 invg 0 22 ]eXOe]3lZ=l7S8@9?:L9T1
+!i122 97
+l31
+L30 6
+Ve`;fA[BQP?1Y52gl`N_a?3
+!s100 Q?`9^ToWC]zk1[=<LdPdE3
+R12
+32
+R70
+!i10b 1
+R76
+R102
+R103
+!i113 0
+R17
+R18
+Ejump
+R6
+R7
+R8
+!i122 98
+R1
+Z104 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jump.vhd
+Z105 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jump.vhd
+l0
+L4 1
+Vgi;z8eZdO0zVROYAlFdmH0
+!s100 BED;IF1kEROKHWlIYS=QZ1
+R12
+32
+R70
+!i10b 1
+R76
+Z106 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jump.vhd|
+Z107 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jump.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 4 jump 0 22 gi;z8eZdO0zVROYAlFdmH0
+!i122 98
+l15
+Z108 L13 7
+VPQ>^C3a];2;4?fUCeEA?83
+!s100 XUGmZ9z5zDo:>c=jGS_dg3
+R12
+32
+R70
+!i10b 1
+R76
+R106
+R107
+!i113 0
+R17
+R18
+Ejumpandlink
+R6
+R7
+R8
+!i122 99
+R1
+Z109 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jumpAndLink.vhd
+Z110 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jumpAndLink.vhd
+l0
+L4 1
+V<d806O_34C?gXblLlb^]M2
+!s100 `27?^ozdBFgLFHEYH@dZF3
+R12
+32
+R70
+!i10b 1
+R76
+Z111 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jumpAndLink.vhd|
+Z112 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jumpAndLink.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 11 jumpandlink 0 22 <d806O_34C?gXblLlb^]M2
+!i122 99
+l15
+R108
+V5Fi2=d7FK>L4fRTK2`=I33
+!s100 V356GP6IFNb0iO69C_foh0
+R12
+32
+R70
+!i10b 1
+R76
+R111
+R112
+!i113 0
+R17
+R18
+Ejumpregister
+R6
+R7
+R8
+!i122 100
+R1
+Z113 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jumpRegister.vhd
+Z114 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jumpRegister.vhd
+l0
+L4 1
+V7DRHf7Anlcz3Y?S_DD]9B0
+!s100 >bXCIQa1OI1R`aUaTNBg[3
+R12
+32
+R70
+!i10b 1
+R76
+Z115 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jumpRegister.vhd|
+Z116 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/jumpRegister.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 12 jumpregister 0 22 7DRHf7Anlcz3Y?S_DD]9B0
+!i122 100
+l15
+R108
+Va29TcEBD7:TTDM[J_WOmK0
+!s100 V5G]Ag>BA2W8GA<kL=6[m3
+R12
+32
+R70
+!i10b 1
+R76
+R115
+R116
+!i113 0
+R17
+R18
+Eloadupperimm
+R6
+R7
+R8
+!i122 101
+R1
+Z117 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/loadUpperImm.vhd
+Z118 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/loadUpperImm.vhd
+l0
+L4 1
+VfdXO6Kk5=V=<UJ:BAX7=:2
+!s100 M<j=B>Mf[178PZV3:aE]h0
+R12
+32
+R70
+!i10b 1
+R76
+Z119 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/loadUpperImm.vhd|
+Z120 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/loadUpperImm.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 12 loadupperimm 0 22 fdXO6Kk5=V=<UJ:BAX7=:2
+!i122 101
+l15
+Z121 L13 6
+VMFoBRi^FBelbUj1n3[RI<0
+!s100 >^N<`i1kj20=;DlJSdKLZ3
+R12
+32
+R70
+!i10b 1
+R76
+R119
+R120
+!i113 0
+R17
+R18
+Eloadword
+R6
+R7
+R8
+!i122 102
+R1
+Z122 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/loadWord.vhd
+Z123 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/loadWord.vhd
+l0
+L4 1
+V:PK`cMkj56L9>:o0]fQOP0
+!s100 CN6joHgE<<M=KF_kTXBPL0
+R12
+32
+R70
+!i10b 1
+R76
+Z124 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/loadWord.vhd|
+Z125 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/loadWord.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 8 loadword 0 22 :PK`cMkj56L9>:o0]fQOP0
+!i122 102
+l25
+Z126 L14 23
+V?h?0Y:=RSmmRjG1;?LKmQ2
+!s100 4RC6@znQ@kHfPSJ7QLczL1
+R12
+32
+R70
+!i10b 1
+R76
+R124
+R125
+!i113 0
+R17
+R18
+Pmips_types
+R7
+R8
+!i122 67
+R79
+R1
+Z127 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/MIPS_types.vhd
+Z128 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/MIPS_types.vhd
+l0
+L15 13
+VhZBUW]HhDM2h1hJhif=>>3
+!s100 Zhic[8Ck_NUcnioRmZLWb2
+R12
+32
+Z129 !s110 1667605189
+!i10b 1
+Z130 !s108 1667605189.000000
+Z131 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/MIPS_types.vhd|
+Z132 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/MIPS_types.vhd|
+!i113 0
+R17
+R18
+Bbody
+DPx4 work 10 mips_types 0 22 hZBUW]HhDM2h1hJhif=>>3
+R7
+R8
+!i122 67
+l0
+L29 3
+V9iY8fCz4eYFUlAcKE=Z0C0
+!s100 ;m9aHiUa@zM37M9gRzA3:0
+R12
+32
+R129
+!i10b 1
+R130
+R131
+R132
+!i113 0
+R17
+R18
+Emove_n
+R6
+R7
+R8
+!i122 103
+R1
+Z133 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/move_N.vhd
+Z134 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/move_N.vhd
+l0
+L4 1
+V=[MCKOg8SC7aA3[lhi^=61
+!s100 ;FAKiTGbfK2kIgNf9eLVf2
+R12
+32
+Z135 !s110 1667605229
+!i10b 1
+R76
+Z136 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/move_N.vhd|
+Z137 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/move_N.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 move_n 0 22 =[MCKOg8SC7aA3[lhi^=61
+!i122 103
+l17
+L13 15
+V_d0HnQdb7Z``CjWWo0G3Q2
+!s100 Om5LReVCA_Hc70di_jEYf0
+R12
+32
+R135
+!i10b 1
+R76
+R136
+R137
+!i113 0
+R17
+R18
+Emux2t1
+R6
+R7
+R8
+!i122 104
+R1
+Z138 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/mux2t1.vhd
+Z139 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/mux2t1.vhd
+l0
+R11
+VT=ozIIjRfEFdj=dnZVY@D1
+!s100 N9SVBX_]5CXgL@G9HIN0Y1
+R12
+32
+R135
+!i10b 1
+Z140 !s108 1667605229.000000
+Z141 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/mux2t1.vhd|
+Z142 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/mux2t1.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 6 mux2t1 0 22 T=ozIIjRfEFdj=dnZVY@D1
+!i122 104
+l62
+L29 68
+Vnnh8RVJdcKVFFMHC^mk>X2
+!s100 Hm<3AO461i<SJ0Hh10:N03
+R12
+32
+R135
+!i10b 1
+R140
+R141
+R142
+!i113 0
+R17
+R18
+Emux2t1_n
+R6
+R7
+R8
+!i122 105
+R1
+Z143 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/mux2t1_N.vhd
+Z144 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/mux2t1_N.vhd
+l0
+R11
+VmY^3Z`LOeH:?DS5zXOWi]0
+!s100 Y80E^d;5=hf2cNC6Yk_Di1
+R12
+32
+R135
+!i10b 1
+R140
+Z145 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/mux2t1_N.vhd|
+Z146 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/mux2t1_N.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 8 mux2t1_n 0 22 mY^3Z`LOeH:?DS5zXOWi]0
+!i122 105
+l39
+L30 21
+Vghh^edzIST4EAi324fiR[1
+!s100 `>^]M24jDEZ=7JFVDOOTo3
+R12
+32
+R135
+!i10b 1
+R140
+R145
+R146
+!i113 0
+R17
+R18
+Emux32_1
+R79
+R7
+R8
+!i122 76
+R1
+Z147 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/Mux32_1.vhd
+Z148 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/Mux32_1.vhd
+l0
+L4 1
+VJ;A:=lZPm^g`183kHb0Ck3
+!s100 Pam6UazZXnh074X<QQ@<Y2
+R12
+32
+Z149 !s110 1667605195
+!i10b 1
+Z150 !s108 1667605195.000000
+Z151 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/Mux32_1.vhd|
+Z152 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/Mux32_1.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 7 mux32_1 0 22 J;A:=lZPm^g`183kHb0Ck3
+!i122 76
+l14
+L12 9
+VT^:eEzCzJ2c9EA>o=ZK@n2
+!s100 ]R>d`h[QCDk=F???]mAFa3
+R12
+32
+R149
+!i10b 1
+R150
+R151
+R152
+!i113 0
+R17
+R18
+Enbit32_1mux
+R79
+Z153 DPx4 work 9 twodarray 0 22 J^m1lIC2aXA>i<j@8cUa:0
+R7
+R8
+!i122 77
+R1
+Z154 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/nbit32_1Mux.vhd
+Z155 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/nbit32_1Mux.vhd
+l0
+L5 1
+VgG=BmXQ<PaUc^OkalKlPG3
+!s100 Lm0;c0DGl>n4m]<;WVdJ`3
+R12
+32
+R149
+!i10b 1
+R150
+Z156 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/nbit32_1Mux.vhd|
+Z157 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/nbit32_1Mux.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R153
+R7
+R8
+DEx4 work 11 nbit32_1mux 0 22 gG=BmXQ<PaUc^OkalKlPG3
+!i122 77
+l14
+L12 41
+Vhe]2UiXFF1oidg16Lg[eF0
+!s100 ]2OVRNK2@<JnR>anRg6An2
+R12
+32
+R149
+!i10b 1
+R150
+R156
+R157
+!i113 0
+R17
+R18
+Enbitadder_sub
+R6
+R7
+R8
+!i122 106
+R1
+Z158 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/NBit-Adder_Sub.vhd
+Z159 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/NBit-Adder_Sub.vhd
+l0
+R11
+V6DSeD?A>TUC6G<_Zm_jJn0
+!s100 :3N=o5NFa^3E^=PCebFEZ2
+R12
+32
+R135
+!i10b 1
+R140
+Z160 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/NBit-Adder_Sub.vhd|
+Z161 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/NBit-Adder_Sub.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 13 nbitadder_sub 0 22 6DSeD?A>TUC6G<_Zm_jJn0
+!i122 106
+l65
+L31 72
+VQ6mb0M^FZdD`Sb5ZT8^>N0
+!s100 >cnRU`a_cTO>zF0iVSADU0
+R12
+32
+R135
+!i10b 1
+R140
+R160
+R161
+!i113 0
+R17
+R18
+Enbitregister
+R79
+R7
+R8
+!i122 78
+R1
+Z162 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/NbitRegister.vhd
+Z163 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/NbitRegister.vhd
+l0
+L5 1
+V0;`4cfNb=XJ2_kaL_NMDA2
+!s100 00?^hNbXgzdD:H1HJ[bA^2
+R12
+32
+R149
+!i10b 1
+R150
+Z164 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/NbitRegister.vhd|
+Z165 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/NbitRegister.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 12 nbitregister 0 22 0;`4cfNb=XJ2_kaL_NMDA2
+!i122 78
+l29
+L18 25
+VYBaG:moJgPJF<mUT]2TY?0
+!s100 1]PR<VlS3f_o1`;h_g9bS1
+R12
+32
+R149
+!i10b 1
+R150
+R164
+R165
+!i113 0
+R17
+R18
+Enorins
+R6
+R7
+R8
+!i122 107
+R1
+Z166 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/norIns.vhd
+Z167 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/norIns.vhd
+l0
+L4 1
+V2KZ>Tg>zXQVMWM?l7JLZg3
+!s100 mOFYhiKT1LelM88TeeOM<0
+R12
+32
+R135
+!i10b 1
+R140
+Z168 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/norIns.vhd|
+Z169 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/norIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 norins 0 22 2KZ>Tg>zXQVMWM?l7JLZg3
+!i122 107
+l14
+R63
+V6D@JRCI4X[lfS^O6TGYUb2
+!s100 5FBemJT@fge;Rm1eMPo=R0
+R12
+32
+R135
+!i10b 1
+R140
+R168
+R169
+!i113 0
+R17
+R18
+Enotins
+R6
+R7
+R8
+!i122 108
+R1
+Z170 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/notIns.vhd
+Z171 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/notIns.vhd
+l0
+L4 1
+V1EoIBhQC_4^oACd?PnO@=3
+!s100 ][QmN<hFdY_BL[8FO4[n?1
+R12
+32
+R135
+!i10b 1
+R140
+Z172 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/notIns.vhd|
+Z173 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/notIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 notins 0 22 1EoIBhQC_4^oACd?PnO@=3
+!i122 108
+l13
+L11 11
+VQK^Ono^31=PYcFC8L57[k1
+!s100 X^;Eo0a?U;NHRf5hH4SSQ2
+R12
+32
+R135
+!i10b 1
+R140
+R172
+R173
+!i113 0
+R17
+R18
+Eonescomp
+R6
+R7
+R8
+!i122 109
+R1
+Z174 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/one'sComplement.vhd
+Z175 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/one'sComplement.vhd
+l0
+R11
+Ve`[];bc`B9Q[2_KllW_ld3
+!s100 0ih2_Gf^TammWQ6VP4iQk1
+R12
+32
+R135
+!i10b 1
+R140
+Z176 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/one'sComplement.vhd|
+Z177 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/one'sComplement.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 8 onescomp 0 22 e`[];bc`B9Q[2_KllW_ld3
+!i122 109
+l37
+L28 19
+V`9nUf50oni22ajOcz>;>>3
+!s100 4iKDOE_6UUB^XOP;aCKF_3
+R12
+32
+R135
+!i10b 1
+R140
+R176
+R177
+!i113 0
+R17
+R18
+Eorg2
+R6
+R7
+R8
+!i122 110
+R1
+Z178 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/org2.vhd
+Z179 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/org2.vhd
+l0
+R55
+VhOiEZ0HVFKUfoceE;g4CN1
+!s100 hJAZ>EB8bm_e<^5IFaP9e1
+R12
+32
+R135
+!i10b 1
+R140
+Z180 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/org2.vhd|
+Z181 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/org2.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 4 org2 0 22 hOiEZ0HVFKUfoceE;g4CN1
+!i122 110
+l32
+R58
+VeLGLG944lJMT]Df59N0F92
+!s100 nma>Pa=mMW`KzzjeW=1[d1
+R12
+32
+R135
+!i10b 1
+R140
+R180
+R181
+!i113 0
+R17
+R18
+Eorimm
+R6
+R7
+R8
+!i122 111
+R1
+Z182 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/orImm.vhd
+Z183 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/orImm.vhd
+l0
+L4 1
+VRQzXiQPfAQn40BCUjaDQ?0
+!s100 BMP8TdW9A:NAI4NMIomHE2
+R12
+32
+R135
+!i10b 1
+R140
+Z184 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/orImm.vhd|
+Z185 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/orImm.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 5 orimm 0 22 RQzXiQPfAQn40BCUjaDQ?0
+!i122 111
+l15
+R121
+V68cAcBUlF`2<ERWd?7[SZ0
+!s100 1IgV6;X6:O2NI2N[o`JR02
+R12
+32
+R135
+!i10b 1
+R140
+R184
+R185
+!i113 0
+R17
+R18
+Eorins
+R6
+R7
+R8
+!i122 112
+R1
+Z186 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/orIns.vhd
+Z187 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/orIns.vhd
+l0
+L4 1
+V73Z_o9Cio2F]8EeKiL[f73
+!s100 ^S?lRdEX_mTTgg[AD[l2c0
+R12
+32
+R135
+!i10b 1
+R140
+Z188 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/orIns.vhd|
+Z189 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/orIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 5 orins 0 22 73Z_o9Cio2F]8EeKiL[f73
+!i122 112
+l14
+R63
+V1Gm0BIaoc=BTHZN22d1i>3
+!s100 ;iPzF^U6<>X]=2<I]D^N72
+R12
+32
+R135
+!i10b 1
+R140
+R188
+R189
+!i113 0
+R17
+R18
+Eregisterfile32_32
+R79
+R153
+R7
+R8
+!i122 81
+R1
+Z190 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/RegisterFile32_32.vhd
+Z191 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/RegisterFile32_32.vhd
+l0
+L7 1
+VAg7B0acI:WXM?:g`6:;Go3
+!s100 8h_I`kFDZTV0<A3VLH=aM1
+R12
+32
+R149
+!i10b 1
+R150
+Z192 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/RegisterFile32_32.vhd|
+Z193 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/RegisterFile32_32.vhd|
+!i113 0
+R17
+R18
+Astructural
+R153
+R7
+R8
+DEx4 work 17 registerfile32_32 0 22 Ag7B0acI:WXM?:g`6:;Go3
+!i122 81
+l60
+L24 74
+V@6C7YHJMCFT`VK<KAKbga3
+!s100 CdBfBKmJnML^jIzZ[W1MF1
+R12
+32
+R149
+!i10b 1
+R150
+R192
+R193
+!i113 0
+R17
+R18
+Erepl_qb
+R6
+R7
+R8
+!i122 113
+R1
+Z194 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/repl_qb.vhd
+Z195 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/repl_qb.vhd
+l0
+L4 1
+V=K^f0ihk3P[YJh_T]1c2@2
+!s100 ;PV7NEUh:8GCG=LFa??YL0
+R12
+32
+R135
+!i10b 1
+R140
+Z196 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/repl_qb.vhd|
+Z197 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/repl_qb.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 7 repl_qb 0 22 =K^f0ihk3P[YJh_T]1c2@2
+!i122 113
+l14
+L12 7
+V?NoQ0?>`o8nPiKOLZ>KiY1
+!s100 2gL>kT1zjRPZ09le]QV1Z1
+R12
+32
+R135
+!i10b 1
+R140
+R196
+R197
+!i113 0
+R17
+R18
+Erippleadder
+R6
+R7
+R8
+!i122 114
+R1
+Z198 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/RippleAdder.vhd
+Z199 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/RippleAdder.vhd
+l0
+R11
+V3f5=2l^iZWHbb7];^bWNa3
+!s100 6HPBYojcOz_6[]T[bVTR]2
+R12
+32
+Z200 !s110 1667605230
+!i10b 1
+R140
+Z201 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/RippleAdder.vhd|
+Z202 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/RippleAdder.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 11 rippleadder 0 22 3f5=2l^iZWHbb7];^bWNa3
+!i122 114
+l54
+L32 46
+VB55gE5b^:We4bBbhWnEij1
+!s100 [n1Go]^e]B??Lk3X5OJUc1
+R12
+32
+R200
+!i10b 1
+R140
+R201
+R202
+!i113 0
+R17
+R18
+Eshiftleftlogical
+R6
+R7
+R8
+!i122 115
+R1
+Z203 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftLeftLogical.vhd
+Z204 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftLeftLogical.vhd
+l0
+Z205 L10 1
+VbG>cXSeo6ZhccVj<6n6JG3
+!s100 aX[5B4]m8n03AHS=l[YU`2
+R12
+32
+R200
+!i10b 1
+Z206 !s108 1667605230.000000
+Z207 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftLeftLogical.vhd|
+Z208 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftLeftLogical.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 16 shiftleftlogical 0 22 bG>cXSeo6ZhccVj<6n6JG3
+!i122 115
+l32
+L16 114
+V7Y[;lKV8zR6YMAzM4dUoh0
+!s100 2YeTTClVYhZ1kYDh0=9Tk1
+R12
+32
+R200
+!i10b 1
+R206
+R207
+R208
+!i113 0
+R17
+R18
+Eshiftrightarithmetic
+R6
+R7
+R8
+!i122 116
+R1
+Z209 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftRightArithmetic.vhd
+Z210 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftRightArithmetic.vhd
+l0
+R205
+VB8LKI[3hWWXU1E@fXWIz12
+!s100 I:6CV1gC=MhcD8QH:^JS80
+R12
+32
+R200
+!i10b 1
+R206
+Z211 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftRightArithmetic.vhd|
+Z212 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftRightArithmetic.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 20 shiftrightarithmetic 0 22 B8LKI[3hWWXU1E@fXWIz12
+!i122 116
+l30
+Z213 L16 96
+V44QNAi;mb[bhDb9W3AcAC3
+!s100 jHfaXb`?ejOKijL=E^4gb3
+R12
+32
+R200
+!i10b 1
+R206
+R211
+R212
+!i113 0
+R17
+R18
+Eshiftrightlogical
+R6
+R7
+R8
+!i122 117
+R1
+Z214 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftRightLogical.vhd
+Z215 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftRightLogical.vhd
+l0
+R205
+VIZ7eEB5Kn4EBBE5bHWVH=1
+!s100 d4mc;K?2A_cd<3_MXE5Gj3
+R12
+32
+R200
+!i10b 1
+R206
+Z216 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftRightLogical.vhd|
+Z217 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/shiftRightLogical.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 17 shiftrightlogical 0 22 IZ7eEB5Kn4EBBE5bHWVH=1
+!i122 117
+l30
+R213
+VBmHf]z8QOOlbZOePZWZTL1
+!s100 7k4IGL@Ojg:1ILVkUSMN42
+R12
+32
+R200
+!i10b 1
+R206
+R216
+R217
+!i113 0
+R17
+R18
+Eslt
+R6
+R7
+R8
+!i122 118
+R1
+Z218 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/Slt.vhd
+Z219 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/Slt.vhd
+l0
+L4 1
+VTzid6F]O^cId`Ke__VgOd0
+!s100 A3EPZ>WSJ:ZNIkg38:1W90
+R12
+32
+R200
+!i10b 1
+R206
+Z220 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/Slt.vhd|
+Z221 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/Slt.vhd|
+!i113 0
+R17
+R18
+Amixed
+R7
+R8
+DEx4 work 3 slt 0 22 Tzid6F]O^cId`Ke__VgOd0
+!i122 118
+l28
+L14 31
+V_[9XVETVRiKGZ?gNf9JHH0
+!s100 UGV?big_:zkFUN7W4bJKD1
+R12
+32
+R200
+!i10b 1
+R206
+R220
+R221
+!i113 0
+R17
+R18
+Esltimm
+R6
+R7
+R8
+!i122 119
+R1
+Z222 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/SltImm.vhd
+Z223 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/SltImm.vhd
+l0
+L4 1
+VN6IaCTQf>hdcT@8`dMA2J1
+!s100 ag;S]oJ@;KbAKc;HPli<41
+R12
+32
+R200
+!i10b 1
+R206
+Z224 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/SltImm.vhd|
+Z225 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/SltImm.vhd|
+!i113 0
+R17
+R18
+Amixed
+R7
+R8
+DEx4 work 6 sltimm 0 22 N6IaCTQf>hdcT@8`dMA2J1
+!i122 119
+l26
+L13 29
+VZfF^cUkJW?iIlaYCV0V0j2
+!s100 [Z:hglOHj4Hn[[zfgQ=h82
+R12
+32
+R200
+!i10b 1
+R206
+R224
+R225
+!i113 0
+R17
+R18
+Estoreword
+R6
+R7
+R8
+!i122 120
+R1
+Z226 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/storeWord.vhd
+Z227 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/storeWord.vhd
+l0
+L4 1
+VRTIELV2>Rn@fXUE_oHDF`1
+!s100 0:]fz:hzQei2`f5zcjIEJ1
+R12
+32
+R200
+!i10b 1
+R206
+Z228 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/storeWord.vhd|
+Z229 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/storeWord.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 9 storeword 0 22 RTIELV2>Rn@fXUE_oHDF`1
+!i122 120
+l25
+R126
+V9R7L<M[KkHOl]@hOlgzYW2
+!s100 LnLf:`?9SfCPMe<eKPa[52
+R12
+32
+R200
+!i10b 1
+R206
+R228
+R229
+!i113 0
+R17
+R18
+Esubins
+R6
+R7
+R8
+!i122 121
+R1
+Z230 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/subIns.vhd
+Z231 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/subIns.vhd
+l0
+L4 1
+VKh84YAk]zjDaoMQV6`Cbd2
+!s100 ^D2bG0U2JRQ>m^G4j0f>b0
+R12
+32
+R200
+!i10b 1
+R206
+Z232 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/subIns.vhd|
+Z233 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/subIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 6 subins 0 22 Kh84YAk]zjDaoMQV6`Cbd2
+!i122 121
+l40
+Z234 L14 54
+Vb2PI;f1W7k^0E0JciTIZJ2
+!s100 [VZLKGz1=JPR=FFV_AGI10
+R12
+32
+R200
+!i10b 1
+R206
+R232
+R233
+!i113 0
+R17
+R18
+Esubuins
+R6
+R7
+R8
+!i122 122
+R1
+Z235 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/subuIns.vhd
+Z236 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/subuIns.vhd
+l0
+L4 1
+VQ=zJHH^[2U5G^dCk8HCKD3
+!s100 XEJ?j4Tih6]R?NFVUQdBZ2
+R12
+32
+R200
+!i10b 1
+R206
+Z237 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/subuIns.vhd|
+Z238 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/subuIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 7 subuins 0 22 Q=zJHH^[2U5G^dCk8HCKD3
+!i122 122
+l40
+R234
+Vk7=0KA_XV8_h8YkO89LP:0
+!s100 _^Fzd>52;[jGHnoJ]SKi02
+R12
+32
+R200
+!i10b 1
+R206
+R237
+R238
+!i113 0
+R17
+R18
+Etb_alu
+Z239 w1667591058
+R7
+R8
+!i122 123
+R1
+Z240 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALU.vhd
+Z241 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALU.vhd
+l0
+L4 1
+Vncd5R_83HNhIN>3lC1ECD2
+!s100 K`KjejA0zolR0ASN;T3?J0
+R12
+32
+R200
+!i10b 1
+R206
+Z242 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALU.vhd|
+Z243 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALU.vhd|
+!i113 0
+R17
+R18
+Astructure
+R7
+R8
+DEx4 work 6 tb_alu 0 22 ncd5R_83HNhIN>3lC1ECD2
+!i122 123
+l35
+L10 204
+VK;UoBbIne09XMCUH943^V1
+!s100 `VVemUi]fl^84Ah^e9Lh<1
+R12
+32
+R200
+!i10b 1
+R206
+R242
+R243
+!i113 0
+R17
+R18
+Etb_alu_dataflow
+R6
+R7
+R8
+!i122 124
+R1
+Z244 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALU_dataflow.vhd
+Z245 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALU_dataflow.vhd
+l0
+L4 1
+Vh?fim?QB4WSaRj`d_WY;?0
+!s100 K[H0f_G8>[W`_2b1VhLjQ2
+R12
+32
+Z246 !s110 1667605231
+!i10b 1
+R206
+Z247 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALU_dataflow.vhd|
+Z248 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALU_dataflow.vhd|
+!i113 0
+R17
+R18
+Astructure
+R7
+R8
+DEx4 work 15 tb_alu_dataflow 0 22 h?fim?QB4WSaRj`d_WY;?0
+!i122 124
+l35
+L10 146
+V`iA@o7KkG[I9RM;_o19[?2
+!s100 T13HkU`<9KQC=7VJnOlY83
+R12
+32
+R246
+!i10b 1
+R206
+R247
+R248
+!i113 0
+R17
+R18
+Etb_alumux
+R6
+R36
+R7
+R8
+!i122 125
+R1
+Z249 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALUMux.vhd
+Z250 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALUMux.vhd
+l0
+L5 1
+VW]kN[`^Ee>7f_RaPMc:EL3
+!s100 ;4YQ7fSHQlY[j:?RQo45O3
+R12
+32
+R246
+!i10b 1
+Z251 !s108 1667605231.000000
+Z252 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALUMux.vhd|
+Z253 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/tb_ALUMux.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R36
+R7
+R8
+DEx4 work 9 tb_alumux 0 22 W]kN[`^Ee>7f_RaPMc:EL3
+!i122 125
+l28
+L11 61
+VP5TfcIdHz^EmHVNcFJk9e1
+!s100 IFlghFa=n9>jzQ>?G;ENe0
+R12
+32
+R246
+!i10b 1
+R251
+R252
+R253
+!i113 0
+R17
+R18
+Etb_dp_1
+Z254 w1667607214
+R153
+Z255 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
+R7
+R8
+!i122 131
+R1
+Z256 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/tb_ALUActualDesignvhd.vhd
+Z257 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/tb_ALUActualDesignvhd.vhd
+l0
+L11 1
+VY^ZRm0B:leQ@Y[[mR`Zhi0
+!s100 65cGSKOZ2KAz7heWR_9O[3
+R12
+32
+Z258 !s110 1667607221
+!i10b 1
+Z259 !s108 1667607221.000000
+Z260 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/tb_ALUActualDesignvhd.vhd|
+Z261 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/Old Lab Components/tb_ALUActualDesignvhd.vhd|
+!i113 0
+R17
+R18
+Amixed
+R153
+R255
+R7
+R8
+DEx4 work 7 tb_dp_1 0 22 Y^ZRm0B:leQ@Y[[mR`Zhi0
+!i122 131
+l62
+L15 265
+V5V@FXeY5XBgUIQc2`=7NS2
+!s100 nPQNcE[18:<[Zd>T]baGW3
+R12
+32
+R258
+!i10b 1
+R259
+R260
+R261
+!i113 0
+R17
+R18
+Ptwodarray
+R7
+R8
+!i122 67
+R79
+R1
+R127
+R128
+l0
+L46 5
+VJ^m1lIC2aXA>i<j@8cUa:0
+!s100 mjFaW_73YzcMoPBOgcL]B2
+R12
+32
+R129
+!i10b 1
+R130
+R131
+R132
+!i113 0
+R17
+R18
+Ptwodarrayforalu
+R7
+R8
+!i122 67
+R79
+R1
+R127
+R128
+l0
+L37 5
+V?VSaT@beV2?NfdNLgiZn=1
+!s100 na9IQQEO]kPG9WNTooWz@2
+R12
+32
+R129
+!i10b 1
+R130
+R131
+R132
+!i113 0
+R17
+R18
+Exorg2
+R6
+R7
+R8
+!i122 126
+R1
+Z262 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/xorg2.vhd
+Z263 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/xorg2.vhd
+l0
+R55
+VA]ncWhoC:fhLS`F>c9^ag2
+!s100 zGkHVGJ]HQ5RboN2N>KzN1
+R12
+32
+R246
+!i10b 1
+R251
+Z264 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/xorg2.vhd|
+Z265 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/xorg2.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 5 xorg2 0 22 A]ncWhoC:fhLS`F>c9^ag2
+!i122 126
+l32
+R58
+VV`;B_39=:h3bCoQNhV;bn0
+!s100 2<f]d3XziROLh_[:_6mNg2
+R12
+32
+R246
+!i10b 1
+R251
+R264
+R265
+!i113 0
+R17
+R18
+Exorimm
+R6
+R7
+R8
+!i122 127
+R1
+Z266 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/XorImm.vhd
+Z267 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/XorImm.vhd
+l0
+L4 1
+V;3T9AX0Al0g3nJoDBkBMV0
+!s100 11PdmX;RK[?_<OQ^ACD@@0
+R12
+32
+R246
+!i10b 1
+R251
+Z268 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/XorImm.vhd|
+Z269 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/XorImm.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 xorimm 0 22 ;3T9AX0Al0g3nJoDBkBMV0
+!i122 127
+l15
+R121
+VczfUabolz_:gG4Bj?P=zm1
+!s100 nGO4z]65[<k2a41;fRTRJ0
+R12
+32
+R246
+!i10b 1
+R251
+R268
+R269
+!i113 0
+R17
+R18
+Exorins
+R6
+R7
+R8
+!i122 128
+R1
+Z270 8/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/xorIns.vhd
+Z271 F/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/xorIns.vhd
+l0
+L4 1
+VBiJi8Toi@oDMk_68Y4B0S1
+!s100 R^bVdn:I>8L=?l7TKoCF]2
+R12
+32
+R246
+!i10b 1
+R251
+Z272 !s90 -reportprogress|30|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/xorIns.vhd|
+Z273 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/internal/boilerplate_src/ALU/xorIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 xorins 0 22 BiJi8Toi@oDMk_68Y4B0S1
+!i122 128
+l14
+R63
+Vaf:ZZ4`BLB3=IGYWmdWJ52
+!s100 ?W3[OdFCoB0Oz9z@SMAS[0
+R12
+32
+R246
+!i10b 1
+R251
+R272
+R273
+!i113 0
+R17
+R18

@@ -1,0 +1,23 @@
+---ALU dataflow using lab 2 datapath---
+
+
+addi  $1,  $0,  1          # Place “1” in $1 
+not  $2,  $1               # negate "1" and place into 2 ($2 is now -2)
+slt  $3,  $1,  $2          # check if $1 is less than $2 and place into $3 ($3 is now 0)
+add  $3,  $3,  $1          # Place “$1” in $3 ($3 is now 1) 
+sll  $4,  $3,  4           # shift $3 left 4 times, place into $4 ($4 should now be 16)
+sra $4, $4, 2              # Shift $4 right 2 and place into 4 ($4 should now be 4)
+xor $5, $4, $3             # xor $3 and $4 and place into $5 ($5 should have the value 5)
+sub $6, $4, $5             # subtract $4 from $5 ($6 should be -1)
+sra $6, $6, 12             # shift right arithmetic $6 12 times ($6 should still be -1)
+and $7, $6, 0              # and $6 with 0 and place into $7 ($7 should be 0)
+add $8, $7, $5             # add the value of $5 and $7 into $8 ($8 should have value of 5)
+add $8, $8, $3             # add $3 to $8 and store in $8 ($8 should have 6)
+srl $9, $8, 1              # divide $8 by 2 and store in $9 ($9 should contain 3)
+nor $10, $9, $8            # nor $8 and $9 ($10 should contain -8)
+or  $11, $10, $6           # or $10 with $6 and store in $11 ($11 should be -1)
+sll $11, $11, 3             # shift left 3 times ($8 should finished with a value of -8)
+repl $12, 01000000          #replicate 010000000 and place into $12.
+
+final value of $12 should be 0x80808080 (-2139062144 in decimal) and the value of 11 should be -8 after everything
+

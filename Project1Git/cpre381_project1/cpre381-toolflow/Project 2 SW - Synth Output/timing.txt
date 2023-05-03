@@ -1,0 +1,105 @@
+
+#
+# CprE 381 toolflow Timing dump
+#
+
+FMax: 55.46mhz Clk Constraint: 20.00ns Slack: 1.97ns
+
+The path is given below
+
+ ===================================================================
+ From Node    : IDEX:IDEXRegisters|dffg:alusrc|s_Q
+ To Node      : EXMEM:EXMEMRegisters|dffg32:x1_5|dffg:\G_32bit_DFFG:30:DFFR|s_Q
+ Launch Clock : iCLK
+ Latch Clock  : iCLK
+ Data Arrival Path:
+ Total (ns)  Incr (ns)     Type  Element
+ ==========  ========= ==  ====  ===================================
+      0.000      0.000           launch edge time
+      3.104      3.104  R        clock network delay
+      3.336      0.232     uTco  IDEX:IDEXRegisters|dffg:alusrc|s_Q
+      3.336      0.000 FF  CELL  IDEXRegisters|alusrc|s_Q|q
+      3.948      0.612 FF    IC  ImmMux|o_O[31]~26|datac
+      4.228      0.280 FF  CELL  ImmMux|o_O[31]~26|combout
+      4.534      0.306 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:0:AddingfirstAdder|and2|o_F|datac
+      4.815      0.281 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:0:AddingfirstAdder|and2|o_F|combout
+      5.278      0.463 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:1:AddingfirstAdder|or1|o_F~0|datab
+      5.703      0.425 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:1:AddingfirstAdder|or1|o_F~0|combout
+      5.951      0.248 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:2:AddingfirstAdder|or1|o_F~0|datad
+      6.076      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:2:AddingfirstAdder|or1|o_F~0|combout
+      6.325      0.249 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:3:AddingfirstAdder|or1|o_F~0|datad
+      6.450      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:3:AddingfirstAdder|or1|o_F~0|combout
+      6.749      0.299 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:4:AddingfirstAdder|or1|o_F~0|dataa
+      7.173      0.424 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:4:AddingfirstAdder|or1|o_F~0|combout
+      7.422      0.249 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:5:AddingfirstAdder|or1|o_F~0|datad
+      7.547      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:5:AddingfirstAdder|or1|o_F~0|combout
+      7.803      0.256 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:6:AddingfirstAdder|or1|o_F~0|datac
+      8.084      0.281 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:6:AddingfirstAdder|or1|o_F~0|combout
+      8.334      0.250 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:7:AddingfirstAdder|or1|o_F~0|datad
+      8.459      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:7:AddingfirstAdder|or1|o_F~0|combout
+      8.708      0.249 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:8:AddingfirstAdder|or1|o_F~0|datad
+      8.833      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:8:AddingfirstAdder|or1|o_F~0|combout
+      9.088      0.255 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:9:AddingfirstAdder|or1|o_F~0|datac
+      9.369      0.281 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:9:AddingfirstAdder|or1|o_F~0|combout
+      9.618      0.249 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:10:AddingfirstAdder|or1|o_F~0|datad
+      9.743      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:10:AddingfirstAdder|or1|o_F~0|combout
+     10.001      0.258 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:11:AddingfirstAdder|or1|o_F~0|datac
+     10.282      0.281 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:11:AddingfirstAdder|or1|o_F~0|combout
+     10.537      0.255 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:12:AddingfirstAdder|or1|o_F~0|datac
+     10.818      0.281 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:12:AddingfirstAdder|or1|o_F~0|combout
+     11.204      0.386 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:13:AddingfirstAdder|or1|o_F~0|datad
+     11.329      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:13:AddingfirstAdder|or1|o_F~0|combout
+     11.579      0.250 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:14:AddingfirstAdder|or1|o_F~0|datad
+     11.704      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:14:AddingfirstAdder|or1|o_F~0|combout
+     11.955      0.251 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:15:AddingfirstAdder|or1|o_F~0|datad
+     12.080      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:15:AddingfirstAdder|or1|o_F~0|combout
+     12.330      0.250 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:16:AddingfirstAdder|or1|o_F~0|datad
+     12.455      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:16:AddingfirstAdder|or1|o_F~0|combout
+     13.231      0.776 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:17:AddingfirstAdder|or1|o_F~0|datad
+     13.356      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:17:AddingfirstAdder|or1|o_F~0|combout
+     14.073      0.717 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:18:AddingfirstAdder|or1|o_F~0|datad
+     14.198      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:18:AddingfirstAdder|or1|o_F~0|combout
+     14.454      0.256 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:19:AddingfirstAdder|or1|o_F~0|datac
+     14.735      0.281 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:19:AddingfirstAdder|or1|o_F~0|combout
+     15.034      0.299 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:20:AddingfirstAdder|or1|o_F~0|dataa
+     15.458      0.424 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:20:AddingfirstAdder|or1|o_F~0|combout
+     15.707      0.249 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:21:AddingfirstAdder|or1|o_F~0|datad
+     15.832      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:21:AddingfirstAdder|or1|o_F~0|combout
+     16.081      0.249 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:22:AddingfirstAdder|or1|o_F~0|datad
+     16.206      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:22:AddingfirstAdder|or1|o_F~0|combout
+     16.457      0.251 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:23:AddingfirstAdder|or1|o_F~0|datad
+     16.582      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:23:AddingfirstAdder|or1|o_F~0|combout
+     16.832      0.250 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:24:AddingfirstAdder|or1|o_F~0|datad
+     16.957      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:24:AddingfirstAdder|or1|o_F~0|combout
+     17.212      0.255 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:25:AddingfirstAdder|or1|o_F~0|datac
+     17.493      0.281 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:25:AddingfirstAdder|or1|o_F~0|combout
+     17.744      0.251 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:26:AddingfirstAdder|or1|o_F~0|datad
+     17.869      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:26:AddingfirstAdder|or1|o_F~0|combout
+     18.122      0.253 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:27:AddingfirstAdder|or1|o_F~0|datad
+     18.247      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:27:AddingfirstAdder|or1|o_F~0|combout
+     18.496      0.249 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:28:AddingfirstAdder|or1|o_F~0|datad
+     18.621      0.125 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:28:AddingfirstAdder|or1|o_F~0|combout
+     18.876      0.255 FF    IC  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:29:AddingfirstAdder|or1|o_F~0|datac
+     19.157      0.281 FF  CELL  ALUDesign|sw|StoreWord|RippleAdderTime|\G_NBit_Adder_1:29:AddingfirstAdder|or1|o_F~0|combout
+     19.406      0.249 FF    IC  ALUDesign|ALUMulti|Mux1~19|datad
+     19.531      0.125 FF  CELL  ALUDesign|ALUMulti|Mux1~19|combout
+     19.758      0.227 FF    IC  ALUDesign|ALUMulti|Mux1~24|datad
+     19.883      0.125 FF  CELL  ALUDesign|ALUMulti|Mux1~24|combout
+     20.116      0.233 FF    IC  ALUDesign|ALUMulti|Mux1~20|datac
+     20.397      0.281 FF  CELL  ALUDesign|ALUMulti|Mux1~20|combout
+     20.629      0.232 FF    IC  ALUDesign|ALUMulti|Mux1~21|datac
+     20.910      0.281 FF  CELL  ALUDesign|ALUMulti|Mux1~21|combout
+     20.910      0.000 FF    IC  EXMEMRegisters|x1_5|\G_32bit_DFFG:30:DFFR|s_Q|d
+     21.014      0.104 FF  CELL  EXMEM:EXMEMRegisters|dffg32:x1_5|dffg:\G_32bit_DFFG:30:DFFR|s_Q
+ Data Required Path:
+ Total (ns)  Incr (ns)     Type  Element
+ ==========  ========= ==  ====  ===================================
+     20.000     20.000           latch edge time
+     22.978      2.978  R        clock network delay
+     22.986      0.008           clock pessimism removed
+     22.966     -0.020           clock uncertainty
+     22.984      0.018     uTsu  EXMEM:EXMEMRegisters|dffg32:x1_5|dffg:\G_32bit_DFFG:30:DFFR|s_Q
+ Data Arrival Time  :    21.014
+ Data Required Time :    22.984
+ Slack              :     1.970
+ ===================================================================

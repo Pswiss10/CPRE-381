@@ -1,0 +1,612 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 21.1.1 Build 850 06/23/2022 SJ Standard Edition
+    Info: Copyright (C) 2022  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Sat Dec 10 15:16:39 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off toolflow -c toolflow
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd
+    Info (12022): Found design unit 1: ALU-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 20
+    Info (12023): Found entity 1: ALU File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALUMux.vhd
+    Info (12022): Found design unit 1: ALUMux-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALUMux.vhd Line: 12
+    Info (12023): Found entity 1: ALUMux File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALUMux.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Adder.vhd
+    Info (12022): Found design unit 1: Adder-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Adder.vhd Line: 31
+    Info (12023): Found entity 1: Adder File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Adder.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/FullAdder.vhd
+    Info (12022): Found design unit 1: FullAdder-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/FullAdder.vhd Line: 30
+    Info (12023): Found entity 1: FullAdder File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/FullAdder.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/NBit-Adder_Sub.vhd
+    Info (12022): Found design unit 1: NBitAdder_Sub-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/NBit-Adder_Sub.vhd Line: 31
+    Info (12023): Found entity 1: NBitAdder_Sub File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/NBit-Adder_Sub.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/RippleAdder.vhd
+    Info (12022): Found design unit 1: RippleAdder-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/RippleAdder.vhd Line: 32
+    Info (12023): Found entity 1: RippleAdder File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/RippleAdder.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Slt.vhd
+    Info (12022): Found design unit 1: Slt-mixed File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Slt.vhd Line: 14
+    Info (12023): Found entity 1: Slt File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Slt.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/SltImm.vhd
+    Info (12022): Found design unit 1: SltImm-mixed File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/SltImm.vhd Line: 13
+    Info (12023): Found entity 1: SltImm File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/SltImm.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/XorImm.vhd
+    Info (12022): Found design unit 1: XorImm-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/XorImm.vhd Line: 13
+    Info (12023): Found entity 1: XorImm File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/XorImm.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addIns.vhd
+    Info (12022): Found design unit 1: addIns-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addIns.vhd Line: 14
+    Info (12023): Found entity 1: addIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addIns.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiIns.vhd
+    Info (12022): Found design unit 1: addiIns-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiIns.vhd Line: 14
+    Info (12023): Found entity 1: addiIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiIns.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiuIns.vhd
+    Info (12022): Found design unit 1: addiuIns-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiuIns.vhd Line: 14
+    Info (12023): Found entity 1: addiuIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiuIns.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/adduIns.vhd
+    Info (12022): Found design unit 1: adduIns-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/adduIns.vhd Line: 15
+    Info (12023): Found entity 1: adduIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/adduIns.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andImmIns.vhd
+    Info (12022): Found design unit 1: andImmIns-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andImmIns.vhd Line: 12
+    Info (12023): Found entity 1: andImmIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andImmIns.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andIns.vhd
+    Info (12022): Found design unit 1: andIns-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andIns.vhd Line: 12
+    Info (12023): Found entity 1: andIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andIns.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andg2.vhd
+    Info (12022): Found design unit 1: andg2-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andg2.vhd Line: 31
+    Info (12023): Found entity 1: andg2 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andg2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/beq.vhd
+    Info (12022): Found design unit 1: beq-mixed File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/beq.vhd Line: 13
+    Info (12023): Found entity 1: beq File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/beq.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bit29_1Mux.vhd
+    Info (12022): Found design unit 1: bit29_1Mux-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bit29_1Mux.vhd Line: 12
+    Info (12023): Found entity 1: bit29_1Mux File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bit29_1Mux.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bne.vhd
+    Info (12022): Found design unit 1: bne-mixed File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bne.vhd Line: 13
+    Info (12023): Found entity 1: bne File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bne.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/invg.vhd
+    Info (12022): Found design unit 1: invg-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/invg.vhd Line: 30
+    Info (12023): Found entity 1: invg File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/invg.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jump.vhd
+    Info (12022): Found design unit 1: jump-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jump.vhd Line: 13
+    Info (12023): Found entity 1: jump File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jump.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpAndLink.vhd
+    Info (12022): Found design unit 1: jumpAndLink-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpAndLink.vhd Line: 13
+    Info (12023): Found entity 1: jumpAndLink File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpAndLink.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpRegister.vhd
+    Info (12022): Found design unit 1: jumpRegister-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpRegister.vhd Line: 13
+    Info (12023): Found entity 1: jumpRegister File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpRegister.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadUpperImm.vhd
+    Info (12022): Found design unit 1: loadUpperImm-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadUpperImm.vhd Line: 13
+    Info (12023): Found entity 1: loadUpperImm File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadUpperImm.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadWord.vhd
+    Info (12022): Found design unit 1: loadWord-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadWord.vhd Line: 14
+    Info (12023): Found entity 1: loadWord File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadWord.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/move_N.vhd
+    Info (12022): Found design unit 1: move_N-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/move_N.vhd Line: 13
+    Info (12023): Found entity 1: move_N File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/move_N.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1.vhd
+    Info (12022): Found design unit 1: mux2t1-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1.vhd Line: 29
+    Info (12023): Found entity 1: mux2t1 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1_N.vhd
+    Info (12022): Found design unit 1: mux2t1_N-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1_N.vhd Line: 30
+    Info (12023): Found entity 1: mux2t1_N File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1_N.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/norIns.vhd
+    Info (12022): Found design unit 1: norIns-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/norIns.vhd Line: 12
+    Info (12023): Found entity 1: norIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/norIns.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/notIns.vhd
+    Info (12022): Found design unit 1: notIns-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/notIns.vhd Line: 11
+    Info (12023): Found entity 1: notIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/notIns.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/one'sComplement.vhd
+    Info (12022): Found design unit 1: OnesComp-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/one'sComplement.vhd Line: 28
+    Info (12023): Found entity 1: OnesComp File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/one'sComplement.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orImm.vhd
+    Info (12022): Found design unit 1: orImm-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orImm.vhd Line: 13
+    Info (12023): Found entity 1: orImm File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orImm.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orIns.vhd
+    Info (12022): Found design unit 1: orIns-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orIns.vhd Line: 12
+    Info (12023): Found entity 1: orIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orIns.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/org2.vhd
+    Info (12022): Found design unit 1: org2-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/org2.vhd Line: 31
+    Info (12023): Found entity 1: org2 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/org2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/repl_qb.vhd
+    Info (12022): Found design unit 1: repl_qb-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/repl_qb.vhd Line: 12
+    Info (12023): Found entity 1: repl_qb File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/repl_qb.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftLeftLogical.vhd
+    Info (12022): Found design unit 1: shiftLeftLogical-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftLeftLogical.vhd Line: 16
+    Info (12023): Found entity 1: shiftLeftLogical File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftLeftLogical.vhd Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightArithmetic.vhd
+    Info (12022): Found design unit 1: shiftRightArithmetic-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightArithmetic.vhd Line: 16
+    Info (12023): Found entity 1: shiftRightArithmetic File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightArithmetic.vhd Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightLogical.vhd
+    Info (12022): Found design unit 1: shiftRightLogical-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightLogical.vhd Line: 16
+    Info (12023): Found entity 1: shiftRightLogical File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightLogical.vhd Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/storeWord.vhd
+    Info (12022): Found design unit 1: storeWord-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/storeWord.vhd Line: 14
+    Info (12023): Found entity 1: storeWord File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/storeWord.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subIns.vhd
+    Info (12022): Found design unit 1: subIns-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subIns.vhd Line: 14
+    Info (12023): Found entity 1: subIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subIns.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subuIns.vhd
+    Info (12022): Found design unit 1: subuIns-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subuIns.vhd Line: 14
+    Info (12023): Found entity 1: subuIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subuIns.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorIns.vhd
+    Info (12022): Found design unit 1: xorIns-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorIns.vhd Line: 12
+    Info (12023): Found entity 1: xorIns File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorIns.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorg2.vhd
+    Info (12022): Found design unit 1: xorg2-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorg2.vhd Line: 31
+    Info (12023): Found entity 1: xorg2 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorg2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderOG.vhd
+    Info (12022): Found design unit 1: controlDecoderOG-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderOG.vhd Line: 14
+    Info (12023): Found entity 1: controlDecoderOG File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderOG.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderRtype.vhd
+    Info (12022): Found design unit 1: controlDecoderRtype-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderRtype.vhd Line: 15
+    Info (12023): Found entity 1: controlDecoderRtype File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderRtype.vhd Line: 6
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/andg2.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andg2.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/andg2.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/controlUnit.vhd
+    Info (12022): Found design unit 1: controlUnit-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/controlUnit.vhd Line: 16
+    Info (12023): Found entity 1: controlUnit File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/controlUnit.vhd Line: 6
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/invg.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/invg.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/invg.vhd
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/mux2t1.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/mux2t1.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/mux2t1_16.vhd
+    Info (12022): Found design unit 1: mux2t1_16-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/mux2t1_16.vhd Line: 30
+    Info (12023): Found entity 1: mux2t1_16 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/mux2t1_16.vhd Line: 21
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/org2.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/org2.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/org2.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH.vhd
+    Info (12022): Found design unit 1: AdderH-structure File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH.vhd Line: 21
+    Info (12023): Found entity 1: AdderH File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH_n.vhd
+    Info (12022): Found design unit 1: AdderH_n-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH_n.vhd Line: 15
+    Info (12023): Found entity 1: AdderH_n File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH_n.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/DffR_N.vhd
+    Info (12022): Found design unit 1: DffR_N-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/DffR_N.vhd Line: 14
+    Info (12023): Found entity 1: DffR_N File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/DffR_N.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/Mux32_1.vhd
+    Info (12022): Found design unit 1: Mux32_1-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/Mux32_1.vhd Line: 12
+    Info (12023): Found entity 1: Mux32_1 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/Mux32_1.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/NbitRegister.vhd
+    Info (12022): Found design unit 1: NbitRegister-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/NbitRegister.vhd Line: 18
+    Info (12023): Found entity 1: NbitRegister File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/NbitRegister.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/PC.vhd
+    Info (12022): Found design unit 1: PC-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/PC.vhd Line: 14
+    Info (12023): Found entity 1: PC File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/PC.vhd Line: 4
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/andg2.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andg2.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/andg2.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/bit5t32Decoder.vhd
+    Info (12022): Found design unit 1: bit5_32Decoder-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/bit5t32Decoder.vhd Line: 14
+    Info (12023): Found entity 1: bit5_32Decoder File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/bit5t32Decoder.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd
+    Info (12022): Found design unit 1: dffg-mixed File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd Line: 33
+    Info (12023): Found entity 1: dffg File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/fetch.vhd
+    Info (12022): Found design unit 1: fetch-Mixed File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/fetch.vhd Line: 37
+    Info (12023): Found entity 1: fetch File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/fetch.vhd Line: 5
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/invg.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/invg.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/invg.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_5.vhd
+    Info (12022): Found design unit 1: mux2t1_5-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_5.vhd Line: 30
+    Info (12023): Found entity 1: mux2t1_5 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_5.vhd Line: 21
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_N.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1_N.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_N.vhd
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/org2.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/org2.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/org2.vhd
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/xorg2.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorg2.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/xorg2.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhd
+    Info (12022): Found design unit 1: HazardController-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhd Line: 41
+    Info (12023): Found entity 1: HazardController File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhd Line: 6
+Info (12021): Found 4 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/MIPS_types.vhd
+    Info (12022): Found design unit 1: MIPS_types File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/MIPS_types.vhd Line: 15
+    Info (12022): Found design unit 2: MIPS_types-body File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/MIPS_types.vhd Line: 29
+    Info (12022): Found design unit 3: TwoDArrayForALU File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/MIPS_types.vhd Line: 37
+    Info (12022): Found design unit 4: TwoDArray File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/MIPS_types.vhd Line: 46
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/ALUFinalDesign.vhd
+    Info (12022): Found design unit 1: ALUFinalDesign-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/ALUFinalDesign.vhd Line: 26
+    Info (12023): Found entity 1: ALUFinalDesign File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/ALUFinalDesign.vhd Line: 5
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/Mux32_1.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/Mux32_1.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/Mux32_1.vhd
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/NbitRegister.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/NbitRegister.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/NbitRegister.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/RegisterFile32_32.vhd
+    Info (12022): Found design unit 1: RegisterFile32_32-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/RegisterFile32_32.vhd Line: 24
+    Info (12023): Found entity 1: RegisterFile32_32 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/RegisterFile32_32.vhd Line: 7
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/andg2.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andg2.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/andg2.vhd
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/bit5t32Decoder.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/bit5t32Decoder.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/bit5t32Decoder.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/bitExtender.vhd
+    Info (12022): Found design unit 1: bitExtender-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/bitExtender.vhd Line: 16
+    Info (12023): Found entity 1: bitExtender File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/bitExtender.vhd Line: 5
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/dffg.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/dffg.vhd
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/invg.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/invg.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/invg.vhd
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/mux2t1.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/mux2t1.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/nbit32_1Mux.vhd
+    Info (12022): Found design unit 1: nbit32_1Mux-dataflow File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/nbit32_1Mux.vhd Line: 12
+    Info (12023): Found entity 1: nbit32_1Mux File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/nbit32_1Mux.vhd Line: 5
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/one'sComplement.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/one'sComplement.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/one'sComplement.vhd
+Info (15248): File "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/org2.vhd" is a duplicate of already analyzed file "/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/org2.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/org2.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/tb_ALUActualDesignvhd.vhd
+    Info (12022): Found design unit 1: tb_dp_1-mixed File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/tb_ALUActualDesignvhd.vhd Line: 15
+    Info (12023): Found entity 1: tb_dp_1 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/tb_ALUActualDesignvhd.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/EXMEM.vhd
+    Info (12022): Found design unit 1: EXMEM-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/EXMEM.vhd Line: 62
+    Info (12023): Found entity 1: EXMEM File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/EXMEM.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd
+    Info (12022): Found design unit 1: IDEX-structure File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd Line: 64
+    Info (12023): Found entity 1: IDEX File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IFID.vhd
+    Info (12022): Found design unit 1: IFID-structure File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IFID.vhd Line: 17
+    Info (12023): Found entity 1: IFID File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IFID.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/MEMWB.vhd
+    Info (12022): Found design unit 1: MEMWB-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/MEMWB.vhd Line: 56
+    Info (12023): Found entity 1: MEMWB File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/MEMWB.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg26.vhd
+    Info (12022): Found design unit 1: dffg26-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg26.vhd Line: 14
+    Info (12023): Found entity 1: dffg26 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg26.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg32.vhd
+    Info (12022): Found design unit 1: dffg32-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg32.vhd Line: 14
+    Info (12023): Found entity 1: dffg32 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg32.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg5.vhd
+    Info (12022): Found design unit 1: dffg5-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg5.vhd Line: 14
+    Info (12023): Found entity 1: dffg5 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg5.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg6.vhd
+    Info (12022): Found design unit 1: dffg6-structural File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg6.vhd Line: 14
+    Info (12023): Found entity 1: dffg6 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg6.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/stateRegTest.vhd
+    Info (12022): Found design unit 1: stateRegTest-structure File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/stateRegTest.vhd Line: 15
+    Info (12023): Found entity 1: stateRegTest File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/stateRegTest.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/tb_stateRegTest.vhd
+    Info (12022): Found design unit 1: tb_stateRegTest-structure File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/tb_stateRegTest.vhd Line: 11
+    Info (12023): Found entity 1: tb_stateRegTest File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/tb_stateRegTest.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd
+    Info (12022): Found design unit 1: MIPS_Processor-structure File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 35
+    Info (12023): Found entity 1: MIPS_Processor File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/mem.vhd
+    Info (12022): Found design unit 1: mem-rtl File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/mem.vhd Line: 27
+    Info (12023): Found entity 1: mem File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/mem.vhd Line: 8
+Info (12127): Elaborating entity "MIPS_Processor" for the top level hierarchy
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(38): object "s_DMemWr" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 38
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(39): object "s_DMemAddr" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 39
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(44): object "s_RegWr" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 44
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(54): object "s_Halt" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 54
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(57): object "s_Ovfl" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 57
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(65): object "s_carryOut" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 65
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(67): object "s_WRITEDST" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 67
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(97): object "s_PCEX2" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 97
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(101): object "s_regDstEX" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 101
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(105): object "s_regRsInEX" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 105
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(106): object "s_regRtInEX" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 106
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(108): object "s_JaloDataWriteEx" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 108
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(122): object "s_FetchFLushSel" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 122
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(138): object "s_DMemReadMEM" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 138
+Info (12128): Elaborating entity "fetch" for hierarchy "fetch:Fetch1" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 527
+Warning (10036): Verilog HDL or VHDL warning at fetch.vhd(91): object "s_oC" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/fetch.vhd Line: 91
+Info (12128): Elaborating entity "PC" for hierarchy "fetch:Fetch1|PC:PC1" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/fetch.vhd Line: 114
+Info (12128): Elaborating entity "mux2t1_N" for hierarchy "fetch:Fetch1|PC:PC1|mux2t1_N:MUX1" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/PC.vhd Line: 39
+Info (12128): Elaborating entity "mux2t1" for hierarchy "fetch:Fetch1|PC:PC1|mux2t1_N:MUX1|mux2t1:\G_NBit_MUX:0:MUXI" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1_N.vhd Line: 43
+Info (12128): Elaborating entity "invg" for hierarchy "fetch:Fetch1|PC:PC1|mux2t1_N:MUX1|mux2t1:\G_NBit_MUX:0:MUXI|invg:g_Switch" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1.vhd Line: 68
+Info (12128): Elaborating entity "andg2" for hierarchy "fetch:Fetch1|PC:PC1|mux2t1_N:MUX1|mux2t1:\G_NBit_MUX:0:MUXI|andg2:g_And1" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1.vhd Line: 76
+Info (12128): Elaborating entity "org2" for hierarchy "fetch:Fetch1|PC:PC1|mux2t1_N:MUX1|mux2t1:\G_NBit_MUX:0:MUXI|org2:g_or3" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1.vhd Line: 90
+Info (12128): Elaborating entity "DffR_N" for hierarchy "fetch:Fetch1|PC:PC1|DffR_N:REG0" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/PC.vhd Line: 46
+Info (12128): Elaborating entity "dffg" for hierarchy "fetch:Fetch1|PC:PC1|DffR_N:REG0|dffg:\G_NBit_DFFR:0:DFFR" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/DffR_N.vhd Line: 27
+Info (12128): Elaborating entity "AdderH_n" for hierarchy "fetch:Fetch1|AdderH_n:PCADD1" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/fetch.vhd Line: 123
+Info (12128): Elaborating entity "AdderH" for hierarchy "fetch:Fetch1|AdderH_n:PCADD1|AdderH:ADD0" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH_n.vhd Line: 39
+Info (12128): Elaborating entity "xorg2" for hierarchy "fetch:Fetch1|AdderH_n:PCADD1|AdderH:ADD0|xorg2:g_Xor0" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH.vhd Line: 99
+Info (12128): Elaborating entity "mux2t1_5" for hierarchy "fetch:Fetch1|mux2t1_5:JALREGSEL" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/fetch.vhd Line: 148
+Info (12128): Elaborating entity "mem" for hierarchy "mem:IMem" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 554
+Info (12128): Elaborating entity "RegisterFile32_32" for hierarchy "RegisterFile32_32:RegFile" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 577
+Info (12128): Elaborating entity "bit5_32Decoder" for hierarchy "RegisterFile32_32:RegFile|bit5_32Decoder:Decoder" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/RegisterFile32_32.vhd Line: 62
+Info (12128): Elaborating entity "NbitRegister" for hierarchy "RegisterFile32_32:RegFile|NbitRegister:\G_RegisterFile32_32:1:Registers" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/RegisterFile32_32.vhd Line: 71
+Info (12128): Elaborating entity "nbit32_1Mux" for hierarchy "RegisterFile32_32:RegFile|nbit32_1Mux:Mux1" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/RegisterFile32_32.vhd Line: 80
+Info (12128): Elaborating entity "controlUnit" for hierarchy "controlUnit:FullControlunit" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 588
+Info (12128): Elaborating entity "controlDecoderOG" for hierarchy "controlUnit:FullControlunit|controlDecoderOG:OGPortMap" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/controlUnit.vhd Line: 55
+Info (12128): Elaborating entity "controlDecoderRtype" for hierarchy "controlUnit:FullControlunit|controlDecoderRtype:RtypePortMap" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/controlUnit.vhd Line: 60
+Info (12128): Elaborating entity "mux2t1_16" for hierarchy "controlUnit:FullControlunit|mux2t1_16:MuxOutput" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/controlUnit.vhd Line: 72
+Info (12128): Elaborating entity "bitExtender" for hierarchy "bitExtender:signExt" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 614
+Info (12128): Elaborating entity "Mux32_1" for hierarchy "Mux32_1:JALOrImmed" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 619
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:ALUDesign" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 631
+Warning (10036): Verilog HDL or VHDL warning at ALU.vhd(280): object "s_unusedOverflow" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 280
+Info (12128): Elaborating entity "addIns" for hierarchy "ALU:ALUDesign|addIns:add" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 284
+Info (12128): Elaborating entity "RippleAdder" for hierarchy "ALU:ALUDesign|addIns:add|RippleAdder:RippleAdderTime" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addIns.vhd Line: 38
+Info (12128): Elaborating entity "FullAdder" for hierarchy "ALU:ALUDesign|addIns:add|RippleAdder:RippleAdderTime|FullAdder:\G_NBit_Adder_1:0:AddingfirstAdder" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/RippleAdder.vhd Line: 62
+Info (12128): Elaborating entity "adduIns" for hierarchy "ALU:ALUDesign|adduIns:addu" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 292
+Info (12128): Elaborating entity "andIns" for hierarchy "ALU:ALUDesign|andIns:andInst" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 299
+Info (12128): Elaborating entity "notIns" for hierarchy "ALU:ALUDesign|notIns:notInst" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 304
+Info (12128): Elaborating entity "norIns" for hierarchy "ALU:ALUDesign|norIns:norInst" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 308
+Info (12128): Elaborating entity "xorIns" for hierarchy "ALU:ALUDesign|xorIns:xorInst" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 313
+Info (12128): Elaborating entity "orIns" for hierarchy "ALU:ALUDesign|orIns:orInst" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 318
+Info (12128): Elaborating entity "Slt" for hierarchy "ALU:ALUDesign|Slt:Sltins" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 323
+Warning (10036): Verilog HDL or VHDL warning at Slt.vhd(27): object "s_Overflow" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Slt.vhd Line: 27
+Info (12128): Elaborating entity "NBitAdder_Sub" for hierarchy "ALU:ALUDesign|Slt:Sltins|NBitAdder_Sub:Adder" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Slt.vhd Line: 30
+Info (12128): Elaborating entity "OnesComp" for hierarchy "ALU:ALUDesign|Slt:Sltins|NBitAdder_Sub:Adder|OnesComp:InvertingBits1" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/NBit-Adder_Sub.vhd Line: 72
+Info (12128): Elaborating entity "shiftLeftLogical" for hierarchy "ALU:ALUDesign|shiftLeftLogical:ShiftLL" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 328
+Info (12128): Elaborating entity "shiftRightLogical" for hierarchy "ALU:ALUDesign|shiftRightLogical:ShiftRL" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 333
+Info (12128): Elaborating entity "shiftRightArithmetic" for hierarchy "ALU:ALUDesign|shiftRightArithmetic:ShiftRA" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 338
+Info (12128): Elaborating entity "subIns" for hierarchy "ALU:ALUDesign|subIns:sub" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 343
+Info (12128): Elaborating entity "jumpRegister" for hierarchy "ALU:ALUDesign|jumpRegister:jumpReg" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 350
+Info (12128): Elaborating entity "move_N" for hierarchy "ALU:ALUDesign|move_N:movn" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 355
+Info (12128): Elaborating entity "jump" for hierarchy "ALU:ALUDesign|jump:jumpIns" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 360
+Info (12128): Elaborating entity "jumpAndLink" for hierarchy "ALU:ALUDesign|jumpAndLink:jumpAndLinkIns" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 365
+Info (12128): Elaborating entity "beq" for hierarchy "ALU:ALUDesign|beq:beqIns" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 370
+Info (12128): Elaborating entity "bne" for hierarchy "ALU:ALUDesign|bne:bneIns" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 375
+Info (12128): Elaborating entity "addiIns" for hierarchy "ALU:ALUDesign|addiIns:addi" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 380
+Info (12128): Elaborating entity "repl_qb" for hierarchy "ALU:ALUDesign|repl_qb:replQB" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 387
+Info (12128): Elaborating entity "addiuIns" for hierarchy "ALU:ALUDesign|addiuIns:addiu" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 391
+Info (12128): Elaborating entity "SltImm" for hierarchy "ALU:ALUDesign|SltImm:Slti" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 398
+Info (12128): Elaborating entity "orImm" for hierarchy "ALU:ALUDesign|orImm:ori" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 403
+Info (12128): Elaborating entity "XorImm" for hierarchy "ALU:ALUDesign|XorImm:Xori" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 408
+Info (12128): Elaborating entity "loadUpperImm" for hierarchy "ALU:ALUDesign|loadUpperImm:lui" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 413
+Info (12128): Elaborating entity "loadWord" for hierarchy "ALU:ALUDesign|loadWord:lw" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 418
+Info (12128): Elaborating entity "storeWord" for hierarchy "ALU:ALUDesign|storeWord:sw" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 424
+Info (12128): Elaborating entity "subuIns" for hierarchy "ALU:ALUDesign|subuIns:subuInst" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 430
+Info (12128): Elaborating entity "andImmIns" for hierarchy "ALU:ALUDesign|andImmIns:andImmInst" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 437
+Info (12128): Elaborating entity "ALUMux" for hierarchy "ALU:ALUDesign|ALUMux:ALUMulti" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 444
+Info (12128): Elaborating entity "bit29_1Mux" for hierarchy "ALU:ALUDesign|bit29_1Mux:CarryMux" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd Line: 449
+Info (12128): Elaborating entity "IDEX" for hierarchy "IDEX:IDEXRegisters" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 648
+Info (12128): Elaborating entity "dffg5" for hierarchy "IDEX:IDEXRegisters|dffg5:aluop" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd Line: 121
+Info (12128): Elaborating entity "dffg32" for hierarchy "IDEX:IDEXRegisters|dffg32:JaloDataWrite" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd Line: 178
+Info (12128): Elaborating entity "dffg26" for hierarchy "IDEX:IDEXRegisters|dffg26:jumpAddr" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd Line: 206
+Info (12128): Elaborating entity "dffg6" for hierarchy "IDEX:IDEXRegisters|dffg6:opCode" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd Line: 276
+Info (12128): Elaborating entity "IFID" for hierarchy "IFID:IFIDRegisters" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 705
+Info (12128): Elaborating entity "EXMEM" for hierarchy "EXMEM:EXMEMRegisters" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 713
+Info (12128): Elaborating entity "MEMWB" for hierarchy "MEMWB:MEMWBRegisters" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 762
+Info (12128): Elaborating entity "HazardController" for hierarchy "HazardController:HazardUnitNew" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 799
+Warning (10036): Verilog HDL or VHDL warning at HazardControllerOld.vhd(43): object "s1" assigned a value but never read File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhd Line: 43
+Warning (276027): Inferred dual-clock RAM node "mem:IMem|ram_rtl_0" from synchronous design logic.  The read-during-write behavior of a dual-clock RAM is undefined and may not match the behavior of the original design.
+Info (19000): Inferred 2 megafunctions from design logic
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "mem:IMem|ram_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
+        Info (286033): Parameter WIDTH_A set to 32
+        Info (286033): Parameter WIDTHAD_A set to 10
+        Info (286033): Parameter NUMWORDS_A set to 1024
+        Info (286033): Parameter WIDTH_B set to 32
+        Info (286033): Parameter WIDTHAD_B set to 10
+        Info (286033): Parameter NUMWORDS_B set to 1024
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_REG_B set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_B set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_B set to NONE
+        Info (286033): Parameter ADDRESS_REG_B set to CLOCK1
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "mem:DMem|ram_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to SINGLE_PORT
+        Info (286033): Parameter WIDTH_A set to 32
+        Info (286033): Parameter WIDTHAD_A set to 10
+        Info (286033): Parameter NUMWORDS_A set to 1024
+        Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_A set to NONE
+        Info (286033): Parameter READ_DURING_WRITE_MODE_PORT_A set to OLD_DATA
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+Info (12130): Elaborated megafunction instantiation "mem:IMem|altsyncram:ram_rtl_0"
+Info (12133): Instantiated megafunction "mem:IMem|altsyncram:ram_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
+    Info (12134): Parameter "WIDTH_A" = "32"
+    Info (12134): Parameter "WIDTHAD_A" = "10"
+    Info (12134): Parameter "NUMWORDS_A" = "1024"
+    Info (12134): Parameter "WIDTH_B" = "32"
+    Info (12134): Parameter "WIDTHAD_B" = "10"
+    Info (12134): Parameter "NUMWORDS_B" = "1024"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_REG_B" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_B" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_B" = "NONE"
+    Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK1"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_02e1.tdf
+    Info (12023): Found entity 1: altsyncram_02e1 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/internal/QuartusWork/db/altsyncram_02e1.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "mem:DMem|altsyncram:ram_rtl_0"
+Info (12133): Instantiated megafunction "mem:DMem|altsyncram:ram_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "SINGLE_PORT"
+    Info (12134): Parameter "WIDTH_A" = "32"
+    Info (12134): Parameter "WIDTHAD_A" = "10"
+    Info (12134): Parameter "NUMWORDS_A" = "1024"
+    Info (12134): Parameter "OUTDATA_REG_A" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "READ_DURING_WRITE_MODE_PORT_A" = "OLD_DATA"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_eg81.tdf
+    Info (12023): Found entity 1: altsyncram_eg81 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/internal/QuartusWork/db/altsyncram_eg81.tdf Line: 28
+Warning (12241): 4 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 22 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "iInstAddr[0]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[1]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[12]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[13]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[14]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[15]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[16]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[17]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[18]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[19]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[20]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[21]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[22]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[23]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[24]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[25]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[26]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[27]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[28]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[29]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[30]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+    Warning (15610): No output dependent on input pin "iInstAddr[31]" File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 28
+Info (21057): Implemented 4282 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 67 input pins
+    Info (21059): Implemented 32 output pins
+    Info (21061): Implemented 4119 logic cells
+    Info (21064): Implemented 64 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 44 warnings
+    Info: Peak virtual memory: 727 megabytes
+    Info: Processing ended: Sat Dec 10 15:16:53 2022
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:12
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 21.1.1 Build 850 06/23/2022 SJ Standard Edition
+    Info: Copyright (C) 2022  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Sat Dec 10 15:16:53 2022
+Info: Command: quartus_fit --read_settings_files=on --write_settings_files=off toolflow -c toolflow
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = toolflow
+Info: Revision = toolflow
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (119006): Selected device EP4CE115F29C7 for design "toolflow"
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
+Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
+    Info (176445): Device EP4CE40F29C7 is compatible
+    Info (176445): Device EP4CE40F29I7 is compatible
+    Info (176445): Device EP4CE30F29C7 is compatible
+    Info (176445): Device EP4CE30F29I7 is compatible
+    Info (176445): Device EP4CE55F29C7 is compatible
+    Info (176445): Device EP4CE55F29I7 is compatible
+    Info (176445): Device EP4CE75F29C7 is compatible
+    Info (176445): Device EP4CE75F29I7 is compatible
+    Info (176445): Device EP4CE115F29I7 is compatible
+Info (169124): Fitter converted 5 user pins into dedicated programming pins
+    Info (169125): Pin ~ALTERA_ASDO_DATA1~ is reserved at location F4
+    Info (169125): Pin ~ALTERA_FLASH_nCE_nCSO~ is reserved at location E2
+    Info (169125): Pin ~ALTERA_DCLK~ is reserved at location P3
+    Info (169125): Pin ~ALTERA_DATA0~ is reserved at location N7
+    Info (169125): Pin ~ALTERA_nCEO~ is reserved at location P28
+Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+Info (176045): Design uses memory blocks. Violating setup or hold times of memory block address registers for either read or write operations could cause memory contents to be corrupted. Make sure that all memory block address registers meet the setup and hold time requirements.
+Critical Warning (169085): No exact pin location assignment(s) for 99 pins of 99 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
+Info (332104): Reading SDC File: 'toolflow.sdc'
+Info (332129): Detected timing requirements -- optimizing circuit to achieve only the specified requirements
+Info (332111): Found 1 clocks
+    Info (332111):   Period   Clock Name
+    Info (332111): ======== ============
+    Info (332111):   20.000         iCLK
+Info (176353): Automatically promoted node iCLK~input (placed in PIN J1 (CLK1, DIFFCLK_0n)) File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 25
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G2
+Info (176353): Automatically promoted node iRST~input (placed in PIN Y2 (CLK2, DIFFCLK_1p)) File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G4
+    Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
+        Info (176357): Destination node fetch:Fetch1|PC:PC1|DffR_N:REG0|dffg:\G_NBit_DFFR:0:DFFR|s_Q File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd Line: 53
+        Info (176357): Destination node fetch:Fetch1|PC:PC1|DffR_N:REG0|dffg:\G_NBit_DFFR:1:DFFR|s_Q File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd Line: 53
+        Info (176357): Destination node fetch:Fetch1|PC:PC1|DffR_N:REG0|dffg:\G_NBit_DFFR:28:DFFR|s_Q File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd Line: 53
+        Info (176357): Destination node fetch:Fetch1|PC:PC1|DffR_N:REG0|dffg:\G_NBit_DFFR:29:DFFR|s_Q File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd Line: 53
+        Info (176357): Destination node fetch:Fetch1|PC:PC1|DffR_N:REG0|dffg:\G_NBit_DFFR:30:DFFR|s_Q File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd Line: 53
+        Info (176357): Destination node fetch:Fetch1|PC:PC1|DffR_N:REG0|dffg:\G_NBit_DFFR:31:DFFR|s_Q File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd Line: 53
+        Info (176357): Destination node mux2t1_5:FLushSelMux|mux2t1:\G_5Bit_MUX:1:MUXI|org2:g_or3|o_F~2 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/org2.vhd Line: 27
+        Info (176357): Destination node mux2t1_5:FLushSelMux|mux2t1:\G_5Bit_MUX:3:MUXI|org2:g_or3|o_F~0 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/org2.vhd Line: 27
+        Info (176357): Destination node fetch:Fetch1|PC:PC1|mux2t1_N:MUX1|mux2t1:\G_NBit_MUX:2:MUXI|andg2:g_And2|o_F~0 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andg2.vhd Line: 27
+        Info (176357): Destination node fetch:Fetch1|PC:PC1|mux2t1_N:MUX1|mux2t1:\G_NBit_MUX:3:MUXI|andg2:g_And2|o_F~0 File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andg2.vhd Line: 27
+        Info (176358): Non-global destination nodes limited to 10 nodes
+Info (176353): Automatically promoted node mux2t1_5:FLushSelMux|mux2t1:\G_5Bit_MUX:2:MUXI|org2:g_or3|o_F~3  File: /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/org2.vhd Line: 27
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
+Info (176233): Starting register packing
+Info (176235): Finished register packing
+    Extra Info (176219): No registers were packed into other blocks
+Info (176214): Statistics of I/O pins that need to be placed that use the same VCCIO and VREF, before I/O pin placement
+    Info (176211): Number of I/O pins in group: 97 (unused VREF, 2.5V VCCIO, 65 input, 32 output, 0 bidirectional)
+        Info (176212): I/O standards used: 2.5 V.
+Info (176215): I/O bank details before I/O pin placement
+    Info (176214): Statistics of I/O banks
+        Info (176213): I/O bank number 1 does not use VREF pins and has undetermined VCCIO pins. 5 total pin(s) used --  51 pins available
+        Info (176213): I/O bank number 2 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  62 pins available
+        Info (176213): I/O bank number 3 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  73 pins available
+        Info (176213): I/O bank number 4 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  71 pins available
+        Info (176213): I/O bank number 5 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  65 pins available
+        Info (176213): I/O bank number 6 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  57 pins available
+        Info (176213): I/O bank number 7 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  72 pins available
+        Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  71 pins available
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:03
+Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
+Info (170189): Fitter placement preparation operations beginning
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
+Info (170191): Fitter placement operations beginning
+Info (170137): Fitter placement was successful
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:05
+Info (170193): Fitter routing operations beginning
+Info (170195): Router estimated average interconnect usage is 1% of the available device resources
+    Info (170196): Router estimated peak interconnect usage is 29% of the available device resources in the region that extends from location X46_Y24 to location X57_Y36
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+    Info (170200): Optimizations that may affect the design's timing were skipped
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:05
+Info (11888): Total time spent on timing analysis during the Fitter is 1.05 seconds.
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (144001): Generated suppressed messages file /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/internal/QuartusWork/output_files/toolflow.fit.smsg
+Info: Quartus Prime Fitter was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 2010 megabytes
+    Info: Processing ended: Sat Dec 10 15:17:14 2022
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:40
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 21.1.1 Build 850 06/23/2022 SJ Standard Edition
+    Info: Copyright (C) 2022  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Sat Dec 10 15:17:14 2022
+Info: Command: quartus_asm --read_settings_files=on --write_settings_files=off toolflow -c toolflow
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (115031): Writing out detailed assembly data for power analysis
+Info (115030): Assembler is generating device programming files
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 527 megabytes
+    Info: Processing ended: Sat Dec 10 15:17:17 2022
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03

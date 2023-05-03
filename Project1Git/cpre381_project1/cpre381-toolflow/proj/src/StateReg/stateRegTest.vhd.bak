@@ -1,0 +1,190 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity stateRegTest is
+generic(N : integer := 32); -- Generic of type integer for input/output data width. Default value is 32
+
+  port( i_Clk        	: in std_logic;     -- Clock input
+        i_FlushIFID       : in std_logic;     -- Reset input
+	i_StallIFID         : in std_logic;
+	i_FlushIDEX       : in std_logic;     -- Reset input
+	i_StallIDEX         : in std_logic;
+	i_FlushEXMEM       : in std_logic;     -- Reset input
+	i_StallEXMEM         : in std_logic;
+	i_FlushMEMWB       : in std_logic;     -- Reset input
+	i_StallMEMWB         : in std_logic;
+	i_inst            : in std_logic_vector(31 downto 0);
+	o_inst            : out std_logic_vector(31 downto 0));
+
+end stateRegTest;
+
+architecture structure of stateRegTest is
+
+component IFID is
+  port(i_Clk        	: in std_logic;     -- Clock input
+        i_Flush        	: in std_logic;     -- Reset input
+	i_Stall         : in std_logic;
+	i_PC            : in std_logic_vector(31 downto 0);
+        i_Inst	    	: in std_logic_vector(31 downto 0);
+        o_Inst		: out std_logic_vector(31 downto 0));
+end component;
+
+component IDEX is
+  port(i_Clk        	: in std_logic;     -- Clock input
+        i_RST       	: in std_logic;     -- Reset input
+	i_Stall         : in std_logic;
+	i_inst		: in std_logic_vector(31 downto 0);
+	i_ALUSrcSel	: in std_logic;
+	i_ALUOpCode     : in std_logic_vector(4 downto 0);
+        i_regDst        : in std_logic_vector(4 downto 0);
+	i_MemWrEn	: in std_logic;
+        i_branchSel     : in std_logic;
+	i_memToRegSel   : in std_logic;
+	i_regRsIn       : in std_logic_vector(4 downto 0);
+        i_regRtIn       : in std_logic_vector(4 downto 0);
+	i_RegWrAddr    	: in std_logic_vector(4 downto 0);
+	i_JaloDataWrite : in std_logic_vector(31 downto 0);
+	i_regRsOut      : in std_logic_vector(31 downto 0);
+        i_regRtOut      : in std_logic_vector(31 downto 0);
+	i_immMuxOut   	: in std_logic_vector(31 downto 0);
+	i_jumpAddr      : in std_logic_vector(25 downto 0);
+	i_branchAddr    : in std_logic_vector(31 downto 0);
+	i_jumpSel     	: in std_logic;
+	i_jumpRegSel    : in std_logic;
+	i_jalSel    	: in std_logic;
+	i_memReadSel    : in std_logic;
+	i_regWr         : in std_logic;
+	i_PC            : in std_logic_vector(31 downto 0);
+	i_Halt          : in std_logic;
+	i_opcode	: in std_logic_vector(5 downto 0);
+	o_inst		: out std_logic_vector(31 downto 0));
+
+end component;
+
+component EXMEM is
+  port(i_CLK		: in std_logic;
+	i_RST		: in std_logic; -- (1 sets reg to 0)
+	i_EN  : in std_logic;
+	i_inst		: in std_logic_vector(31 downto 0);
+	o_inst		: out std_logic_vector(31 downto 0);
+        i_readData2 	: in std_logic_vector(31 downto 0);
+	     i_aluOut	 	: in std_logic_vector(31 downto 0);
+	     i_writeReg 	: in std_logic_vector(4 downto 0);
+	     i_overflow		: in std_logic;
+	     i_MemtoReg		: in std_logic;
+	     i_weMem		: in std_logic;
+	     i_weReg		: in std_logic;
+	     i_DMemRead		: in std_logic;
+	     i_halt		: in std_logic;
+	     i_imm              : in std_logic;
+		i_branch	: in std_logic;
+		o_branch	: out std_logic;
+		i_jump		: in std_logic);     -- Data value input
+
+
+end component;
+
+component MEMWB is
+  port(i_CLK		: in std_logic;
+       i_RST		: in std_logic; -- (1 sets reg to 0)
+	i_EN  : in std_logic;
+	i_memReadData 	: in std_logic_vector(31 downto 0);
+	i_aluOut	: in std_logic_vector(31 downto 0);
+	i_writeReg 	: in std_logic_vector(4 downto 0);
+	i_overflow	: in std_logic;
+	i_MemtoReg		: in std_logic;
+	i_weReg		: in std_logic;
+	i_halt		: in std_logic;
+	i_imm		: in std_logic;
+	i_branch	: in std_logic;
+	o_branch	: out std_logic;
+	i_jump		: in std_logic;
+	i_inst		: in std_logic_vector(31 downto 0);
+	o_inst		: out std_logic_vector(31 downto 0));
+
+end component;
+
+signal s_IFID, s_IDEX, s_EXMEM, s_PC, s_readData2, s_aluOut, s_JaloDataWrite, s_regRsOut, s_regRtOut, s_immMuxOut, s_branchAddr, s_memReadData : std_logic_vector(31 downto 0);
+signal s_writeReg, s_ALUOpCode, s_regDst, s_regRsIn, s_regRtIn, s_RegWrAddr: std_logic_vector(4 downto 0);
+signal s_overflow, s_MemtoReg, s_weMem, s_weReg, s_DMemRead, s_halt, s_branch, s_jump, s_imm, s_ALUSrcSel, s_MemWrEN, s_branchSel, s_memToRegSel, s_jumpSel, s_jumpRegSel, s_jalSel : std_logic;
+signal s_memReadSel, s_regWr : std_logic;
+signal s_opCode : std_logic_vector(5 downto 0);
+signal s_jumpAddr : std_logic_vector(25 downto 0);
+
+begin
+
+IFIDREG: IFID port map(
+	i_Clk => i_Clk,
+	i_Flush => i_FlushIFID,
+	i_Stall  => i_StallIFID,
+	i_Inst   => i_inst,
+	i_PC => s_PC,
+	o_Inst   => s_IFID);
+
+IDEXREG: IDEX port map(
+	i_Clk => i_Clk,
+	i_RST => i_FlushIDEX,
+	i_Stall  => i_StallIDEX,
+	i_inst   => s_IFID,
+	i_ALUSrcSel => s_ALUSrcSel,
+	i_ALUOpCode => s_ALUOpCode,
+	i_regDst => s_regDst, 
+	i_MemWrEn => s_MemWrEn,
+	i_branchSel => s_branchSel,
+	i_memToRegSel => s_memToRegSel,
+	i_regRsIn => s_regRsIn,
+	i_regRtIn => s_regRtIn, 
+	i_RegWrAddr => s_RegWrAddr,
+	i_JaloDataWrite => s_JaloDataWrite,
+	i_regRsOut => s_regRsOut, 
+	i_regRtOut =>s_regRtOut, 
+	i_immMuxOut => s_immMuxOut,
+	i_jumpAddr => s_jumpAddr, 
+	i_branchAddr => s_branchAddr, 
+	i_jumpSel => s_jumpSel,
+	i_jumpRegSel => s_jumpRegSel,
+	i_jalSel => s_jalSel,
+	i_memReadSel => s_memReadSel,
+	i_regWr => s_regWr, 
+	i_PC => s_PC,
+	i_Halt => s_Halt,
+	i_opcode => s_opcode,
+	o_inst   => s_IDEX);
+
+EXMEMREG: EXMEM port map(
+	i_Clk => i_Clk,
+	i_RST => i_FlushEXMEM,
+	i_EN => i_StallEXMEM,
+	i_inst   => s_IDEX,
+	o_inst  => s_EXMEM,
+	i_aluOut => s_aluOut,
+	i_readData2 => s_readData2,
+	i_writeReg => s_writeReg,
+	i_overflow => s_overflow,
+	i_MemtoReg => s_MemtoReg,
+	i_weMem => s_weMem,
+	i_weReg => s_weReg,
+	i_DMemRead => s_DMemRead,
+	i_halt => s_halt,
+	i_branch => s_branch,
+	i_imm    => s_imm,
+	i_jump => s_jump);
+
+MEMWBREG: MEMWB port map(
+	i_Clk => i_Clk,
+	i_RST => i_FlushMEMWB,
+	i_EN  => i_StallMEMWB,
+	i_inst   => s_EXMEM,
+	i_memReadData => s_memReadData, 	
+	i_aluOut => s_aluOut,
+	i_writeReg => s_writeReg,
+	i_overflow => s_overflow, 
+	i_MemtoReg => s_MemtoReg,	
+	i_weReg	=> s_weReg,
+	i_halt => s_halt, 		
+	i_imm => s_imm,	
+	i_branch => s_branch,	
+	i_jump => s_jump,		
+	o_inst   => o_inst);
+
+end structure;

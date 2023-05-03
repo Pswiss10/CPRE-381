@@ -1,0 +1,278 @@
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+Start time: 22:17:15 on Dec 10,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/MIPS_types.vhd internal/testpy/tb.vhd proj/src/MIPS_types.vhd proj/src/TopLevel/MIPS_Processor.vhd proj/src/TopLevel/mem.vhd proj/src/FetchLogic/org2.vhd proj/src/FetchLogic/dffg.vhd proj/src/FetchLogic/Mux32_1.vhd proj/src/FetchLogic/xorg2.vhd proj/src/FetchLogic/PC.vhd proj/src/FetchLogic/mux2t1_5.vhd proj/src/FetchLogic/mux2t1_N.vhd proj/src/FetchLogic/NbitRegister.vhd proj/src/FetchLogic/AdderH.vhd proj/src/FetchLogic/fetch.vhd proj/src/FetchLogic/andg2.vhd proj/src/FetchLogic/AdderH_n.vhd proj/src/FetchLogic/DffR_N.vhd proj/src/FetchLogic/bit5t32Decoder.vhd proj/src/FetchLogic/invg.vhd proj/src/StateReg/stateRegTest.vhd proj/src/StateReg/dffg6.vhd proj/src/StateReg/EXMEM.vhd proj/src/StateReg/MEMWB.vhd proj/src/StateReg/dffg26.vhd proj/src/StateReg/IDEX.vhd proj/src/StateReg/dffg.vhd proj/src/StateReg/dffg5.vhd proj/src/StateReg/tb_stateRegTest.vhd proj/src/StateReg/IFID.vhd proj/src/StateReg/dffg32.vhd proj/src/Hazard Control/HazardControllerOld.vhd proj/src/ALU/xorIns.vhd proj/src/ALU/adduIns.vhd proj/src/ALU/norIns.vhd proj/src/ALU/invg.vhd proj/src/ALU/move_N.vhd proj/src/ALU/jumpAndLink.vhd proj/src/ALU/shiftLeftLogical.vhd proj/src/ALU/repl_qb.vhd proj/src/ALU/notIns.vhd proj/src/ALU/addIns.vhd proj/src/ALU/bne.vhd proj/src/ALU/NBit-Adder_Sub.vhd proj/src/ALU/xorg2.vhd proj/src/ALU/subuIns.vhd proj/src/ALU/andImmIns.vhd proj/src/ALU/addiIns.vhd proj/src/ALU/RippleAdder.vhd proj/src/ALU/FullAdder.vhd proj/src/ALU/Slt.vhd proj/src/ALU/andIns.vhd proj/src/ALU/storeWord.vhd proj/src/ALU/loadWord.vhd proj/src/ALU/mux2t1_N.vhd proj/src/ALU/beq.vhd proj/src/ALU/ALU.vhd proj/src/ALU/orImm.vhd proj/src/ALU/orIns.vhd proj/src/ALU/mux2t1.vhd proj/src/ALU/XorImm.vhd proj/src/ALU/ALUMux.vhd proj/src/ALU/SltImm.vhd proj/src/ALU/loadUpperImm.vhd proj/src/ALU/addiuIns.vhd proj/src/ALU/subIns.vhd proj/src/ALU/andg2.vhd proj/src/ALU/shiftRightLogical.vhd proj/src/ALU/bit29_1Mux.vhd proj/src/ALU/jump.vhd proj/src/ALU/shiftRightArithmetic.vhd proj/src/ALU/Adder.vhd proj/src/ALU/jumpRegister.vhd proj/src/ALU/one'sComplement.vhd proj/src/ALU/org2.vhd proj/src/Old Lab Components/bitExtender.vhd proj/src/Old Lab Components/tb_ALUActualDesignvhd.vhd proj/src/Old Lab Components/one'sComplement.vhd proj/src/Old Lab Components/Mux32_1.vhd proj/src/Old Lab Components/mux2t1.vhd proj/src/Old Lab Components/invg.vhd proj/src/Old Lab Components/ALUFinalDesign.vhd proj/src/Old Lab Components/andg2.vhd proj/src/Old Lab Components/dffg.vhd proj/src/Old Lab Components/org2.vhd proj/src/Old Lab Components/NbitRegister.vhd proj/src/Old Lab Components/RegisterFile32_32.vhd proj/src/Old Lab Components/nbit32_1Mux.vhd proj/src/Old Lab Components/bit5t32Decoder.vhd proj/src/Control Logic/mux2t1.vhd proj/src/Control Logic/org2.vhd proj/src/Control Logic/ControlDecoderRtype.vhd proj/src/Control Logic/controlUnit.vhd proj/src/Control Logic/mux2t1_16.vhd proj/src/Control Logic/invg.vhd proj/src/Control Logic/ControlDecoderOG.vhd proj/src/Control Logic/andg2.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package MIPS_types
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+-- Compiling package TwoDArrayForALU
+-- Compiling package TwoDArray
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+** Warning: proj/src/MIPS_types.vhd(15): (vcom-1615) Existing package 'MIPS_types' at line 15 will be overwritten.
+-- Compiling package MIPS_types
+** Warning: proj/src/MIPS_types.vhd(29): (vcom-1615) Existing package body 'MIPS_types(body)' at line 29 will be overwritten.
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+** Warning: proj/src/MIPS_types.vhd(37): (vcom-1615) Existing package 'TwoDArrayForALU' at line 37 will be overwritten.
+-- Compiling package TwoDArrayForALU
+** Warning: proj/src/MIPS_types.vhd(46): (vcom-1615) Existing package 'TwoDArray' at line 46 will be overwritten.
+-- Compiling package TwoDArray
+-- Loading package MIPS_types
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+** Warning: proj/src/FetchLogic/org2.vhd(23): (vcom-1615) Existing entity 'org2' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/org2.vhd(23) will be overwritten.
+-- Compiling entity org2
+** Warning: proj/src/FetchLogic/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/org2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of org2
+** Warning: proj/src/FetchLogic/dffg.vhd(23): (vcom-1615) Existing entity 'dffg' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/dffg.vhd(23) will be overwritten.
+-- Compiling entity dffg
+** Warning: proj/src/FetchLogic/dffg.vhd(33): (vcom-1615) Existing architecture 'dffg(mixed)' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/dffg.vhd(33) will be overwritten.
+-- Compiling architecture mixed of dffg
+** Warning: proj/src/FetchLogic/Mux32_1.vhd(4): (vcom-1615) Existing entity 'Mux32_1' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/Mux32_1.vhd(4) will be overwritten.
+-- Compiling entity Mux32_1
+** Warning: proj/src/FetchLogic/Mux32_1.vhd(12): (vcom-1615) Existing architecture 'Mux32_1(dataflow)' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/Mux32_1.vhd(12) will be overwritten.
+-- Compiling architecture dataflow of Mux32_1
+** Warning: proj/src/FetchLogic/xorg2.vhd(23): (vcom-1615) Existing entity 'xorg2' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorg2.vhd(23) will be overwritten.
+-- Compiling entity xorg2
+** Warning: proj/src/FetchLogic/xorg2.vhd(31): (vcom-1615) Existing architecture 'xorg2(dataflow)' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of xorg2
+-- Compiling entity PC
+-- Compiling architecture structural of PC
+-- Compiling entity mux2t1_5
+-- Compiling architecture structural of mux2t1_5
+** Warning: proj/src/FetchLogic/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1_N.vhd(21) will be overwritten.
+-- Compiling entity mux2t1_N
+** Warning: proj/src/FetchLogic/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/mux2t1_N.vhd(30) will be overwritten.
+-- Compiling architecture structural of mux2t1_N
+** Warning: proj/src/FetchLogic/NbitRegister.vhd(5): (vcom-1615) Existing entity 'NbitRegister' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/NbitRegister.vhd(5) will be overwritten.
+-- Compiling entity NbitRegister
+** Warning: proj/src/FetchLogic/NbitRegister.vhd(18): (vcom-1615) Existing architecture 'NbitRegister(structural)' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/NbitRegister.vhd(18) will be overwritten.
+-- Compiling architecture structural of NbitRegister
+-- Compiling entity AdderH
+-- Compiling architecture structure of AdderH
+-- Compiling entity fetch
+-- Compiling architecture Mixed of fetch
+** Warning: proj/src/FetchLogic/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/andg2.vhd(23) will be overwritten.
+-- Compiling entity andg2
+** Warning: proj/src/FetchLogic/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/andg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of andg2
+-- Compiling entity AdderH_n
+-- Compiling architecture structural of AdderH_n
+-- Compiling entity DffR_N
+-- Compiling architecture structural of DffR_N
+** Warning: proj/src/FetchLogic/bit5t32Decoder.vhd(5): (vcom-1615) Existing entity 'bit5_32Decoder' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/bit5t32Decoder.vhd(5) will be overwritten.
+-- Compiling entity bit5_32Decoder
+** Warning: proj/src/FetchLogic/bit5t32Decoder.vhd(14): (vcom-1615) Existing architecture 'bit5_32Decoder(dataflow)' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/bit5t32Decoder.vhd(14) will be overwritten.
+-- Compiling architecture dataflow of bit5_32Decoder
+** Warning: proj/src/FetchLogic/invg.vhd(23): (vcom-1615) Existing entity 'invg' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/invg.vhd(23) will be overwritten.
+-- Compiling entity invg
+** Warning: proj/src/FetchLogic/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/invg.vhd(30) will be overwritten.
+-- Compiling architecture dataflow of invg
+-- Compiling entity stateRegTest
+-- Compiling architecture structure of stateRegTest
+-- Compiling entity dffg6
+-- Compiling architecture structural of dffg6
+-- Compiling entity EXMEM
+-- Compiling architecture structural of EXMEM
+-- Compiling entity MEMWB
+-- Compiling architecture structural of MEMWB
+-- Compiling entity dffg26
+-- Compiling architecture structural of dffg26
+-- Compiling entity IDEX
+-- Compiling architecture structure of IDEX
+** Warning: proj/src/StateReg/dffg.vhd(23): (vcom-1615) Existing entity 'dffg' at proj/src/FetchLogic/dffg.vhd(23) will be overwritten.
+-- Compiling entity dffg
+** Warning: proj/src/StateReg/dffg.vhd(33): (vcom-1615) Existing architecture 'dffg(mixed)' at proj/src/FetchLogic/dffg.vhd(33) will be overwritten.
+-- Compiling architecture mixed of dffg
+-- Compiling entity dffg5
+-- Compiling architecture structural of dffg5
+-- Compiling entity tb_stateRegTest
+-- Compiling architecture structure of tb_stateRegTest
+-- Compiling entity IFID
+-- Compiling architecture structure of IFID
+-- Compiling entity dffg32
+-- Compiling architecture structural of dffg32
+-- Compiling entity HazardController
+-- Compiling architecture dataflow of HazardController
+-- Compiling entity xorIns
+-- Compiling architecture dataflow of xorIns
+-- Compiling entity adduIns
+-- Compiling architecture structural of adduIns
+-- Compiling entity norIns
+-- Compiling architecture dataflow of norIns
+** Warning: proj/src/ALU/invg.vhd(23): (vcom-1615) Existing entity 'invg' at proj/src/FetchLogic/invg.vhd(23) will be overwritten.
+-- Compiling entity invg
+** Warning: proj/src/ALU/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at proj/src/FetchLogic/invg.vhd(30) will be overwritten.
+-- Compiling architecture dataflow of invg
+-- Compiling entity move_N
+-- Compiling architecture dataflow of move_N
+-- Compiling entity jumpAndLink
+-- Compiling architecture dataflow of jumpAndLink
+-- Compiling entity shiftLeftLogical
+-- Compiling architecture structural of shiftLeftLogical
+-- Compiling entity repl_qb
+-- Compiling architecture dataflow of repl_qb
+-- Compiling entity notIns
+-- Compiling architecture dataflow of notIns
+-- Compiling entity addIns
+-- Compiling architecture structural of addIns
+-- Compiling entity bne
+-- Compiling architecture mixed of bne
+-- Compiling entity NBitAdder_Sub
+-- Compiling architecture structural of NBitAdder_Sub
+** Warning: proj/src/ALU/xorg2.vhd(23): (vcom-1615) Existing entity 'xorg2' at proj/src/FetchLogic/xorg2.vhd(23) will be overwritten.
+-- Compiling entity xorg2
+** Warning: proj/src/ALU/xorg2.vhd(31): (vcom-1615) Existing architecture 'xorg2(dataflow)' at proj/src/FetchLogic/xorg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of xorg2
+-- Compiling entity subuIns
+-- Compiling architecture structural of subuIns
+-- Compiling entity andImmIns
+-- Compiling architecture dataflow of andImmIns
+-- Compiling entity addiIns
+-- Compiling architecture structural of addiIns
+-- Compiling entity RippleAdder
+-- Compiling architecture structural of RippleAdder
+-- Compiling entity FullAdder
+-- Compiling architecture structural of FullAdder
+-- Compiling entity Slt
+-- Compiling architecture mixed of Slt
+-- Compiling entity andIns
+-- Compiling architecture dataflow of andIns
+-- Compiling entity storeWord
+-- Compiling architecture structural of storeWord
+-- Compiling entity loadWord
+-- Compiling architecture structural of loadWord
+** Warning: proj/src/ALU/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at proj/src/FetchLogic/mux2t1_N.vhd(21) will be overwritten.
+-- Compiling entity mux2t1_N
+** Warning: proj/src/ALU/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at proj/src/FetchLogic/mux2t1_N.vhd(30) will be overwritten.
+-- Compiling architecture structural of mux2t1_N
+-- Compiling entity beq
+-- Compiling architecture mixed of beq
+-- Loading package TwoDArrayForALU
+-- Compiling entity ALU
+-- Compiling architecture structural of ALU
+-- Compiling entity orImm
+-- Compiling architecture dataflow of orImm
+-- Compiling entity orIns
+-- Compiling architecture dataflow of orIns
+** Warning: proj/src/ALU/mux2t1.vhd(21): (vcom-1615) Existing entity 'mux2t1' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/mux2t1.vhd(21) will be overwritten.
+-- Compiling entity mux2t1
+** Warning: proj/src/ALU/mux2t1.vhd(29): (vcom-1615) Existing architecture 'mux2t1(structural)' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/mux2t1.vhd(29) will be overwritten.
+-- Compiling architecture structural of mux2t1
+-- Compiling entity XorImm
+-- Compiling architecture dataflow of XorImm
+-- Compiling entity ALUMux
+-- Compiling architecture dataflow of ALUMux
+-- Compiling entity SltImm
+-- Compiling architecture mixed of SltImm
+-- Compiling entity loadUpperImm
+-- Compiling architecture dataflow of loadUpperImm
+-- Compiling entity addiuIns
+-- Compiling architecture structural of addiuIns
+-- Compiling entity subIns
+-- Compiling architecture structural of subIns
+** Warning: proj/src/ALU/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at proj/src/FetchLogic/andg2.vhd(23) will be overwritten.
+-- Compiling entity andg2
+** Warning: proj/src/ALU/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at proj/src/FetchLogic/andg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of andg2
+-- Compiling entity shiftRightLogical
+-- Compiling architecture structural of shiftRightLogical
+-- Compiling entity bit29_1Mux
+-- Compiling architecture dataflow of bit29_1Mux
+-- Compiling entity jump
+-- Compiling architecture dataflow of jump
+-- Compiling entity shiftRightArithmetic
+-- Compiling architecture structural of shiftRightArithmetic
+-- Compiling entity Adder
+-- Compiling architecture structural of Adder
+-- Compiling entity jumpRegister
+-- Compiling architecture dataflow of jumpRegister
+** Warning: proj/src/ALU/one'sComplement.vhd(21): (vcom-1615) Existing entity 'OnesComp' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/one'sComplement.vhd(21) will be overwritten.
+-- Compiling entity OnesComp
+** Warning: proj/src/ALU/one'sComplement.vhd(28): (vcom-1615) Existing architecture 'OnesComp(structural)' at /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/one'sComplement.vhd(28) will be overwritten.
+-- Compiling architecture structural of OnesComp
+** Warning: proj/src/ALU/org2.vhd(23): (vcom-1615) Existing entity 'org2' at proj/src/FetchLogic/org2.vhd(23) will be overwritten.
+-- Compiling entity org2
+** Warning: proj/src/ALU/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at proj/src/FetchLogic/org2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of org2
+-- Compiling entity bitExtender
+-- Compiling architecture dataflow of bitExtender
+-- Loading package TwoDArray
+-- Compiling entity tb_dp_1
+-- Compiling architecture mixed of tb_dp_1
+** Warning: proj/src/Old Lab Components/one'sComplement.vhd(21): (vcom-1615) Existing entity 'OnesComp' at proj/src/ALU/one'sComplement.vhd(21) will be overwritten.
+-- Compiling entity OnesComp
+** Warning: proj/src/Old Lab Components/one'sComplement.vhd(28): (vcom-1615) Existing architecture 'OnesComp(structural)' at proj/src/ALU/one'sComplement.vhd(28) will be overwritten.
+-- Compiling architecture structural of OnesComp
+** Warning: proj/src/Old Lab Components/Mux32_1.vhd(4): (vcom-1615) Existing entity 'Mux32_1' at proj/src/FetchLogic/Mux32_1.vhd(4) will be overwritten.
+-- Compiling entity Mux32_1
+** Warning: proj/src/Old Lab Components/Mux32_1.vhd(12): (vcom-1615) Existing architecture 'Mux32_1(dataflow)' at proj/src/FetchLogic/Mux32_1.vhd(12) will be overwritten.
+-- Compiling architecture dataflow of Mux32_1
+** Warning: proj/src/Old Lab Components/mux2t1.vhd(21): (vcom-1615) Existing entity 'mux2t1' at proj/src/ALU/mux2t1.vhd(21) will be overwritten.
+-- Compiling entity mux2t1
+** Warning: proj/src/Old Lab Components/mux2t1.vhd(29): (vcom-1615) Existing architecture 'mux2t1(structural)' at proj/src/ALU/mux2t1.vhd(29) will be overwritten.
+-- Compiling architecture structural of mux2t1
+** Warning: proj/src/Old Lab Components/invg.vhd(23): (vcom-1615) Existing entity 'invg' at proj/src/ALU/invg.vhd(23) will be overwritten.
+-- Compiling entity invg
+** Warning: proj/src/Old Lab Components/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at proj/src/ALU/invg.vhd(30) will be overwritten.
+-- Compiling architecture dataflow of invg
+-- Compiling entity ALUFinalDesign
+-- Compiling architecture structural of ALUFinalDesign
+** Warning: proj/src/Old Lab Components/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at proj/src/ALU/andg2.vhd(23) will be overwritten.
+-- Compiling entity andg2
+** Warning: proj/src/Old Lab Components/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at proj/src/ALU/andg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of andg2
+** Warning: proj/src/Old Lab Components/dffg.vhd(23): (vcom-1615) Existing entity 'dffg' at proj/src/StateReg/dffg.vhd(23) will be overwritten.
+-- Compiling entity dffg
+** Warning: proj/src/Old Lab Components/dffg.vhd(33): (vcom-1615) Existing architecture 'dffg(mixed)' at proj/src/StateReg/dffg.vhd(33) will be overwritten.
+-- Compiling architecture mixed of dffg
+** Warning: proj/src/Old Lab Components/org2.vhd(23): (vcom-1615) Existing entity 'org2' at proj/src/ALU/org2.vhd(23) will be overwritten.
+-- Compiling entity org2
+** Warning: proj/src/Old Lab Components/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at proj/src/ALU/org2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of org2
+** Warning: proj/src/Old Lab Components/NbitRegister.vhd(5): (vcom-1615) Existing entity 'NbitRegister' at proj/src/FetchLogic/NbitRegister.vhd(5) will be overwritten.
+-- Compiling entity NbitRegister
+** Warning: proj/src/Old Lab Components/NbitRegister.vhd(18): (vcom-1615) Existing architecture 'NbitRegister(structural)' at proj/src/FetchLogic/NbitRegister.vhd(18) will be overwritten.
+-- Compiling architecture structural of NbitRegister
+-- Compiling entity RegisterFile32_32
+-- Compiling architecture structural of RegisterFile32_32
+-- Compiling entity nbit32_1Mux
+-- Compiling architecture dataflow of nbit32_1Mux
+** Warning: proj/src/Old Lab Components/bit5t32Decoder.vhd(5): (vcom-1615) Existing entity 'bit5_32Decoder' at proj/src/FetchLogic/bit5t32Decoder.vhd(5) will be overwritten.
+-- Compiling entity bit5_32Decoder
+** Warning: proj/src/Old Lab Components/bit5t32Decoder.vhd(14): (vcom-1615) Existing architecture 'bit5_32Decoder(dataflow)' at proj/src/FetchLogic/bit5t32Decoder.vhd(14) will be overwritten.
+-- Compiling architecture dataflow of bit5_32Decoder
+** Warning: proj/src/Control Logic/mux2t1.vhd(21): (vcom-1615) Existing entity 'mux2t1' at proj/src/Old Lab Components/mux2t1.vhd(21) will be overwritten.
+-- Compiling entity mux2t1
+** Warning: proj/src/Control Logic/mux2t1.vhd(29): (vcom-1615) Existing architecture 'mux2t1(structural)' at proj/src/Old Lab Components/mux2t1.vhd(29) will be overwritten.
+-- Compiling architecture structural of mux2t1
+** Warning: proj/src/Control Logic/org2.vhd(23): (vcom-1615) Existing entity 'org2' at proj/src/Old Lab Components/org2.vhd(23) will be overwritten.
+-- Compiling entity org2
+** Warning: proj/src/Control Logic/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at proj/src/Old Lab Components/org2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of org2
+-- Compiling entity controlDecoderRtype
+-- Compiling architecture dataflow of controlDecoderRtype
+-- Compiling entity controlUnit
+-- Compiling architecture structural of controlUnit
+-- Compiling entity mux2t1_16
+-- Compiling architecture structural of mux2t1_16
+** Warning: proj/src/Control Logic/invg.vhd(23): (vcom-1615) Existing entity 'invg' at proj/src/Old Lab Components/invg.vhd(23) will be overwritten.
+-- Compiling entity invg
+** Warning: proj/src/Control Logic/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at proj/src/Old Lab Components/invg.vhd(30) will be overwritten.
+-- Compiling architecture dataflow of invg
+-- Compiling entity controlDecoderOG
+-- Compiling architecture dataflow of controlDecoderOG
+** Warning: proj/src/Control Logic/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at proj/src/Old Lab Components/andg2.vhd(23) will be overwritten.
+-- Compiling entity andg2
+** Warning: proj/src/Control Logic/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at proj/src/Old Lab Components/andg2.vhd(31) will be overwritten.
+-- Compiling architecture dataflow of andg2
+End time: 22:17:15 on Dec 10,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 64

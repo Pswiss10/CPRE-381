@@ -1,0 +1,91 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+
+entity HazardControllerOld is
+  port(
+       i_ReadRegRSID          : in std_logic_vector(4 downto 0);     -- Next RS read dstination
+	i_ReadRegRTID          : in std_logic_vector(4 downto 0);     -- Next RT read dstination
+	i_ReadRegDSTID          : in std_logic_vector(4 downto 0);     -- Next RT read dstination
+	i_dstRegEX 	:in std_logic_vector(4 downto 0);     -- Destination for Execution Stage
+	i_dstRegMEM 	:in std_logic_vector(4 downto 0);     -- Destination for Mem stage
+	i_dstRegWB 	:in std_logic_vector(4 downto 0);     -- Destination for write Back stage
+	i_branching	: in std_logic;
+	i_Jumping       : in std_logic;
+	i_immEX		: in std_logic;
+	i_immMEM	: in std_logic;
+	i_immWB		: in std_logic;
+	i_FirstPC		    : in std_logic_vector(31 downto 0);
+	o_stall		: out std_logic_vector(4 downto 0);
+        o_flush          : out std_logic_vector(4 downto 0));   
+
+end HazardControllerOld;
+
+
+
+architecture dataflow of HazardControllerOld is 
+
+signal s1 : std_logic_vector(7 downto 0);
+	begin 
+
+Process(i_ReadRegRSID, i_ReadRegRTID, i_ReadRegDSTID, i_dstRegEX, i_dstRegMEM , i_dstRegWB, i_branching, i_Jumping, i_immEX, i_immMEM, i_immWB, i_FirstPC)
+
+begin
+if not (i_FirstPC = x"00400000") then
+	if ((i_branching = '1') or ( i_jumping = '1')) then
+		if (i_dstRegMEM = i_dstRegWB) then
+			  o_stall <= "11111";
+			  o_flush <= "00000";
+			s1 <= x"00";
+		elsif ( i_dstRegMEM = i_dstRegEX) then
+			o_stall <= "00001";
+			o_flush <= "00000";
+			s1 <= x"01";
+		else 
+			o_stall <= "10011";
+			o_flush <= "01000";
+			s1 <= x"02";
+		end if;
+	elsif (i_immex = '1' or i_immMEM = '1' or i_immWB = '1') then
+		if ((i_ReadRegRSID = i_dstRegWB)) then 
+			o_stall <= "11100";
+			o_flush <= "00010";
+			s1 <= x"03";
+		elsif ((i_ReadRegRSID = i_dstRegMEM)) then 
+			 o_stall <= "00001";
+			 o_flush <= "00100";
+			s1 <= x"04";
+		elsif ((i_ReadRegRSID = i_dstRegEX)) then 
+		 	 o_stall <= "00011";
+		  	o_flush <= "00000";
+			s1 <= x"05";
+		else
+		  	o_stall <= "11111";
+		 	o_flush <= "00000";
+			s1 <= x"06";
+		end if;
+	else 
+		if ((i_ReadRegRSID = i_dstRegWB) or (i_ReadRegRTID = i_dstRegWB)) then 
+			o_stall <= "11100";
+			o_flush <= "00010";
+			s1 <= x"07";
+		elsif ((i_ReadRegRSID = i_dstRegMEM)  or (i_ReadRegRTID = i_dstRegMEM)) then 
+			 o_stall <= "00001";
+			o_flush <= "00100";
+			s1 <= x"08";
+		if ((i_ReadRegRSID = i_dstRegEX) or (i_ReadRegRTID = i_dstRegEX)) then 
+			o_stall <= "00011";
+		  	o_flush <= "00000";
+			s1 <= x"09";
+		else
+		  	o_stall <= "11111";
+		 	o_flush <= "00000";
+			s1 <= x"0A";
+		end if;
+	end if;
+end if;
+
+End Process;
+
+end dataflow;

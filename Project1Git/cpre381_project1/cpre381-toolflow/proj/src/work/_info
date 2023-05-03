@@ -1,0 +1,3135 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src
+T_opt
+!s110 1670540894
+V4ef2W7kK9:LDOInTT@AaJ2
+Z2 04 14 9 work mips_processor structure 1
+=1-00133b5b2bd0-63926e5d-bb9b4-2007
+R0
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2022.2;75
+R1
+T_opt1
+!s110 1670554763
+VFA0AS`]2i@41zLX4e=bX<0
+R2
+=1-0050569b4877-6392a48b-795d3-48cc
+R0
+R3
+o-quiet -auto_acc_if_foreign -work work
+R4
+n@_opt1
+R5
+R1
+Eadder
+Z6 w1670212743
+Z7 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z8 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+R1
+Z9 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Adder.vhd
+Z10 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Adder.vhd
+l0
+Z11 L21 1
+VIkVn8MC7_Bk_8;]H@gc`o0
+!s100 DnG>^ILWz42998;MdYimU0
+Z12 OL;C;2022.2;75
+32
+Z13 !s110 1670540844
+!i10b 1
+Z14 !s108 1670540844.000000
+Z15 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Adder.vhd|
+Z16 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Adder.vhd|
+!i113 0
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructural
+R7
+R8
+DEx4 work 5 adder 0 22 IkVn8MC7_Bk_8;]H@gc`o0
+!i122 1
+l62
+L31 81
+V4RDPKRV@a3ZUE;H3dh:o?1
+!s100 >ka<iZ0dUXKBzF]=?ION>2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Eadderh
+Z19 w1670212744
+R7
+R8
+!i122 92
+R1
+Z20 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH.vhd
+Z21 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH.vhd
+l0
+Z22 L11 1
+VkOLSUgS_?[mBbDYdCoX1>3
+!s100 NPU=PDl61MDb@PS4kzL2Y0
+R12
+32
+Z23 !s110 1670554610
+!i10b 1
+Z24 !s108 1670554609.000000
+Z25 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH.vhd|
+Z26 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH.vhd|
+!i113 0
+R17
+R18
+Astructure
+R7
+R8
+DEx4 work 6 adderh 0 22 kOLSUgS_?[mBbDYdCoX1>3
+!i122 92
+l61
+L21 94
+VJPc@lc4mPN1__o9RYe:F@3
+!s100 ]8ZJMnY6jaD@Zk9dNZXRA1
+R12
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R17
+R18
+Eadderh_n
+R19
+R7
+R8
+!i122 93
+R1
+Z27 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH_n.vhd
+Z28 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH_n.vhd
+l0
+L4 1
+VDSCD]7Clh1fL2J@IzJen11
+!s100 bE[fEGZ4XT<f1O7FkDPbR1
+R12
+32
+R23
+!i10b 1
+Z29 !s108 1670554610.000000
+Z30 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH_n.vhd|
+Z31 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/AdderH_n.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 8 adderh_n 0 22 DSCD]7Clh1fL2J@IzJen11
+!i122 93
+l37
+L15 53
+Ve79DK:W<7XI^OzLQ7hAUX1
+!s100 0Kl@OW;eS5=Zl>:0IVzE@0
+R12
+32
+R23
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R17
+R18
+Eaddiins
+R6
+R7
+R8
+!i122 2
+R1
+Z32 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiIns.vhd
+Z33 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiIns.vhd
+l0
+L4 1
+VnW8;oSR56C6zhbzD8Q6^e3
+!s100 bzl`g[^h;;lGQ3XdDF`7L0
+R12
+32
+R13
+!i10b 1
+R14
+Z34 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiIns.vhd|
+Z35 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 7 addiins 0 22 nW8;oSR56C6zhbzD8Q6^e3
+!i122 2
+l29
+Z36 L14 36
+V9nd@TAdE`HYZ==PJGV?FW0
+!s100 >e?XMMnfS^^Cf7mjVn[WG2
+R12
+32
+R13
+!i10b 1
+R14
+R34
+R35
+!i113 0
+R17
+R18
+Eaddins
+R6
+R7
+R8
+!i122 3
+R1
+Z37 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addIns.vhd
+Z38 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addIns.vhd
+l0
+L4 1
+VI3NNUb<CPPEk05OQL<C[c1
+!s100 fSimN7C;:VK4YHCE_M[`H2
+R12
+32
+R13
+!i10b 1
+R14
+Z39 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addIns.vhd|
+Z40 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 6 addins 0 22 I3NNUb<CPPEk05OQL<C[c1
+!i122 3
+l31
+R36
+Vo`8PdE6d^4JLML3`WoY_`3
+!s100 I3AYD^hm5fSeD]j@lAP0M0
+R12
+32
+R13
+!i10b 1
+R14
+R39
+R40
+!i113 0
+R17
+R18
+Eaddiuins
+R6
+R7
+R8
+!i122 4
+R1
+Z41 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiuIns.vhd
+Z42 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiuIns.vhd
+l0
+L4 1
+VSY4`TBgSG6WG?Rz=FGKcS1
+!s100 C:L78=b`N:zh6OQR@6L_60
+R12
+32
+R13
+!i10b 1
+R14
+Z43 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiuIns.vhd|
+Z44 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/addiuIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 8 addiuins 0 22 SY4`TBgSG6WG?Rz=FGKcS1
+!i122 4
+l31
+L14 35
+V465d3=[o?JO1iX_]TF<zL3
+!s100 ED65@bE1DJRmIFI]dR0Hk3
+R12
+32
+R13
+!i10b 1
+R14
+R43
+R44
+!i113 0
+R17
+R18
+Eadduins
+R6
+Z45 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+R7
+R8
+!i122 5
+R1
+Z46 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/adduIns.vhd
+Z47 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/adduIns.vhd
+l0
+L5 1
+ViE`FJ>PB@DlGm>a7OYD]K3
+!s100 8hjh8RD=K>M2eZVHL=boJ0
+R12
+32
+R13
+!i10b 1
+R14
+Z48 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/adduIns.vhd|
+Z49 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/adduIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R45
+R7
+R8
+DEx4 work 7 adduins 0 22 iE`FJ>PB@DlGm>a7OYD]K3
+!i122 5
+l28
+L15 30
+VMoVgGg:ilQd<k4B8iChBP3
+!s100 5m5<AEHnjWDCj1IJM?Vk@0
+R12
+32
+R13
+!i10b 1
+R14
+R48
+R49
+!i113 0
+R17
+R18
+Ealu
+Z50 w1670276638
+Z51 DPx4 work 15 twodarrayforalu 0 22 ?VSaT@beV2?NfdNLgiZn=1
+R7
+R8
+!i122 6
+R1
+Z52 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd
+Z53 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd
+l0
+L5 1
+V_>NPA=dJFo2=>iV@gB4@82
+!s100 hna^6G^g93lVa`edm>5F;2
+R12
+32
+R13
+!i10b 1
+R14
+Z54 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd|
+Z55 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALU.vhd|
+!i113 0
+R17
+R18
+Astructural
+R51
+R7
+R8
+DEx4 work 3 alu 0 22 _>NPA=dJFo2=>iV@gB4@82
+!i122 6
+l282
+L20 442
+V726Ni0ChdK`;m7c^18]o12
+!s100 2IcV[j@`6[3TzBj>DnS4D2
+R12
+32
+R13
+!i10b 1
+R14
+R54
+R55
+!i113 0
+R17
+R18
+Ealufinaldesign
+Z56 w1670212745
+R7
+R8
+!i122 68
+R1
+Z57 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/ALUFinalDesign.vhd
+Z58 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/ALUFinalDesign.vhd
+l0
+L5 1
+Vcz0m9DE=0eQSdTJK^Z:F50
+!s100 4f]:RXLcIf5HQ`K]BzU=:2
+R12
+32
+Z59 !s110 1670540866
+!i10b 1
+Z60 !s108 1670540866.000000
+Z61 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/ALUFinalDesign.vhd|
+Z62 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/ALUFinalDesign.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 14 alufinaldesign 0 22 cz0m9DE=0eQSdTJK^Z:F50
+!i122 68
+l72
+L26 84
+V_<^;_:Q5mfe8l<4ce@i;32
+!s100 f;2XNzY:kn3N_KWIE`9Kn3
+R12
+32
+R59
+!i10b 1
+R60
+R61
+R62
+!i113 0
+R17
+R18
+Ealumux
+R6
+R51
+R7
+R8
+!i122 7
+R1
+Z63 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALUMux.vhd
+Z64 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALUMux.vhd
+l0
+L5 1
+Vhk1LoGoTRaB<aFXd:]>Um1
+!s100 cnR?LUmoJ2fSB6ngaC_Ma2
+R12
+32
+R13
+!i10b 1
+R14
+Z65 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALUMux.vhd|
+Z66 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/ALUMux.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R51
+R7
+R8
+DEx4 work 6 alumux 0 22 hk1LoGoTRaB<aFXd:]>Um1
+!i122 7
+l14
+Z67 L12 38
+VUk3YadTEJY===jB@MmTV32
+!s100 m6K95Q?TBC15zC7f^5K?j3
+R12
+32
+R13
+!i10b 1
+R14
+R65
+R66
+!i113 0
+R17
+R18
+Eandg2
+R19
+R7
+R8
+!i122 94
+R1
+Z68 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/andg2.vhd
+Z69 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/andg2.vhd
+l0
+Z70 L23 1
+VQf>?20ho>9XHGTg4:jo373
+!s100 0e<Rg^QbB^Y@JP[zKSc0[3
+R12
+32
+R23
+!i10b 1
+R29
+Z71 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/andg2.vhd|
+Z72 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/andg2.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 5 andg2 0 22 Qf>?20ho>9XHGTg4:jo373
+!i122 94
+l32
+Z73 L31 6
+VHdBJDB9no8cjMZ2eVYWH;1
+!s100 CbBW?3Q;N[15?`QCEQ<@f2
+R12
+32
+R23
+!i10b 1
+R29
+R71
+R72
+!i113 0
+R17
+R18
+Eandimmins
+R6
+R7
+R8
+!i122 9
+R1
+Z74 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andImmIns.vhd
+Z75 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andImmIns.vhd
+l0
+L4 1
+VI:E4B`algMO_V_Bfi[egb1
+!s100 ;BLgSiGGd=jeRGBE1=0l@0
+R12
+32
+Z76 !s110 1670540845
+!i10b 1
+R14
+Z77 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andImmIns.vhd|
+Z78 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andImmIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 9 andimmins 0 22 I:E4B`algMO_V_Bfi[egb1
+!i122 9
+l14
+Z79 L12 11
+VD?nVkB>4ASY:M6YNUHiMY3
+!s100 e33dN2:V^Q1a[L`bb7Ld;3
+R12
+32
+R76
+!i10b 1
+R14
+R77
+R78
+!i113 0
+R17
+R18
+Eandins
+R6
+R7
+R8
+!i122 10
+R1
+Z80 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andIns.vhd
+Z81 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andIns.vhd
+l0
+L4 1
+VOSOaKD66?Hn5E9?0M2WCV0
+!s100 6Ae6d22]ICi3eOz<L]hN_1
+R12
+32
+R76
+!i10b 1
+Z82 !s108 1670540845.000000
+Z83 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andIns.vhd|
+Z84 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/andIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 andins 0 22 OSOaKD66?Hn5E9?0M2WCV0
+!i122 10
+l14
+R79
+VToEPKF5>M7^jXH>e`kQ;O2
+!s100 8_cWEADXi14PklBCPCaF[1
+R12
+32
+R76
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R17
+R18
+Ebeq
+R6
+R7
+R8
+!i122 11
+R1
+Z85 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/beq.vhd
+Z86 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/beq.vhd
+l0
+L4 1
+VOQd=JHT?f`g1iWEZ<UQ_n0
+!s100 n`?2Ea=G05cUkzoX@koic3
+R12
+32
+R76
+!i10b 1
+R82
+Z87 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/beq.vhd|
+Z88 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/beq.vhd|
+!i113 0
+R17
+R18
+Amixed
+R7
+R8
+DEx4 work 3 beq 0 22 OQd=JHT?f`g1iWEZ<UQ_n0
+!i122 11
+l25
+Z89 L13 27
+VL<STM[?C1WJjWleFZkHX23
+!s100 EG`cUYeCHjdU<j0WiEI7F0
+R12
+32
+R76
+!i10b 1
+R82
+R87
+R88
+!i113 0
+R17
+R18
+Ebit29_1mux
+R6
+R7
+R8
+!i122 12
+R1
+Z90 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bit29_1Mux.vhd
+Z91 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bit29_1Mux.vhd
+l0
+L5 1
+VXT>F9gLiMKgDR7N0cNV?42
+!s100 K0VS1];5;Df1SCJ9R4O3R2
+R12
+32
+R76
+!i10b 1
+R82
+Z92 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bit29_1Mux.vhd|
+Z93 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bit29_1Mux.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 10 bit29_1mux 0 22 XT>F9gLiMKgDR7N0cNV?42
+!i122 12
+l14
+R67
+VidXFP=G]mQj:98WZJFKDE1
+!s100 GTE[d2NfUN^I7hQd:mZ]B1
+R12
+32
+R76
+!i10b 1
+R82
+R92
+R93
+!i113 0
+R17
+R18
+Ebit5_32decoder
+R19
+R7
+R8
+!i122 95
+R1
+Z94 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/bit5t32Decoder.vhd
+Z95 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/bit5t32Decoder.vhd
+l0
+L5 1
+V7kBfD>`a8WLR4R<[mMO^`0
+!s100 Co5]M2kdPU6l?:liDZZJ]0
+R12
+32
+R23
+!i10b 1
+R29
+Z96 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/bit5t32Decoder.vhd|
+Z97 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/bit5t32Decoder.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 14 bit5_32decoder 0 22 7kBfD>`a8WLR4R<[mMO^`0
+!i122 95
+l16
+L14 42
+V19Wo_7MY@Dh`5Fml^YJ<a3
+!s100 ?kg1kokdfOFDiS0;j37]D2
+R12
+32
+R23
+!i10b 1
+R29
+R96
+R97
+!i113 0
+R17
+R18
+Ebitextender
+R56
+R7
+R8
+!i122 71
+R1
+Z98 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/bitExtender.vhd
+Z99 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/bitExtender.vhd
+l0
+L5 1
+V8^7>?0c0HJdeb2M9>`m=A3
+!s100 4zPDNzo8>PafL@01PTKGd3
+R12
+32
+R59
+!i10b 1
+R60
+Z100 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/bitExtender.vhd|
+Z101 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/bitExtender.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 11 bitextender 0 22 8^7>?0c0HJdeb2M9>`m=A3
+!i122 71
+l22
+L16 23
+VHNiJomkVH4e_1PNiE`@OR3
+!s100 RRWY6iVoLQ@8FL]ZEYZfA0
+R12
+32
+R59
+!i10b 1
+R60
+R100
+R101
+!i113 0
+R17
+R18
+Ebne
+R6
+R7
+R8
+!i122 13
+R1
+Z102 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bne.vhd
+Z103 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bne.vhd
+l0
+L4 1
+VA>GiB5?V1aZlaAAF`6eO41
+!s100 oCP51V3zAULZ^`Izo^XV12
+R12
+32
+R76
+!i10b 1
+R82
+Z104 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bne.vhd|
+Z105 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/bne.vhd|
+!i113 0
+R17
+R18
+Amixed
+R7
+R8
+DEx4 work 3 bne 0 22 A>GiB5?V1aZlaAAF`6eO41
+!i122 13
+l25
+R89
+V_F[6]E>oEEZgO3F?0ERdm0
+!s100 9C^nK[Rdh:L23W19=a2j;0
+R12
+32
+R76
+!i10b 1
+R82
+R104
+R105
+!i113 0
+R17
+R18
+Econtroldecoderog
+R6
+R7
+R8
+!i122 45
+R1
+Z106 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderOG.vhd
+Z107 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderOG.vhd
+l0
+L6 1
+VdQ2W[QUzM18hnP]STd_1R2
+!s100 CdnEl?`QVFWLQ>bhaAKW^3
+R12
+32
+Z108 !s110 1670540849
+!i10b 1
+Z109 !s108 1670540849.000000
+Z110 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderOG.vhd|
+Z111 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderOG.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 16 controldecoderog 0 22 dQ2W[QUzM18hnP]STd_1R2
+!i122 45
+l15
+Z112 L14 22
+VBcb@L5o7AhIK:R_CI7Z0=2
+!s100 AO1g`K9X[FjS22WV6WenV0
+R12
+32
+R108
+!i10b 1
+R109
+R110
+R111
+!i113 0
+R17
+R18
+Econtroldecoderrtype
+Z113 w1670368925
+R7
+R8
+!i122 46
+R1
+Z114 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderRtype.vhd
+Z115 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderRtype.vhd
+l0
+L6 1
+VkeIWJ2Y0:z>:_KBAl5S250
+!s100 ;NmRAe1MHKAUSZ?l@4Z[31
+R12
+32
+R108
+!i10b 1
+R109
+Z116 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderRtype.vhd|
+Z117 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/ControlDecoderRtype.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 19 controldecoderrtype 0 22 keIWJ2Y0:z>:_KBAl5S250
+!i122 46
+l17
+L15 23
+VC5kY3;8Zj?_[2I[=zCd0<3
+!s100 mdIH]gK80`2o_li=AA3322
+R12
+32
+R108
+!i10b 1
+R109
+R116
+R117
+!i113 0
+R17
+R18
+Econtrolunit
+R19
+R7
+R8
+!i122 47
+R1
+Z118 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/controlUnit.vhd
+Z119 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/controlUnit.vhd
+l0
+L6 1
+V`i0>l4EB3Be=6N2KD=a:d1
+!s100 :h6fzJV47nP9L_A78fHB02
+R12
+32
+R108
+!i10b 1
+R109
+Z120 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/controlUnit.vhd|
+Z121 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/controlUnit.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 11 controlunit 0 22 `i0>l4EB3Be=6N2KD=a:d1
+!i122 47
+l53
+L16 69
+Vm?LLkHDIHXk^gc^F5T<8V3
+!s100 7fIGdj?AA`4YYQWEZcFmD3
+R12
+32
+R108
+!i10b 1
+R109
+R120
+R121
+!i113 0
+R17
+R18
+Edffg
+R19
+R7
+R8
+!i122 96
+R1
+Z122 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd
+Z123 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd
+l0
+R70
+VaBn<3_7oIgIleFniVim733
+!s100 FJQDe;FGDG0KnNV;j4DaY2
+R12
+32
+R23
+!i10b 1
+R29
+Z124 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd|
+Z125 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/dffg.vhd|
+!i113 0
+R17
+R18
+Amixed
+R7
+R8
+DEx4 work 4 dffg 0 22 aBn<3_7oIgIleFniVim733
+!i122 96
+l37
+L33 29
+VS_P?KDWPHzz@YT_fABo?Z0
+!s100 GR5ff]ZD1Yiz`>ZFVE>Hg1
+R12
+32
+R23
+!i10b 1
+R29
+R124
+R125
+!i113 0
+R17
+R18
+Edffg26
+Z126 w1670212746
+R7
+R8
+!i122 116
+R1
+Z127 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg26.vhd
+Z128 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg26.vhd
+l0
+L4 1
+VBBQ?Ud;bVFW2EBbBDn7?80
+!s100 7`HLcXbgj`FU2dUPJ:Na11
+R12
+32
+Z129 !s110 1670554634
+!i10b 1
+Z130 !s108 1670554634.000000
+Z131 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg26.vhd|
+Z132 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg26.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 6 dffg26 0 22 BBQ?Ud;bVFW2EBbBDn7?80
+!i122 116
+l24
+R112
+VDPbiESU3ZORj1^OYQB>EU1
+!s100 QPYm:3_6Lc=kZ@GD]U:o[3
+R12
+32
+R129
+!i10b 1
+R130
+R131
+R132
+!i113 0
+R17
+R18
+Edffg32
+R126
+R7
+R8
+!i122 117
+R1
+Z133 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg32.vhd
+Z134 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg32.vhd
+l0
+L4 1
+VPTaZGbZD`OkfGf2UHET`?3
+!s100 9a:lb8fD>B_K6eXhV5ZYL1
+R12
+32
+R129
+!i10b 1
+R130
+Z135 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg32.vhd|
+Z136 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg32.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 6 dffg32 0 22 PTaZGbZD`OkfGf2UHET`?3
+!i122 117
+l24
+R112
+VBzA08L2W0H3J2GjBmZF[h0
+!s100 bMO[JF7]oAb`m6D`nIAZN1
+R12
+32
+R129
+!i10b 1
+R130
+R135
+R136
+!i113 0
+R17
+R18
+Edffg5
+R126
+R7
+R8
+!i122 115
+R1
+Z137 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg5.vhd
+Z138 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg5.vhd
+l0
+L4 1
+Vm4f;j3H[c2:nIYF6O>6aE3
+!s100 [z<idU?me2lh`QTnl3R2F3
+R12
+32
+R129
+!i10b 1
+R130
+Z139 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg5.vhd|
+Z140 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg5.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 5 dffg5 0 22 m4f;j3H[c2:nIYF6O>6aE3
+!i122 115
+l24
+R112
+VjIbUm=1iGH10;>THR9mkf1
+!s100 ^l_2RjE?YVgC2T48OdnQl3
+R12
+32
+R129
+!i10b 1
+R130
+R139
+R140
+!i113 0
+R17
+R18
+Edffr_n
+R19
+R7
+R8
+!i122 97
+R1
+Z141 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/DffR_N.vhd
+Z142 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/DffR_N.vhd
+l0
+L4 1
+V4FWCiMc0hloP6cO_EBQWD2
+!s100 4H3LQYC3oDU41RP;bU^XR0
+R12
+32
+R23
+!i10b 1
+R29
+Z143 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/DffR_N.vhd|
+Z144 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/DffR_N.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 6 dffr_n 0 22 4FWCiMc0hloP6cO_EBQWD2
+!i122 97
+l24
+R112
+V2e]oHTD[gm^<ND5^?I0gZ0
+!s100 TF5fI`ILandPfN^1UPmoV3
+R12
+32
+R23
+!i10b 1
+R29
+R143
+R144
+!i113 0
+R17
+R18
+Eexmem
+Z145 w1670624948
+R7
+R8
+!i122 131
+R1
+Z146 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/EXMEM.vhd
+Z147 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/EXMEM.vhd
+l0
+L4 1
+V5`7ag=5`TQQQ>PWIhTZd>2
+!s100 XU^nkTfL5g:jAOb?z:1PC1
+R12
+32
+Z148 !s110 1670624969
+!i10b 1
+Z149 !s108 1670624969.000000
+Z150 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/EXMEM.vhd|
+Z151 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/EXMEM.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 5 exmem 0 22 5`7ag=5`TQQQ>PWIhTZd>2
+!i122 131
+l89
+L60 171
+V9JBHIJO:jKEA?k?5S8fQX1
+!s100 FccBHCYLWKBO`e659_OSc3
+R12
+32
+R148
+!i10b 1
+R149
+R150
+R151
+!i113 0
+R17
+R18
+Efetch
+Z152 w1670553259
+R45
+R7
+R8
+!i122 122
+R1
+Z153 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/fetch.vhd
+Z154 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/fetch.vhd
+l0
+L5 1
+V>UF`7^SJ@OgQ=X3WIWO0=1
+!s100 E^1RmJza1VgeXO3GWM^Cl3
+R12
+32
+Z155 !s110 1670554659
+!i10b 1
+Z156 !s108 1670554659.000000
+Z157 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/fetch.vhd|
+Z158 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/fetch.vhd|
+!i113 0
+R17
+R18
+Amixed
+R45
+R7
+R8
+DEx4 work 5 fetch 0 22 >UF`7^SJ@OgQ=X3WIWO0=1
+!i122 122
+l99
+L36 176
+V[:HfEa@A9_o>KzcCNL_Q?0
+!s100 :GT6LAiH6fUaUTZza=5o90
+R12
+32
+R155
+!i10b 1
+R156
+R157
+R158
+!i113 0
+R17
+R18
+Efulladder
+R6
+R7
+R8
+!i122 14
+R1
+Z159 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/FullAdder.vhd
+Z160 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/FullAdder.vhd
+l0
+R11
+VIM1<`m>CEJ^P[m2>>5_W91
+!s100 ehYY:gX_hDWm;dGl9_<4m1
+R12
+32
+R76
+!i10b 1
+R82
+Z161 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/FullAdder.vhd|
+Z162 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/FullAdder.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 9 fulladder 0 22 IM1<`m>CEJ^P[m2>>5_W91
+!i122 14
+l60
+L30 67
+V:dkl5VWD9cgKB4jXe0gD52
+!s100 W2DjJ1U0SQ^EM9^:TlAzU0
+R12
+32
+R76
+!i10b 1
+R82
+R161
+R162
+!i113 0
+R17
+R18
+Ehazardcontroller
+Z163 w1670625265
+R7
+R8
+!i122 135
+R1
+Z164 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhd
+Z165 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhd
+l0
+L6 1
+VekY<<acbJ>B^hci:>hdCk3
+!s100 7?9eO^gG`U>U=FalKi^Z_3
+R12
+32
+Z166 !s110 1670625287
+!i10b 1
+Z167 !s108 1670625287.000000
+Z168 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhd|
+Z169 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 16 hazardcontroller 0 22 ekY<<acbJ>B^hci:>hdCk3
+!i122 135
+l37
+L34 75
+VWK@=m_6bJ3Ko:5O6NU]FH3
+!s100 JDjP;LdZTnO7IX[ae@^T?3
+R12
+32
+R166
+!i10b 1
+R167
+R168
+R169
+!i113 0
+R17
+R18
+Ehazardcontrollerold
+Z170 w1670540519
+R7
+R8
+!i122 67
+R1
+Z171 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhdl
+Z172 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhdl
+l0
+L6 1
+V5fbYHANoT@BE]GhDShl2m0
+!s100 mYb@HFJoNbU<iJ1J[59h[3
+R12
+32
+Z173 !s110 1670540859
+!i10b 1
+Z174 !s108 1670540859.000000
+Z175 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhdl|
+Z176 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Hazard Control/HazardControllerOld.vhdl|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 19 hazardcontrollerold 0 22 5fbYHANoT@BE]GhDShl2m0
+!i122 67
+l30
+L27 65
+VI?j7^m_WRb:IT<dDKMo0Q2
+!s100 93Nf1H<BNLAe^2hc5[[;12
+R12
+32
+R173
+!i10b 1
+R174
+R175
+R176
+!i113 0
+R17
+R18
+Eidex
+Z177 w1670624906
+R7
+R8
+!i122 129
+R1
+Z178 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd
+Z179 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd
+l0
+L4 1
+V@K3Y`KG9;Je>LW>FQFAYa2
+!s100 CP8n@gNoSXz8UoEXXJ89@3
+R12
+32
+Z180 !s110 1670624934
+!i10b 1
+Z181 !s108 1670624934.000000
+Z182 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd|
+Z183 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd|
+!i113 0
+R17
+R18
+Astructure
+R7
+R8
+DEx4 work 4 idex 0 22 @K3Y`KG9;Je>LW>FQFAYa2
+!i122 129
+l100
+L61 205
+VV9cgB@hSc?B?ZJnVTZ[?m0
+!s100 GIRlhNK3ZfYHPzb[93Wo50
+R12
+32
+R180
+!i10b 1
+R181
+R182
+R183
+!i113 0
+R17
+R18
+Eifid
+Z184 w1670259692
+R7
+R8
+!i122 120
+R1
+Z185 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IFID.vhd
+Z186 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IFID.vhd
+l0
+L4 1
+V5DbA3[cNlm:LEnF8Veb>j0
+!s100 C8I?7joA1za2MZ[bY47<72
+R12
+32
+R129
+!i10b 1
+R130
+Z187 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IFID.vhd|
+Z188 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IFID.vhd|
+!i113 0
+R17
+R18
+Astructure
+R7
+R8
+DEx4 work 4 ifid 0 22 5DbA3[cNlm:LEnF8Veb>j0
+!i122 120
+l28
+L17 28
+V[`4;H>ZOKSBj0>TVm_1K:2
+!s100 6TWJC]eGEh;_kL<]lV>ci3
+R12
+32
+R129
+!i10b 1
+R130
+R187
+R188
+!i113 0
+R17
+R18
+Einvg
+R19
+R7
+R8
+!i122 99
+R1
+Z189 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/invg.vhd
+Z190 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/invg.vhd
+l0
+R70
+V]eXOe]3lZ=l7S8@9?:L9T1
+!s100 5^0jfQ^dVk:bl_Za_KajG0
+R12
+32
+R23
+!i10b 1
+R29
+Z191 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/invg.vhd|
+Z192 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/invg.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 4 invg 0 22 ]eXOe]3lZ=l7S8@9?:L9T1
+!i122 99
+l31
+L30 6
+Ve`;fA[BQP?1Y52gl`N_a?3
+!s100 Q?`9^ToWC]zk1[=<LdPdE3
+R12
+32
+R23
+!i10b 1
+R29
+R191
+R192
+!i113 0
+R17
+R18
+Ejump
+R6
+R7
+R8
+!i122 16
+R1
+Z193 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jump.vhd
+Z194 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jump.vhd
+l0
+L4 1
+Vgi;z8eZdO0zVROYAlFdmH0
+!s100 BED;IF1kEROKHWlIYS=QZ1
+R12
+32
+R76
+!i10b 1
+R82
+Z195 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jump.vhd|
+Z196 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jump.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 4 jump 0 22 gi;z8eZdO0zVROYAlFdmH0
+!i122 16
+l15
+Z197 L13 7
+VPQ>^C3a];2;4?fUCeEA?83
+!s100 XUGmZ9z5zDo:>c=jGS_dg3
+R12
+32
+R76
+!i10b 1
+R82
+R195
+R196
+!i113 0
+R17
+R18
+Ejumpandlink
+R6
+R7
+R8
+!i122 17
+R1
+Z198 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpAndLink.vhd
+Z199 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpAndLink.vhd
+l0
+L4 1
+V<d806O_34C?gXblLlb^]M2
+!s100 `27?^ozdBFgLFHEYH@dZF3
+R12
+32
+R76
+!i10b 1
+R82
+Z200 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpAndLink.vhd|
+Z201 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpAndLink.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 11 jumpandlink 0 22 <d806O_34C?gXblLlb^]M2
+!i122 17
+l15
+R197
+V5Fi2=d7FK>L4fRTK2`=I33
+!s100 V356GP6IFNb0iO69C_foh0
+R12
+32
+R76
+!i10b 1
+R82
+R200
+R201
+!i113 0
+R17
+R18
+Ejumpregister
+R6
+R7
+R8
+!i122 18
+R1
+Z202 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpRegister.vhd
+Z203 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpRegister.vhd
+l0
+L4 1
+V7DRHf7Anlcz3Y?S_DD]9B0
+!s100 >bXCIQa1OI1R`aUaTNBg[3
+R12
+32
+R76
+!i10b 1
+R82
+Z204 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpRegister.vhd|
+Z205 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/jumpRegister.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 12 jumpregister 0 22 7DRHf7Anlcz3Y?S_DD]9B0
+!i122 18
+l15
+R197
+Va29TcEBD7:TTDM[J_WOmK0
+!s100 V5G]Ag>BA2W8GA<kL=6[m3
+R12
+32
+R76
+!i10b 1
+R82
+R204
+R205
+!i113 0
+R17
+R18
+Eloadupperimm
+R6
+R7
+R8
+!i122 19
+R1
+Z206 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadUpperImm.vhd
+Z207 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadUpperImm.vhd
+l0
+L4 1
+VfdXO6Kk5=V=<UJ:BAX7=:2
+!s100 M<j=B>Mf[178PZV3:aE]h0
+R12
+32
+Z208 !s110 1670540846
+!i10b 1
+R82
+Z209 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadUpperImm.vhd|
+Z210 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadUpperImm.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 12 loadupperimm 0 22 fdXO6Kk5=V=<UJ:BAX7=:2
+!i122 19
+l15
+Z211 L13 6
+VMFoBRi^FBelbUj1n3[RI<0
+!s100 >^N<`i1kj20=;DlJSdKLZ3
+R12
+32
+R208
+!i10b 1
+R82
+R209
+R210
+!i113 0
+R17
+R18
+Eloadword
+R6
+R7
+R8
+!i122 20
+R1
+Z212 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadWord.vhd
+Z213 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadWord.vhd
+l0
+L4 1
+V:PK`cMkj56L9>:o0]fQOP0
+!s100 CN6joHgE<<M=KF_kTXBPL0
+R12
+32
+R208
+!i10b 1
+Z214 !s108 1670540846.000000
+Z215 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadWord.vhd|
+Z216 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/loadWord.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 8 loadword 0 22 :PK`cMkj56L9>:o0]fQOP0
+!i122 20
+l25
+Z217 L14 23
+V?h?0Y:=RSmmRjG1;?LKmQ2
+!s100 4RC6@znQ@kHfPSJ7QLczL1
+R12
+32
+R208
+!i10b 1
+R214
+R215
+R216
+!i113 0
+R17
+R18
+Emem
+R126
+R45
+R7
+R8
+!i122 89
+R1
+Z218 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/mem.vhd
+Z219 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/mem.vhd
+l0
+L8 1
+VnYK75YT_DT9[l?ZQ16TI^1
+!s100 GF_U?1mjKdlzTC==@Eoi@2
+R12
+32
+Z220 !s110 1670540876
+!i10b 1
+Z221 !s108 1670540876.000000
+Z222 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/mem.vhd|
+Z223 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/mem.vhd|
+!i113 0
+R17
+R18
+Artl
+R45
+R7
+R8
+DEx4 work 3 mem 0 22 nYK75YT_DT9[l?ZQ16TI^1
+!i122 89
+l37
+L27 24
+V0P842]PUf?YimUc_z4@5J0
+!s100 h2oZ:n@5VDnM^B7>cA]W22
+R12
+32
+R220
+!i10b 1
+R221
+R222
+R223
+!i113 0
+R17
+R18
+Ememwb
+Z224 w1670624952
+R7
+R8
+!i122 132
+R1
+Z225 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/MEMWB.vhd
+Z226 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/MEMWB.vhd
+l0
+L4 1
+VL8eNMhb]8bKRPPVTXPeN[0
+!s100 cC694A6C0NSI1R8SP9;dT1
+R12
+32
+Z227 !s110 1670624970
+!i10b 1
+Z228 !s108 1670624970.000000
+Z229 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/MEMWB.vhd|
+Z230 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/StateReg/MEMWB.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 5 memwb 0 22 L8eNMhb]8bKRPPVTXPeN[0
+!i122 132
+l82
+L53 159
+V:70<hUNNegJgVL3_d@Hn12
+!s100 4j1fn[4joA=5Ho`1amO`d1
+R12
+32
+R227
+!i10b 1
+R228
+R229
+R230
+!i113 0
+R17
+R18
+Emips_processor
+Z231 w1670625232
+Z232 DPx4 work 10 mips_types 0 22 hZBUW]HhDM2h1hJhif=>>3
+R7
+R8
+!i122 134
+R1
+Z233 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd
+Z234 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd
+l0
+R70
+V?2Ue4BWL?G_8]`lN5U>AW1
+!s100 lCRi]V>h[1VjnjUP_8`>K1
+R12
+32
+Z235 !s110 1670625283
+!i10b 1
+Z236 !s108 1670625283.000000
+Z237 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd|
+Z238 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd|
+!i113 0
+R17
+R18
+Astructure
+R232
+R7
+R8
+DEx4 work 14 mips_processor 0 22 ?2Ue4BWL?G_8]`lN5U>AW1
+!i122 134
+l462
+L35 753
+V70bJSkbU__E@][Wmbkn[_2
+!s100 aYN9J0k3TIQ7Uo3@bzWaE3
+R12
+32
+R235
+!i10b 1
+R236
+R237
+R238
+!i113 0
+R17
+R18
+Pmips_types
+R7
+R8
+!i122 91
+R19
+R1
+Z239 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/MIPS_types.vhd
+Z240 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/MIPS_types.vhd
+l0
+L15 13
+VhZBUW]HhDM2h1hJhif=>>3
+!s100 Zhic[8Ck_NUcnioRmZLWb2
+R12
+32
+Z241 !s110 1670554605
+!i10b 1
+Z242 !s108 1670554605.000000
+Z243 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/MIPS_types.vhd|
+Z244 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/MIPS_types.vhd|
+!i113 0
+R17
+R18
+Bbody
+R232
+R7
+R8
+!i122 91
+l0
+L29 3
+V9iY8fCz4eYFUlAcKE=Z0C0
+!s100 ;m9aHiUa@zM37M9gRzA3:0
+R12
+32
+R241
+!i10b 1
+R242
+R243
+R244
+!i113 0
+R17
+R18
+Emove_n
+Z245 w1670365431
+R7
+R8
+!i122 21
+R1
+Z246 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/move_N.vhd
+Z247 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/move_N.vhd
+l0
+L4 1
+V=[MCKOg8SC7aA3[lhi^=61
+!s100 ;FAKiTGbfK2kIgNf9eLVf2
+R12
+32
+R208
+!i10b 1
+R214
+Z248 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/move_N.vhd|
+Z249 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/move_N.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 move_n 0 22 =[MCKOg8SC7aA3[lhi^=61
+!i122 21
+l17
+L13 15
+V328hU7JT3<eTe@JMWH[CA3
+!s100 eX8eMTn[AoDFEgE=jdSTJ2
+R12
+32
+R208
+!i10b 1
+R214
+R248
+R249
+!i113 0
+R17
+R18
+Emux2t1
+R56
+R7
+R8
+!i122 74
+R1
+Z250 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/mux2t1.vhd
+Z251 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/mux2t1.vhd
+l0
+R11
+VT=ozIIjRfEFdj=dnZVY@D1
+!s100 N9SVBX_]5CXgL@G9HIN0Y1
+R12
+32
+Z252 !s110 1670540867
+!i10b 1
+Z253 !s108 1670540867.000000
+Z254 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/mux2t1.vhd|
+Z255 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/mux2t1.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 6 mux2t1 0 22 T=ozIIjRfEFdj=dnZVY@D1
+!i122 74
+l62
+L29 68
+Vnnh8RVJdcKVFFMHC^mk>X2
+!s100 Hm<3AO461i<SJ0Hh10:N03
+R12
+32
+R252
+!i10b 1
+R253
+R254
+R255
+!i113 0
+R17
+R18
+Emux2t1_16
+R6
+R7
+R8
+!i122 50
+R1
+Z256 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/mux2t1_16.vhd
+Z257 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/mux2t1_16.vhd
+l0
+R11
+Vk4AVSQ47j>^2PgS7H_STR1
+!s100 5@ck6Z>D_1_=]]j?eh@PT1
+R12
+32
+Z258 !s110 1670540850
+!i10b 1
+Z259 !s108 1670540850.000000
+Z260 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/mux2t1_16.vhd|
+Z261 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Control Logic/mux2t1_16.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 9 mux2t1_16 0 22 k4AVSQ47j>^2PgS7H_STR1
+!i122 50
+l39
+Z262 L30 21
+VYzn17eA4XFHeP>79kN1o_3
+!s100 :GLRfd@O;5k0FE036NO:;0
+R12
+32
+R258
+!i10b 1
+R259
+R260
+R261
+!i113 0
+R17
+R18
+Emux2t1_5
+R19
+R7
+R8
+!i122 100
+R1
+Z263 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_5.vhd
+Z264 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_5.vhd
+l0
+R11
+VaTiZGWkL?7NZNNPF?m4:X2
+!s100 A60cNhE?Re9@FUFM0LVzN2
+R12
+32
+R23
+!i10b 1
+R29
+Z265 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_5.vhd|
+Z266 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_5.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 8 mux2t1_5 0 22 aTiZGWkL?7NZNNPF?m4:X2
+!i122 100
+l39
+R262
+Vo]3Q@Y<WYk1C[DfEXeMCR3
+!s100 WhKg4^kSQ8JUCH;TTL^7o1
+R12
+32
+R23
+!i10b 1
+R29
+R265
+R266
+!i113 0
+R17
+R18
+Emux2t1_n
+R19
+R7
+R8
+!i122 101
+R1
+Z267 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_N.vhd
+Z268 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_N.vhd
+l0
+R11
+VmY^3Z`LOeH:?DS5zXOWi]0
+!s100 Y80E^d;5=hf2cNC6Yk_Di1
+R12
+32
+R23
+!i10b 1
+R29
+Z269 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_N.vhd|
+Z270 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/mux2t1_N.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 8 mux2t1_n 0 22 mY^3Z`LOeH:?DS5zXOWi]0
+!i122 101
+l39
+R262
+Vghh^edzIST4EAi324fiR[1
+!s100 `>^]M24jDEZ=7JFVDOOTo3
+R12
+32
+R23
+!i10b 1
+R29
+R269
+R270
+!i113 0
+R17
+R18
+Emux32_1
+R19
+R7
+R8
+!i122 102
+R1
+Z271 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/Mux32_1.vhd
+Z272 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/Mux32_1.vhd
+l0
+L4 1
+VJ;A:=lZPm^g`183kHb0Ck3
+!s100 Pam6UazZXnh074X<QQ@<Y2
+R12
+32
+Z273 !s110 1670554611
+!i10b 1
+Z274 !s108 1670554611.000000
+Z275 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/Mux32_1.vhd|
+Z276 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/Mux32_1.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 7 mux32_1 0 22 J;A:=lZPm^g`183kHb0Ck3
+!i122 102
+l14
+L12 9
+VT^:eEzCzJ2c9EA>o=ZK@n2
+!s100 ]R>d`h[QCDk=F???]mAFa3
+R12
+32
+R273
+!i10b 1
+R274
+R275
+R276
+!i113 0
+R17
+R18
+Enbit32_1mux
+R126
+Z277 DPx4 work 9 twodarray 0 22 J^m1lIC2aXA>i<j@8cUa:0
+R7
+R8
+!i122 76
+R1
+Z278 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/nbit32_1Mux.vhd
+Z279 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/nbit32_1Mux.vhd
+l0
+L5 1
+VgG=BmXQ<PaUc^OkalKlPG3
+!s100 Lm0;c0DGl>n4m]<;WVdJ`3
+R12
+32
+R252
+!i10b 1
+R253
+Z280 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/nbit32_1Mux.vhd|
+Z281 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/nbit32_1Mux.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R277
+R7
+R8
+DEx4 work 11 nbit32_1mux 0 22 gG=BmXQ<PaUc^OkalKlPG3
+!i122 76
+l14
+L12 41
+Vhe]2UiXFF1oidg16Lg[eF0
+!s100 ]2OVRNK2@<JnR>anRg6An2
+R12
+32
+R252
+!i10b 1
+R253
+R280
+R281
+!i113 0
+R17
+R18
+Enbitadder_sub
+R6
+R7
+R8
+!i122 24
+R1
+Z282 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/NBit-Adder_Sub.vhd
+Z283 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/NBit-Adder_Sub.vhd
+l0
+R11
+V6DSeD?A>TUC6G<_Zm_jJn0
+!s100 :3N=o5NFa^3E^=PCebFEZ2
+R12
+32
+R208
+!i10b 1
+R214
+Z284 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/NBit-Adder_Sub.vhd|
+Z285 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/NBit-Adder_Sub.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 13 nbitadder_sub 0 22 6DSeD?A>TUC6G<_Zm_jJn0
+!i122 24
+l65
+L31 67
+V;DGRFL2DBbV[R5Cjn2OXR1
+!s100 ^8Xj@XIEgoXND@PM>F^Tm0
+R12
+32
+R208
+!i10b 1
+R214
+R284
+R285
+!i113 0
+R17
+R18
+Enbitregister
+R19
+R7
+R8
+!i122 103
+R1
+Z286 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/NbitRegister.vhd
+Z287 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/NbitRegister.vhd
+l0
+L5 1
+V0;`4cfNb=XJ2_kaL_NMDA2
+!s100 00?^hNbXgzdD:H1HJ[bA^2
+R12
+32
+R273
+!i10b 1
+R274
+Z288 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/NbitRegister.vhd|
+Z289 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/NbitRegister.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 12 nbitregister 0 22 0;`4cfNb=XJ2_kaL_NMDA2
+!i122 103
+l29
+L18 25
+VYBaG:moJgPJF<mUT]2TY?0
+!s100 1]PR<VlS3f_o1`;h_g9bS1
+R12
+32
+R273
+!i10b 1
+R274
+R288
+R289
+!i113 0
+R17
+R18
+Enorins
+R6
+R7
+R8
+!i122 25
+R1
+Z290 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/norIns.vhd
+Z291 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/norIns.vhd
+l0
+L4 1
+V2KZ>Tg>zXQVMWM?l7JLZg3
+!s100 mOFYhiKT1LelM88TeeOM<0
+R12
+32
+R208
+!i10b 1
+R214
+Z292 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/norIns.vhd|
+Z293 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/norIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 norins 0 22 2KZ>Tg>zXQVMWM?l7JLZg3
+!i122 25
+l14
+R79
+V6D@JRCI4X[lfS^O6TGYUb2
+!s100 5FBemJT@fge;Rm1eMPo=R0
+R12
+32
+R208
+!i10b 1
+R214
+R292
+R293
+!i113 0
+R17
+R18
+Enotins
+R6
+R7
+R8
+!i122 26
+R1
+Z294 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/notIns.vhd
+Z295 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/notIns.vhd
+l0
+L4 1
+V1EoIBhQC_4^oACd?PnO@=3
+!s100 ][QmN<hFdY_BL[8FO4[n?1
+R12
+32
+R208
+!i10b 1
+R214
+Z296 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/notIns.vhd|
+Z297 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/notIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 notins 0 22 1EoIBhQC_4^oACd?PnO@=3
+!i122 26
+l13
+L11 11
+VQK^Ono^31=PYcFC8L57[k1
+!s100 X^;Eo0a?U;NHRf5hH4SSQ2
+R12
+32
+R208
+!i10b 1
+R214
+R296
+R297
+!i113 0
+R17
+R18
+Eonescomp
+R56
+R7
+R8
+!i122 78
+R1
+Z298 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/one'sComplement.vhd
+Z299 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/one'sComplement.vhd
+l0
+R11
+Ve`[];bc`B9Q[2_KllW_ld3
+!s100 0ih2_Gf^TammWQ6VP4iQk1
+R12
+32
+R252
+!i10b 1
+R253
+Z300 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/one'sComplement.vhd|
+Z301 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/one'sComplement.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 8 onescomp 0 22 e`[];bc`B9Q[2_KllW_ld3
+!i122 78
+l37
+L28 19
+V`9nUf50oni22ajOcz>;>>3
+!s100 4iKDOE_6UUB^XOP;aCKF_3
+R12
+32
+R252
+!i10b 1
+R253
+R300
+R301
+!i113 0
+R17
+R18
+Eorg2
+R19
+R7
+R8
+!i122 104
+R1
+Z302 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/org2.vhd
+Z303 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/org2.vhd
+l0
+R70
+VhOiEZ0HVFKUfoceE;g4CN1
+!s100 hJAZ>EB8bm_e<^5IFaP9e1
+R12
+32
+R273
+!i10b 1
+R274
+Z304 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/org2.vhd|
+Z305 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/org2.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 4 org2 0 22 hOiEZ0HVFKUfoceE;g4CN1
+!i122 104
+l32
+R73
+VeLGLG944lJMT]Df59N0F92
+!s100 nma>Pa=mMW`KzzjeW=1[d1
+R12
+32
+R273
+!i10b 1
+R274
+R304
+R305
+!i113 0
+R17
+R18
+Eorimm
+R6
+R7
+R8
+!i122 29
+R1
+Z306 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orImm.vhd
+Z307 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orImm.vhd
+l0
+L4 1
+VRQzXiQPfAQn40BCUjaDQ?0
+!s100 BMP8TdW9A:NAI4NMIomHE2
+R12
+32
+R208
+!i10b 1
+R214
+Z308 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orImm.vhd|
+Z309 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orImm.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 5 orimm 0 22 RQzXiQPfAQn40BCUjaDQ?0
+!i122 29
+l15
+R211
+V68cAcBUlF`2<ERWd?7[SZ0
+!s100 1IgV6;X6:O2NI2N[o`JR02
+R12
+32
+R208
+!i10b 1
+R214
+R308
+R309
+!i113 0
+R17
+R18
+Eorins
+R6
+R7
+R8
+!i122 30
+R1
+Z310 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orIns.vhd
+Z311 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orIns.vhd
+l0
+L4 1
+V73Z_o9Cio2F]8EeKiL[f73
+!s100 ^S?lRdEX_mTTgg[AD[l2c0
+R12
+32
+Z312 !s110 1670540847
+!i10b 1
+Z313 !s108 1670540847.000000
+Z314 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orIns.vhd|
+Z315 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/orIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 5 orins 0 22 73Z_o9Cio2F]8EeKiL[f73
+!i122 30
+l14
+R79
+V1Gm0BIaoc=BTHZN22d1i>3
+!s100 ;iPzF^U6<>X]=2<I]D^N72
+R12
+32
+R312
+!i10b 1
+R313
+R314
+R315
+!i113 0
+R17
+R18
+Epc
+Z316 w1670478832
+R7
+R8
+!i122 105
+R1
+Z317 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/PC.vhd
+Z318 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/PC.vhd
+l0
+L4 1
+V>@J_HZ[1ITV3h_`cSA?]Y0
+!s100 6;:czZ8d79zLmenaiYeo;0
+R12
+32
+R273
+!i10b 1
+R274
+Z319 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/PC.vhd|
+Z320 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/PC.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 2 pc 0 22 >@J_HZ[1ITV3h_`cSA?]Y0
+!i122 105
+l37
+L14 40
+VlOBg^JV0`KkXV5JN5Fl1c2
+!s100 EGJ?hV@FU2K3iU1M0h]7C3
+R12
+32
+R273
+!i10b 1
+R274
+R319
+R320
+!i113 0
+R17
+R18
+Eregisterfile32_32
+R56
+R277
+R7
+R8
+!i122 80
+R1
+Z321 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/RegisterFile32_32.vhd
+Z322 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/RegisterFile32_32.vhd
+l0
+L7 1
+VAg7B0acI:WXM?:g`6:;Go3
+!s100 8h_I`kFDZTV0<A3VLH=aM1
+R12
+32
+R252
+!i10b 1
+R253
+Z323 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/RegisterFile32_32.vhd|
+Z324 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/RegisterFile32_32.vhd|
+!i113 0
+R17
+R18
+Astructural
+R277
+R7
+R8
+DEx4 work 17 registerfile32_32 0 22 Ag7B0acI:WXM?:g`6:;Go3
+!i122 80
+l60
+L24 74
+V@6C7YHJMCFT`VK<KAKbga3
+!s100 CdBfBKmJnML^jIzZ[W1MF1
+R12
+32
+R252
+!i10b 1
+R253
+R323
+R324
+!i113 0
+R17
+R18
+Erepl_qb
+R6
+R7
+R8
+!i122 31
+R1
+Z325 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/repl_qb.vhd
+Z326 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/repl_qb.vhd
+l0
+L4 1
+V=K^f0ihk3P[YJh_T]1c2@2
+!s100 ;PV7NEUh:8GCG=LFa??YL0
+R12
+32
+R312
+!i10b 1
+R313
+Z327 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/repl_qb.vhd|
+Z328 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/repl_qb.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 7 repl_qb 0 22 =K^f0ihk3P[YJh_T]1c2@2
+!i122 31
+l14
+L12 7
+V?NoQ0?>`o8nPiKOLZ>KiY1
+!s100 2gL>kT1zjRPZ09le]QV1Z1
+R12
+32
+R312
+!i10b 1
+R313
+R327
+R328
+!i113 0
+R17
+R18
+Erippleadder
+R6
+R7
+R8
+!i122 32
+R1
+Z329 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/RippleAdder.vhd
+Z330 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/RippleAdder.vhd
+l0
+R11
+V3f5=2l^iZWHbb7];^bWNa3
+!s100 6HPBYojcOz_6[]T[bVTR]2
+R12
+32
+R312
+!i10b 1
+R313
+Z331 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/RippleAdder.vhd|
+Z332 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/RippleAdder.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 11 rippleadder 0 22 3f5=2l^iZWHbb7];^bWNa3
+!i122 32
+l54
+L32 46
+VPbkc>Bf_^[cIc^OS6:8go2
+!s100 jN;HFi3ZH9NAlbjFBJDn13
+R12
+32
+R312
+!i10b 1
+R313
+R331
+R332
+!i113 0
+R17
+R18
+Eshiftleftlogical
+R6
+R7
+R8
+!i122 33
+R1
+Z333 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftLeftLogical.vhd
+Z334 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftLeftLogical.vhd
+l0
+Z335 L10 1
+VbG>cXSeo6ZhccVj<6n6JG3
+!s100 aX[5B4]m8n03AHS=l[YU`2
+R12
+32
+R312
+!i10b 1
+R313
+Z336 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftLeftLogical.vhd|
+Z337 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftLeftLogical.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 16 shiftleftlogical 0 22 bG>cXSeo6ZhccVj<6n6JG3
+!i122 33
+l32
+L16 114
+V7Y[;lKV8zR6YMAzM4dUoh0
+!s100 2YeTTClVYhZ1kYDh0=9Tk1
+R12
+32
+R312
+!i10b 1
+R313
+R336
+R337
+!i113 0
+R17
+R18
+Eshiftrightarithmetic
+R6
+R7
+R8
+!i122 34
+R1
+Z338 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightArithmetic.vhd
+Z339 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightArithmetic.vhd
+l0
+R335
+VB8LKI[3hWWXU1E@fXWIz12
+!s100 I:6CV1gC=MhcD8QH:^JS80
+R12
+32
+R312
+!i10b 1
+R313
+Z340 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightArithmetic.vhd|
+Z341 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightArithmetic.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 20 shiftrightarithmetic 0 22 B8LKI[3hWWXU1E@fXWIz12
+!i122 34
+l30
+Z342 L16 96
+V44QNAi;mb[bhDb9W3AcAC3
+!s100 jHfaXb`?ejOKijL=E^4gb3
+R12
+32
+R312
+!i10b 1
+R313
+R340
+R341
+!i113 0
+R17
+R18
+Eshiftrightlogical
+R6
+R7
+R8
+!i122 35
+R1
+Z343 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightLogical.vhd
+Z344 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightLogical.vhd
+l0
+R335
+VIZ7eEB5Kn4EBBE5bHWVH=1
+!s100 d4mc;K?2A_cd<3_MXE5Gj3
+R12
+32
+R312
+!i10b 1
+R313
+Z345 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightLogical.vhd|
+Z346 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/shiftRightLogical.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 17 shiftrightlogical 0 22 IZ7eEB5Kn4EBBE5bHWVH=1
+!i122 35
+l30
+R342
+VBmHf]z8QOOlbZOePZWZTL1
+!s100 7k4IGL@Ojg:1ILVkUSMN42
+R12
+32
+R312
+!i10b 1
+R313
+R345
+R346
+!i113 0
+R17
+R18
+Eslt
+R6
+R7
+R8
+!i122 36
+R1
+Z347 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Slt.vhd
+Z348 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Slt.vhd
+l0
+L4 1
+VTzid6F]O^cId`Ke__VgOd0
+!s100 A3EPZ>WSJ:ZNIkg38:1W90
+R12
+32
+R312
+!i10b 1
+R313
+Z349 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Slt.vhd|
+Z350 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/Slt.vhd|
+!i113 0
+R17
+R18
+Amixed
+R7
+R8
+DEx4 work 3 slt 0 22 Tzid6F]O^cId`Ke__VgOd0
+!i122 36
+l28
+L14 31
+V_[9XVETVRiKGZ?gNf9JHH0
+!s100 UGV?big_:zkFUN7W4bJKD1
+R12
+32
+R312
+!i10b 1
+R313
+R349
+R350
+!i113 0
+R17
+R18
+Esltimm
+R6
+R7
+R8
+!i122 37
+R1
+Z351 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/SltImm.vhd
+Z352 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/SltImm.vhd
+l0
+L4 1
+VN6IaCTQf>hdcT@8`dMA2J1
+!s100 ag;S]oJ@;KbAKc;HPli<41
+R12
+32
+Z353 !s110 1670540848
+!i10b 1
+R313
+Z354 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/SltImm.vhd|
+Z355 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/SltImm.vhd|
+!i113 0
+R17
+R18
+Amixed
+R7
+R8
+DEx4 work 6 sltimm 0 22 N6IaCTQf>hdcT@8`dMA2J1
+!i122 37
+l26
+L13 29
+VZfF^cUkJW?iIlaYCV0V0j2
+!s100 [Z:hglOHj4Hn[[zfgQ=h82
+R12
+32
+R353
+!i10b 1
+R313
+R354
+R355
+!i113 0
+R17
+R18
+Estoreword
+R6
+R7
+R8
+!i122 38
+R1
+Z356 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/storeWord.vhd
+Z357 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/storeWord.vhd
+l0
+L4 1
+VRTIELV2>Rn@fXUE_oHDF`1
+!s100 0:]fz:hzQei2`f5zcjIEJ1
+R12
+32
+R353
+!i10b 1
+Z358 !s108 1670540848.000000
+Z359 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/storeWord.vhd|
+Z360 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/storeWord.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 9 storeword 0 22 RTIELV2>Rn@fXUE_oHDF`1
+!i122 38
+l25
+R217
+V9R7L<M[KkHOl]@hOlgzYW2
+!s100 LnLf:`?9SfCPMe<eKPa[52
+R12
+32
+R353
+!i10b 1
+R358
+R359
+R360
+!i113 0
+R17
+R18
+Esubins
+R6
+R7
+R8
+!i122 39
+R1
+Z361 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subIns.vhd
+Z362 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subIns.vhd
+l0
+L4 1
+VKh84YAk]zjDaoMQV6`Cbd2
+!s100 ^D2bG0U2JRQ>m^G4j0f>b0
+R12
+32
+R353
+!i10b 1
+R358
+Z363 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subIns.vhd|
+Z364 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 6 subins 0 22 Kh84YAk]zjDaoMQV6`Cbd2
+!i122 39
+l40
+Z365 L14 52
+VB4g096K4Dg^QQzK@6:GMR3
+!s100 5TjlziPMK>K7nne00b0oJ1
+R12
+32
+R353
+!i10b 1
+R358
+R363
+R364
+!i113 0
+R17
+R18
+Esubuins
+R6
+R7
+R8
+!i122 40
+R1
+Z366 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subuIns.vhd
+Z367 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subuIns.vhd
+l0
+L4 1
+VQ=zJHH^[2U5G^dCk8HCKD3
+!s100 XEJ?j4Tih6]R?NFVUQdBZ2
+R12
+32
+R353
+!i10b 1
+R358
+Z368 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subuIns.vhd|
+Z369 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/subuIns.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 7 subuins 0 22 Q=zJHH^[2U5G^dCk8HCKD3
+!i122 40
+l40
+R365
+Vm3=Unk?^2PczoM0<7?2:?2
+!s100 k9G_8F>[2MRdandea0Ufd0
+R12
+32
+R353
+!i10b 1
+R358
+R368
+R369
+!i113 0
+R17
+R18
+Etb_dp_1
+R126
+R277
+Z370 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
+R7
+R8
+!i122 81
+R1
+Z371 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/tb_ALUActualDesignvhd.vhd
+Z372 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/tb_ALUActualDesignvhd.vhd
+l0
+R22
+VY^ZRm0B:leQ@Y[[mR`Zhi0
+!s100 65cGSKOZ2KAz7heWR_9O[3
+R12
+32
+Z373 !s110 1670540868
+!i10b 1
+Z374 !s108 1670540868.000000
+Z375 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/tb_ALUActualDesignvhd.vhd|
+Z376 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/Old Lab Components/tb_ALUActualDesignvhd.vhd|
+!i113 0
+R17
+R18
+Amixed
+R277
+R370
+R7
+R8
+DEx4 work 7 tb_dp_1 0 22 Y^ZRm0B:leQ@Y[[mR`Zhi0
+!i122 81
+l62
+L15 265
+V5V@FXeY5XBgUIQc2`=7NS2
+!s100 nPQNcE[18:<[Zd>T]baGW3
+R12
+32
+R373
+!i10b 1
+R374
+R375
+R376
+!i113 0
+R17
+R18
+Ptwodarray
+R7
+R8
+!i122 91
+R19
+R1
+R239
+R240
+l0
+L46 5
+VJ^m1lIC2aXA>i<j@8cUa:0
+!s100 mjFaW_73YzcMoPBOgcL]B2
+R12
+32
+R241
+!i10b 1
+R242
+R243
+R244
+!i113 0
+R17
+R18
+Ptwodarrayforalu
+R7
+R8
+!i122 91
+R19
+R1
+R239
+R240
+l0
+L37 5
+V?VSaT@beV2?NfdNLgiZn=1
+!s100 na9IQQEO]kPG9WNTooWz@2
+R12
+32
+R241
+!i10b 1
+R242
+R243
+R244
+!i113 0
+R17
+R18
+Exorg2
+R19
+R7
+R8
+!i122 106
+R1
+Z377 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/xorg2.vhd
+Z378 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/xorg2.vhd
+l0
+R70
+VA]ncWhoC:fhLS`F>c9^ag2
+!s100 zGkHVGJ]HQ5RboN2N>KzN1
+R12
+32
+R273
+!i10b 1
+R274
+Z379 !s90 -reportprogress|300|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/xorg2.vhd|
+Z380 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/FetchLogic/xorg2.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 5 xorg2 0 22 A]ncWhoC:fhLS`F>c9^ag2
+!i122 106
+l32
+R73
+VV`;B_39=:h3bCoQNhV;bn0
+!s100 2<f]d3XziROLh_[:_6mNg2
+R12
+32
+R273
+!i10b 1
+R274
+R379
+R380
+!i113 0
+R17
+R18
+Exorimm
+R6
+R7
+R8
+!i122 42
+R1
+Z381 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/XorImm.vhd
+Z382 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/XorImm.vhd
+l0
+L4 1
+V;3T9AX0Al0g3nJoDBkBMV0
+!s100 11PdmX;RK[?_<OQ^ACD@@0
+R12
+32
+R353
+!i10b 1
+R358
+Z383 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/XorImm.vhd|
+Z384 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/XorImm.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 xorimm 0 22 ;3T9AX0Al0g3nJoDBkBMV0
+!i122 42
+l15
+R211
+VczfUabolz_:gG4Bj?P=zm1
+!s100 nGO4z]65[<k2a41;fRTRJ0
+R12
+32
+R353
+!i10b 1
+R358
+R383
+R384
+!i113 0
+R17
+R18
+Exorins
+R6
+R7
+R8
+!i122 43
+R1
+Z385 8/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorIns.vhd
+Z386 F/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorIns.vhd
+l0
+L4 1
+VBiJi8Toi@oDMk_68Y4B0S1
+!s100 R^bVdn:I>8L=?l7TKoCF]2
+R12
+32
+R353
+!i10b 1
+R358
+Z387 !s90 -reportprogress|30|-work|work|/home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorIns.vhd|
+Z388 !s107 /home/pwissman/cpre381/Project1Git/cpre381_project1/cpre381-toolflow/proj/src/ALU/xorIns.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 6 xorins 0 22 BiJi8Toi@oDMk_68Y4B0S1
+!i122 43
+l14
+R79
+Vaf:ZZ4`BLB3=IGYWmdWJ52
+!s100 ?W3[OdFCoB0Oz9z@SMAS[0
+R12
+32
+R353
+!i10b 1
+R358
+R387
+R388
+!i113 0
+R17
+R18

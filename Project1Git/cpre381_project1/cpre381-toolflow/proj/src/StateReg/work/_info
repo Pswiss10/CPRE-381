@@ -1,0 +1,493 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg
+T_opt
+!s110 1670716548
+V4c8OLFe>2FT_XdQ0Rma?M1
+Z2 04 15 9 work tb_stateregtest structure 1
+=1-0050569bd12f-63951c84-7a220-621b
+R0
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2022.2;75
+R1
+T_opt1
+!s110 1670716915
+VH0O^UFjCKoP`=JH:If@WR1
+R2
+=1-0050569bd12f-63951df2-c8864-64bd
+R0
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+R1
+Edffg
+Z6 w1670626043
+Z7 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z8 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 36
+R1
+Z9 8/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg.vhd
+Z10 F/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg.vhd
+l0
+L23 1
+VaBn<3_7oIgIleFniVim733
+!s100 FJQDe;FGDG0KnNV;j4DaY2
+Z11 OL;C;2022.2;75
+32
+Z12 !s110 1670721051
+!i10b 1
+Z13 !s108 1670721051.000000
+Z14 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg.vhd|
+Z15 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg.vhd|
+!i113 0
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Amixed
+R7
+R8
+DEx4 work 4 dffg 0 22 aBn<3_7oIgIleFniVim733
+!i122 36
+l37
+L33 29
+VS_P?KDWPHzz@YT_fABo?Z0
+!s100 GR5ff]ZD1Yiz`>ZFVE>Hg1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Edffg26
+Z18 w1670626044
+R7
+R8
+!i122 39
+R1
+Z19 8/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg26.vhd
+Z20 F/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg26.vhd
+l0
+L4 1
+VBBQ?Ud;bVFW2EBbBDn7?80
+!s100 7`HLcXbgj`FU2dUPJ:Na11
+R11
+32
+R12
+!i10b 1
+R13
+Z21 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg26.vhd|
+Z22 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg26.vhd|
+!i113 0
+R16
+R17
+Astructural
+R7
+R8
+DEx4 work 6 dffg26 0 22 BBQ?Ud;bVFW2EBbBDn7?80
+!i122 39
+l24
+Z23 L14 22
+VDPbiESU3ZORj1^OYQB>EU1
+!s100 QPYm:3_6Lc=kZ@GD]U:o[3
+R11
+32
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 0
+R16
+R17
+Edffg32
+R18
+R7
+R8
+!i122 40
+R1
+Z24 8/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg32.vhd
+Z25 F/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg32.vhd
+l0
+L4 1
+VPTaZGbZD`OkfGf2UHET`?3
+!s100 9a:lb8fD>B_K6eXhV5ZYL1
+R11
+32
+R12
+!i10b 1
+R13
+Z26 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg32.vhd|
+Z27 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg32.vhd|
+!i113 0
+R16
+R17
+Astructural
+R7
+R8
+DEx4 work 6 dffg32 0 22 PTaZGbZD`OkfGf2UHET`?3
+!i122 40
+l24
+R23
+VBzA08L2W0H3J2GjBmZF[h0
+!s100 bMO[JF7]oAb`m6D`nIAZN1
+R11
+32
+R12
+!i10b 1
+R13
+R26
+R27
+!i113 0
+R16
+R17
+Edffg5
+R18
+R7
+R8
+!i122 37
+R1
+Z28 8/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg5.vhd
+Z29 F/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg5.vhd
+l0
+L4 1
+Vm4f;j3H[c2:nIYF6O>6aE3
+!s100 [z<idU?me2lh`QTnl3R2F3
+R11
+32
+R12
+!i10b 1
+R13
+Z30 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg5.vhd|
+Z31 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg5.vhd|
+!i113 0
+R16
+R17
+Astructural
+R7
+R8
+DEx4 work 5 dffg5 0 22 m4f;j3H[c2:nIYF6O>6aE3
+!i122 37
+l24
+R23
+VjIbUm=1iGH10;>THR9mkf1
+!s100 ^l_2RjE?YVgC2T48OdnQl3
+R11
+32
+R12
+!i10b 1
+R13
+R30
+R31
+!i113 0
+R16
+R17
+Edffg6
+Z32 w1670699908
+R7
+R8
+!i122 38
+R1
+Z33 8/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg6.vhd
+Z34 F/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg6.vhd
+l0
+L4 1
+Voo5<04K[0_Mf37:Ei@kGC0
+!s100 ^F3>3CT01^b^WHHa1=37@1
+R11
+32
+R12
+!i10b 1
+R13
+Z35 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg6.vhd|
+Z36 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/dffg6.vhd|
+!i113 0
+R16
+R17
+Astructural
+R7
+R8
+DEx4 work 5 dffg6 0 22 oo5<04K[0_Mf37:Ei@kGC0
+!i122 38
+l24
+R23
+VBDBJDP`zf04:5K2P9DY843
+!s100 ?4RbNXmc^gl]<mKfSI]SS2
+R11
+32
+R12
+!i10b 1
+R13
+R35
+R36
+!i113 0
+R16
+R17
+Eexmem
+R32
+R7
+R8
+!i122 34
+R1
+Z37 8/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/EXMEM.vhd
+Z38 F/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/EXMEM.vhd
+l0
+L4 1
+VWciD3B`cGOlW^8oi[Yae]3
+!s100 gW`9BX9<G3Q=ai@O[0Yl80
+R11
+32
+Z39 !s110 1670721050
+!i10b 1
+Z40 !s108 1670721050.000000
+Z41 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/EXMEM.vhd|
+Z42 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/EXMEM.vhd|
+!i113 0
+R16
+R17
+Astructural
+R7
+R8
+DEx4 work 5 exmem 0 22 WciD3B`cGOlW^8oi[Yae]3
+!i122 34
+l101
+L62 188
+VKz0TnSlmZmPj>PD9hO1[V1
+!s100 DfLZz9A]0cokajd9a:UMG1
+R11
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 0
+R16
+R17
+Eidex
+Z43 w1670704906
+R7
+R8
+!i122 35
+R1
+Z44 8/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd
+Z45 F/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd
+l0
+L4 1
+V9UHQNW6OB5?BS@cMa5E_[3
+!s100 l0RiWBL<7S^oa53KibgF;3
+R11
+32
+R12
+!i10b 1
+R13
+Z46 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd|
+Z47 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IDEX.vhd|
+!i113 0
+R16
+R17
+Astructure
+R7
+R8
+DEx4 work 4 idex 0 22 9UHQNW6OB5?BS@cMa5E_[3
+!i122 35
+l112
+L64 221
+VoBMPKO`LEN8Y3[249WicW1
+!s100 9OoV>a`i`n:K:A@W^XGF81
+R11
+32
+R12
+!i10b 1
+R13
+R46
+R47
+!i113 0
+R16
+R17
+Eifid
+R18
+R7
+R8
+!i122 43
+R1
+Z48 8/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IFID.vhd
+Z49 F/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IFID.vhd
+l0
+L4 1
+V5DbA3[cNlm:LEnF8Veb>j0
+!s100 C8I?7joA1za2MZ[bY47<72
+R11
+32
+R12
+!i10b 1
+R13
+Z50 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IFID.vhd|
+Z51 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/IFID.vhd|
+!i113 0
+R16
+R17
+Astructure
+R7
+R8
+DEx4 work 4 ifid 0 22 5DbA3[cNlm:LEnF8Veb>j0
+!i122 43
+l28
+L17 28
+V[`4;H>ZOKSBj0>TVm_1K:2
+!s100 6TWJC]eGEh;_kL<]lV>ci3
+R11
+32
+R12
+!i10b 1
+R13
+R50
+R51
+!i113 0
+R16
+R17
+Ememwb
+R18
+R7
+R8
+!i122 42
+R1
+Z52 8/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/MEMWB.vhd
+Z53 F/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/MEMWB.vhd
+l0
+L4 1
+VL8eNMhb]8bKRPPVTXPeN[0
+!s100 cC694A6C0NSI1R8SP9;dT1
+R11
+32
+R12
+!i10b 1
+R13
+Z54 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/MEMWB.vhd|
+Z55 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/MEMWB.vhd|
+!i113 0
+R16
+R17
+Astructural
+R7
+R8
+DEx4 work 5 memwb 0 22 L8eNMhb]8bKRPPVTXPeN[0
+!i122 42
+l82
+L53 159
+V:70<hUNNegJgVL3_d@Hn12
+!s100 4j1fn[4joA=5Ho`1amO`d1
+R11
+32
+R12
+!i10b 1
+R13
+R54
+R55
+!i113 0
+R16
+R17
+Estateregtest
+Z56 w1670704993
+R7
+R8
+!i122 49
+R1
+Z57 8/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/stateRegTest.vhd
+Z58 F/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/stateRegTest.vhd
+l0
+L4 1
+V7:CXfTJDQmzM5Pa3TPmcm1
+!s100 DM9ZWKCXBHN>Q[Ne6A8K20
+R11
+32
+Z59 !s110 1670722153
+!i10b 1
+Z60 !s108 1670722152.000000
+Z61 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/stateRegTest.vhd|
+Z62 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/stateRegTest.vhd|
+!i113 0
+R16
+R17
+Astructure
+R7
+R8
+Z63 DEx4 work 12 stateregtest 0 22 7:CXfTJDQmzM5Pa3TPmcm1
+!i122 49
+l115
+Z64 L21 172
+Z65 VJJ6N]^H_h4FobB6]z_Z>o3
+Z66 !s100 ]eR[V`mWZAo0;Vz]Vb@;D1
+R11
+32
+R59
+!i10b 1
+R60
+R61
+R62
+!i113 0
+R16
+R17
+Etb_stateregtest
+Z67 w1670722149
+R7
+R8
+!i122 48
+R1
+Z68 8/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/tb_stateRegTest.vhd
+Z69 F/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/tb_stateRegTest.vhd
+l0
+L4 1
+VVAEIl2XX]<;2cZ:8?NGaz3
+!s100 VE?38PeQ?3DEQFBX]3AiB2
+R11
+32
+Z70 !s110 1670722151
+!i10b 1
+Z71 !s108 1670722151.000000
+Z72 !s90 -reportprogress|300|-work|work|/home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/tb_stateRegTest.vhd|
+Z73 !s107 /home/jsebahar/cpre381_project1/cpre381-toolflow/proj/src/StateReg/tb_stateRegTest.vhd|
+!i113 0
+R16
+R17
+Astructure
+R7
+R8
+DEx4 work 15 tb_stateregtest 0 22 VAEIl2XX]<;2cZ:8?NGaz3
+!i122 48
+l34
+L11 244
+VVQR@j1ob5Qi0@T:zFnDoa3
+!s100 GhddM3fYCiVPSR?7F[TVH3
+R11
+32
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 0
+R16
+R17
